@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="dd9c-c27a-41e0-6c12" name="Weapons" gameSystemId="1242-c30b-419f-8229" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Torpedo Salvo" hidden="false" id="61fe-f84f-5e2d-d0a6">
+      <infoLinks>
+        <infoLink name="Torpedo Salvo" id="90e9-abee-d15e-2734" hidden="false" type="profile" targetId="d98b-57ec-7908-dc17"/>
+        <infoLink name="Submerged" id="5186-9f77-db9f-2d0c" hidden="false" type="rule" targetId="0223-a895-90c5-d133"/>
+        <infoLink name="Torpedo" id="4144-e8fd-7711-b689" hidden="false" type="rule" targetId="a357-9380-37f6-4124"/>
+        <infoLink name="Breach (x)" id="3183-db80-ac40-7221" hidden="false" type="rule" targetId="cb11-ebcd-43d4-ccf5" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Breach (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Heavy Gun Battery" hidden="false" id="fca5-ed10-40cc-bf79">
+      <infoLinks>
+        <infoLink name="Heavy Gun Battery" id="69a9-d439-5ad5-336b" hidden="false" type="profile" targetId="f4c2-399d-bb80-8ab7">
+          <modifiers>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Light Gun Battery" hidden="false" id="54ff-d6e2-03f0-f6f5">
+      <infoLinks>
+        <infoLink name="Light Gun Battery" id="fad8-9056-6f8d-75da" hidden="false" type="profile" targetId="46a1-6508-f7c6-080c">
+          <modifiers>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Heat Lance" hidden="false" id="fb2e-f804-7232-4cba">
+      <infoLinks>
+        <infoLink name="Heat Lance" id="4743-fdd4-a63a-757b" hidden="false" type="profile" targetId="d1a0-d0aa-a382-9cd9">
+          <modifiers>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Solex (x)" id="0df1-3014-22ba-820d" hidden="false" type="rule" targetId="1bd0-eb6b-936d-e0e1">
+          <modifiers>
+            <modifier type="set" value="Solex (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Heavy Magnetic Bombard" hidden="false" id="903c-562b-c3ab-766d">
+      <infoLinks>
+        <infoLink name="Heavy Magnetic Bombard" id="40cf-4f89-c0f3-bc7b" hidden="false" type="profile" targetId="9afa-1104-b06d-5ab4">
+          <modifiers>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Guided (x)" id="57b9-2c22-86fe-b4bc" hidden="false" type="rule" targetId="e54b-8443-2246-fb61">
+          <modifiers>
+            <modifier type="set" value="Guided (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Navigation Lock (x)" id="8013-6753-286a-c931" hidden="false" type="rule" targetId="58ad-45fa-2800-1a54">
+          <modifiers>
+            <modifier type="set" value="Navigation Lock (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Heavy Rocket Battery" hidden="false" id="2159-a46b-54fe-7b24">
+      <infoLinks>
+        <infoLink name="Heavy Rocket Battery" id="34f6-ed6f-b4e0-6350" hidden="false" type="profile" targetId="9aae-bbb7-05e7-09fa">
+          <modifiers>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Barrage" id="8451-f279-1b07-9931" hidden="false" type="rule" targetId="9813-d4e2-c748-6f68">
+          <modifiers>
+            <modifier type="set" value="Guided (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heat Lancette" hidden="false" id="2251-4d30-f737-f8a8">
+      <infoLinks>
+        <infoLink name="Heat Lancette" id="e791-e1e0-0970-4f2e" hidden="false" type="profile" targetId="4d5a-d7d9-264c-d2ef"/>
+        <infoLink name="Solex (x)" id="5eb3-97e8-6df4-c5cc" hidden="false" type="rule" targetId="1bd0-eb6b-936d-e0e1">
+          <modifiers>
+            <modifier type="set" value="Solex (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Light Rocket Battery" hidden="false" id="0dc5-198d-16f9-9e4e">
+      <infoLinks>
+        <infoLink name="Light Rocket Battery" id="7185-2957-abe6-3de3" hidden="false" type="profile" targetId="4edc-c9b8-377f-4915">
+          <modifiers>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Barrage" id="2515-2850-f038-a6d6" hidden="false" type="rule" targetId="9813-d4e2-c748-6f68">
+          <modifiers>
+            <modifier type="set" value="Guided (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Heavy Gun Battery" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="f4c2-399d-bb80-8ab7">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">5</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">7</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf"/>
+      </characteristics>
+    </profile>
+    <profile name="Torpedo Salvo" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="d98b-57ec-7908-dc17">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">5</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">5</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">5</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Submerged, Breach (1), Torpedo</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Light Gun Battery" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="46a1-6508-f7c6-080c">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">3</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">5</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf"/>
+      </characteristics>
+    </profile>
+    <profile name="Heat Lance" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="d1a0-d0aa-a382-9cd9">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">7</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">2</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Solex (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Magnetic Bombard" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="9afa-1104-b06d-5ab4">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">5</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">7</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Guided (3), Navigation Lock (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Light Rocket Battery" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="4edc-c9b8-377f-4915">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">5</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">1</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Barrage</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heat Lancette" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="4d5a-d7d9-264c-d2ef">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">5</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">1</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Solex (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Rocket Battery" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="9aae-bbb7-05e7-09fa">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">7</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">3</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Barrage</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedRules>
+    <rule name="Submerged" id="0223-a895-90c5-d133" hidden="false" publicationId="129d-da97-caec-1ddd">
+      <description>Weapons with this Special Attack Quality are Submerged Weapons, and can only Contribute to an Attack action if all Contributing weapons are  also Submerged. See Submerged Weapons on page 92 of the Dystopian Wars Rulebook.</description>
+    </rule>
+    <rule name="Breach (x)" id="cb11-ebcd-43d4-ccf5" hidden="false" publicationId="129d-da97-caec-1ddd">
+      <description>If the Initial Target of this Attack action suffers at least 1 Damage, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. If one or more dice show a Breach result, the Initial Target suffers one Critical Damage Effffect of that type. This is a Critical Damage  Quality. If multiple different Critical Damage  Qualities apply to an Attack, the Admiral makes a separate roll for each one.</description>
+    </rule>
+    <rule name="Torpedo" id="a357-9380-37f6-4124" hidden="false" publicationId="129d-da97-caec-1ddd">
+      <description>This weapon cannot Contribute to an Attack action if the Initial Target is within 5” of this model.</description>
+    </rule>
+    <rule name="Solex (x)" id="1bd0-eb6b-936d-e0e1" hidden="false">
+      <description>After the Resolve Exploding Strikes step of an Attack action, each Contributing weapon with this Quality allows the active Admiral to convert up to X Standard Counters in the Action Roll into Standard  Strikes.</description>
+    </rule>
+    <rule name="Guided (x)" id="e54b-8443-2246-fb61" hidden="false">
+      <description>If the Initial Target of this Attack action is also being Threatened by a friendly SRS stack, increase each of this weapon’s Firepower ratings by X. Firepower ratings that do not have a value are not  increased.</description>
+    </rule>
+    <rule name="Navigation Lock (x)" id="58ad-45fa-2800-1a54" hidden="false">
+      <description>If the Initial Target of this Attack action suffers at least 1 Damage, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. If one or more dice show a Navigation Lock result, the Initial Target suffers one Critical Damage Effffect of that type. This is a Critical Damage Quality. If multiple different Critical Damage Qualities apply to an Attack, the Admiral makes a separate roll for each one.</description>
+    </rule>
+    <rule name="Barrage" id="9813-d4e2-c748-6f68" hidden="false">
+      <description>This weapon cannot Contribute to an Attack action if the Initial Target is an Underwater model. If all weapons Contributing to an Attack action have this Quality and the target is an Airborne model, only Standard Strikes in the Resistance Roll are converted to Standard Counters by the Unconventional Target rule.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

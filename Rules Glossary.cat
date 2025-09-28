@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="5ca6-5d76-4c4d-04e2" name="Rules Glossary" gameSystemId="1242-c30b-419f-8229" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedRules>
+    <rule name="Ablative Armour (x)" id="b869-3539-5cf3-f3f3" hidden="false">
+      <description>When this model is targeted by an Attack action, Convert X Exploding Strikes in the Action Roll to Heavy Strikes. Sometimes, this Property will be listed for a specific Arc, e.g. Ablative Armour: Fore (3). In this case, the Property only applies if at least half of the models Participating in the Attack action are within the listed Arc of the Target Model.</description>
+    </rule>
+    <rule name="Heavy Prow (x)" id="61e3-7b8c-291a-f68e" hidden="false">
+      <description>When building the Action Pool for a Ram performed by this model, add X Bonus Dice. In addition, when this model Collides with or Rams another model, or is itself the Target of a Ram and the point of contact is in this model’s Fore Arc, the amount of Damage it suffers is reduced by X, to a minimum of 0.</description>
+    </rule>
+    <rule name="Attachment (x)" id="f748-f854-5457-8864" hidden="false">
+      <description>During Force Selection, the Admiral can choose to field this unit either on its own, as normal, or as an Attachment to a Parent Unit, as described in Attached Units on page 128 of the Dystopian Wars Rulebook. The Parent Unit must have the Class or Trait shown, and must be selected from the same ORBAT as the Attachment. The full rules for using Attachments in play can be found on page 101 of the Dystopian Wars Rulebook.</description>
+    </rule>
+    <rule name="Boosted Propulsion (+x&quot;)" id="a1fa-f4df-058f-335b" hidden="false">
+      <description>Before moving this model, its Admiral can declare that they will Boost its Propulsion. If they do so, then for the duration of the current Movement Step, the model’s Minimum Speed is increased to its unmodified Maximum Speed, its Maximum Speed by X”, and its Turn Limit reduced to 0.</description>
+    </rule>
+    <rule name="Repair Facilities (x)" id="0a02-c3fd-7a40-acf5" hidden="false">
+      <description>When making a Repair Roll for a Surface model, add X Bonus Dice if it is within 4” of at least one friendly model with this System.</description>
+    </rule>
+    <rule name="Auxiliary Mine Layer (x)" id="7017-0742-e2b5-773a" hidden="false">
+      <description>As a Special Deployment Action, this model’s unit can Distribute Mines. When it does, the unit’s Admiral places up to X Minefield markers anywhere in the Play Area. Each one must be placed at least 10” from the enemy Deployment Zone, and cannot be placed within 1” of a model, a Terrain Feature, or another Marker.</description>
+    </rule>
+    <rule name="Foreward Deployment" id="9b38-bd89-23f9-0fc6" hidden="false">
+      <description>During Deployment, this unit cannot be held in Reserve. In addition, this unit can be deployed anywhere in the Play Area that is at least 10” from the enemy Deployment Zone and not within Proximity of an enemy model.</description>
+    </rule>
+    <rule name="Light Vessel" id="d7e0-0b3e-b5e5-776d" hidden="false">
+      <description>If this model becomes Crippled, it is immediately Destroyed and does not trigger a Catastrophic Explosion.</description>
+    </rule>
+    <rule name="Flak Barrage (x)" id="5d6b-0b7c-1391-f860" hidden="false">
+      <description>As a Special Action, this model’s unit can unleash a Flak Barrage against an enemy SRS Stack allocated to a unit or Marker within 10”. Only models with this System, and within 10” of the target unit or Marker, may Participate. To resolve a Flak Barrage, the active Admiral makes an Action Roll. There is no Resistance Roll. 
+
+
+- Action Pool: Participating model adds X Action Dice to the Pool. 
+- Success Threshold: The Resilience rating of the target Stack.
+
+
+For each Success scored in the Action Roll, remove one SRS token from the target Stack.</description>
+    </rule>
+    <rule name="Agile (x)" id="a1c3-58c9-ce64-9a4a" hidden="false">
+      <description>During its Movement Step, this model can make up to X Additional Manoeuvres.</description>
+    </rule>
+    <rule name="Daredevil Crew" id="dedc-cf59-6818-6d90" hidden="false">
+      <description>This model automatically passes its Crew Check when Resolving a Ram and does not gain Disorder in the Inflflict Disorder step. The enemy model gains Disorder as normal. In addition, attempting a Ram does not prevent this model from Participating in Boarding actions in the subsequent Action Step. It is still prevented from Participating in other Actions.</description>
+    </rule>
+    <rule name="Vanguard (x&quot;)" id="d176-6604-7876-d65a" hidden="false">
+      <description>This unit can make a Special Deployment Action to make a Vanguard Move. When it does so, each model in the unit makes a move as though it were the Movement Step of its Activation. During this move, each model has a Minimum Speed of 0” and a Maximum Speed of X”.</description>
+    </rule>
+  </sharedRules>
+</catalogue>

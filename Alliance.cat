@@ -1,0 +1,2007 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="8456-7166-73ec-b4ab" name="Alliance" gameSystemId="1242-c30b-419f-8229" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedProfiles>
+    <profile name="Couronne" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="26cd-37f8-5846-17df">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">4&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">7</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Columbia" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="2948-b75c-3da7-94ed">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">7</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">6</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">5</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="La Republique" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="ef2b-a804-d173-4f0c">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">6</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">0&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">8</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">16</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">5</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">5</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gotham" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="dccf-1e47-d74d-17db">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">6</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">6&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">1</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">7</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">6</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">11</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">5</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Magenta" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="eb8f-20ca-39a7-0c9d">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">3&quot;-10&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mars" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="ee78-2eef-2c0b-9aef">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">3&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">7</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">11</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">5</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Oriflamme" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="e967-6fcf-337a-519a">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">3&quot;-9&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">6</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">11</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Minerva" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="dbf9-131e-b16b-5739">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">3&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">8</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">7</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vauban" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="0734-bcaf-8044-71d0">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">6</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">4&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">8</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">16</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">5</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">5</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Saint-Michel" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="be6c-022a-6c49-08bc">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">3&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Picardy" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="5ddc-9d64-dab4-5668">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-9&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">5</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Virginia" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="214e-690e-d436-f2f1">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">3&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">14</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Auxilia" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="231c-5bb4-fe17-16c2">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-9&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">5</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Furieux" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="13de-ef1d-1c19-00df">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-10&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">0</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sumter" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="8912-a99d-d549-472a">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scorpio" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="e175-e208-01b9-557a">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Voliere" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="0f10-7318-3836-8517">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gettysburg" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="2ecc-7cf3-9eec-820a">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Salvador" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="f5dd-feb6-47aa-3c79">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">3&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">7</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">11</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Elvas" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="1293-e8fb-6e11-fd80">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">-</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">7</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Charlemagne" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="7f50-133a-0287-3db2">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-9&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spriengfields" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="6d17-c98c-4f31-d58c">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">3</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ecuyere" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="fe6c-94c3-8926-bb4b">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">4</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Honneur" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="306c-7d0f-ee0b-1963">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">2</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">5</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pugio" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="2d87-4d5b-9983-76d2">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">2</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">5</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sirene" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="ec8f-1345-a8f1-9a82">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">2</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-10&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">4</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">0</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Francisco" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="039e-4e20-4246-7522">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">3&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">7</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">11</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Loire" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="df1b-960a-97f4-229f">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-10&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Jupiter" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="41ec-a1ca-1947-db9b">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Marseille" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="6486-b993-d8b1-172b">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Cestus" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="91f1-65f6-872d-ccaa">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">4</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Spatha" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="f687-ce38-7277-1d98">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Providence" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="c5ce-a715-1cc8-44c4">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">4</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pereira" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="b12d-6b91-4e40-3c32">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">-</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">12</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lyon" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="3254-10a4-3d35-56b6">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pilum" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="9628-4fbe-5a17-057d">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">5</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chevalier" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="80cb-d1b7-5c43-3c0e">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-9&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gascony" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="0096-37cc-a6e6-2f5b">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hermes" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="1e44-79b7-1c26-67da">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">2</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">2</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">5</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sagitta" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="279b-cdda-0238-c49d">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">4</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">0</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chasseur" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="4686-e2f9-f958-cf89">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-10&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vasco" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="8643-3a17-c3cf-bae0">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">-</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">7</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gladius" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="918d-9b90-70d8-9d6a">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Alma" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="b36e-6a92-d245-552a">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">5</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Vulcan" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="2de5-940a-fc32-88e4">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">2</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Saratoga" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="7754-5030-6155-bd78">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Europa" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="1dff-238f-753d-db0e">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">1</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Titan" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="a692-bc27-24f8-3f35">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">2</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">7</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="false" name="Vulcan" hidden="false" id="bb0f-5e45-cee1-9cd7" exportable="false">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="994e-6ac6-9ba7-6613" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8c46-1f7e-370f-cbef" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Repair" hidden="false" id="76a9-71db-2d7d-c7ed" targetId="6808-24f6-d6cf-08b5" primary="false"/>
+        <categoryLink name="Alliance" hidden="false" id="abd0-a361-813b-d17b" targetId="534c-9506-e470-8b7c" primary="true"/>
+        <categoryLink name="Ship" hidden="false" id="7cf0-f1f9-37a8-b99d" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Vulcan" id="df5e-3342-2ec8-30b7" hidden="false" type="profile" targetId="2de5-940a-fc32-88e4"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="dd2a-72de-3d0d-f432" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="f78a-6937-dd53-474a" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2693-c05a-b0f0-ac0f" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddcc-1444-eefb-9517" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="2586-7d84-b934-19e9" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="93ef-2442-d0cb-8ad5" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f87c-cca6-5519-7be7" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ablative Armour (x)" id="1f45-ff07-51e8-c80c" hidden="false" type="rule" targetId="b869-3539-5cf3-f3f3">
+              <modifiers>
+                <modifier type="set" value="Ablative Armour (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Attachment (x)" id="6911-a017-3126-2fc7" hidden="false" type="rule" targetId="f748-f854-5457-8864">
+              <modifiers>
+                <modifier type="set" value="Attachment (Italian)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Heavy Prow (x)" id="5d94-a807-23fb-30cf" hidden="false" type="rule" targetId="61e3-7b8c-291a-f68e">
+              <modifiers>
+                <modifier type="set" value="Heavy Prow (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="3281-dd9d-dc45-3113" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d87d-701d-2080-7dc8" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c710-f2ad-b865-6e7e" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Boosted Propulsion (x)" id="904e-ea7f-973d-2876" hidden="false" type="rule" targetId="a1fa-f4df-058f-335b">
+              <modifiers>
+                <modifier type="set" value="Boosted Propulsion (+2&quot;)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Repair Facilities (x)" id="609c-1464-f1e1-e89b" hidden="false" type="rule" targetId="0a02-c3fd-7a40-acf5">
+              <modifiers>
+                <modifier type="set" value="Repair Facilities (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Minerva" hidden="false" id="be99-36f4-d3b7-f512" exportable="false">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="75"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8d80-15f7-f73d-b74c" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9ff8-ed00-f72a-f537" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Repair" hidden="false" id="c9f1-f61a-fa5b-a284" targetId="6808-24f6-d6cf-08b5" primary="false"/>
+        <categoryLink name="Alliance" hidden="false" id="4ec8-9e51-de1d-c884" targetId="534c-9506-e470-8b7c" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="3427-e305-feee-00f2" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+        <categoryLink name="Ship" hidden="false" id="2ef3-1c54-4ceb-a00e" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Vulcan" id="cdd4-e7a9-5b74-5617" hidden="false" type="profile" targetId="2de5-940a-fc32-88e4"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="bb5b-2ece-0fa3-881e" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="2499-866e-e192-4f51" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f07e-070b-946b-f33b" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a45-e33c-f0d5-7af8" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="502e-1526-40fb-dec2" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6bfc-2e8c-532f-8c17" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bcc0-d705-3fdd-c7a0" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ablative Armour (x)" id="0409-867c-f066-9532" hidden="false" type="rule" targetId="b869-3539-5cf3-f3f3">
+              <modifiers>
+                <modifier type="set" value="Ablative Armour (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Attachment (x)" id="ecde-f73f-46bb-bb26" hidden="false" type="rule" targetId="f748-f854-5457-8864">
+              <modifiers>
+                <modifier type="set" value="Attachment (Italian)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Heavy Prow (x)" id="7050-5573-8e79-45c5" hidden="false" type="rule" targetId="61e3-7b8c-291a-f68e">
+              <modifiers>
+                <modifier type="set" value="Heavy Prow (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="aa12-3a54-7e83-fc0b" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="85c8-2818-bcfe-abab" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e9c-e2da-c645-c040" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Boosted Propulsion (x)" id="e461-6b26-4b8b-4538" hidden="false" type="rule" targetId="a1fa-f4df-058f-335b">
+              <modifiers>
+                <modifier type="set" value="Boosted Propulsion (+2&quot;)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Repair Facilities (x)" id="965e-4a5e-2da0-0c88" hidden="false" type="rule" targetId="0a02-c3fd-7a40-acf5">
+              <modifiers>
+                <modifier type="set" value="Repair Facilities (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Pilum" hidden="false" id="85eb-cc27-3ac9-7ddd" exportable="false">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="75"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="af37-e905-3de9-d52b" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="89ad-6251-a777-0624" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Repair" hidden="false" id="1299-4681-8cbd-0336" targetId="6808-24f6-d6cf-08b5" primary="false"/>
+        <categoryLink name="Alliance" hidden="false" id="2d17-a250-7998-1a91" targetId="534c-9506-e470-8b7c" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="57ba-35e9-f9a4-d7f8" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+        <categoryLink name="Ship" hidden="false" id="fd13-1710-f9a8-9d72" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Vulcan" id="ec86-7005-1445-4827" hidden="false" type="profile" targetId="2de5-940a-fc32-88e4"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="e6a8-8722-146f-affc" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="311b-c998-59fb-551f" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5ef8-71d9-06ac-e6e9" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2114-67a9-21de-eee9" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="a05d-e678-2d62-8a34" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="946a-0228-df14-ef38" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="617b-a4cf-c170-87fb" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ablative Armour (x)" id="069a-169e-7605-5f86" hidden="false" type="rule" targetId="b869-3539-5cf3-f3f3">
+              <modifiers>
+                <modifier type="set" value="Ablative Armour (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Attachment (x)" id="3e49-dd7f-a752-e390" hidden="false" type="rule" targetId="f748-f854-5457-8864">
+              <modifiers>
+                <modifier type="set" value="Attachment (Italian)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Heavy Prow (x)" id="f9e7-6424-e8da-1ec8" hidden="false" type="rule" targetId="61e3-7b8c-291a-f68e">
+              <modifiers>
+                <modifier type="set" value="Heavy Prow (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="7c9c-3d8f-73a2-f079" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d5aa-830e-53f1-9c4c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d6d1-dd56-a36b-a079" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Boosted Propulsion (x)" id="b595-5276-4a46-50a7" hidden="false" type="rule" targetId="a1fa-f4df-058f-335b">
+              <modifiers>
+                <modifier type="set" value="Boosted Propulsion (+2&quot;)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Repair Facilities (x)" id="5872-d789-15e0-57e7" hidden="false" type="rule" targetId="0a02-c3fd-7a40-acf5">
+              <modifiers>
+                <modifier type="set" value="Repair Facilities (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Mars" hidden="false" id="b12c-eb28-9273-31de" exportable="false">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="75"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f3e2-2ca3-a553-c47a" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="62ef-9d96-3bf9-dcef" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Repair" hidden="false" id="77fa-a87d-7c4f-4ce7" targetId="6808-24f6-d6cf-08b5" primary="false"/>
+        <categoryLink name="Alliance" hidden="false" id="83db-b097-3ad2-4d13" targetId="534c-9506-e470-8b7c" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="c823-8c33-bc5a-68d4" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+        <categoryLink name="Ship" hidden="false" id="46c8-0a6b-ce8a-071c" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Vulcan" id="5a43-7c03-3580-cc68" hidden="false" type="profile" targetId="2de5-940a-fc32-88e4"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="9191-49a6-602d-31d2" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="8f86-f644-3895-aa5d" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2df4-b7f1-e670-dbd0" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2774-a362-6bf1-a5e3" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="0b5f-568d-d6da-2937" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef1a-d9f2-ee23-92c0" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67bb-d650-4289-8f20" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ablative Armour (x)" id="2019-ab12-72b8-0a98" hidden="false" type="rule" targetId="b869-3539-5cf3-f3f3">
+              <modifiers>
+                <modifier type="set" value="Ablative Armour (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Attachment (x)" id="e00c-0404-9444-e504" hidden="false" type="rule" targetId="f748-f854-5457-8864">
+              <modifiers>
+                <modifier type="set" value="Attachment (Italian)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Heavy Prow (x)" id="6aac-84f6-dea1-fc21" hidden="false" type="rule" targetId="61e3-7b8c-291a-f68e">
+              <modifiers>
+                <modifier type="set" value="Heavy Prow (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="139f-6bc8-9992-e175" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f574-0452-85e6-81cf" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="664b-2a77-dd6c-f017" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Boosted Propulsion (x)" id="12b1-e794-9d01-b96c" hidden="false" type="rule" targetId="a1fa-f4df-058f-335b">
+              <modifiers>
+                <modifier type="set" value="Boosted Propulsion (+2&quot;)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Repair Facilities (x)" id="87b1-c2a8-c88f-e3a7" hidden="false" type="rule" targetId="0a02-c3fd-7a40-acf5">
+              <modifiers>
+                <modifier type="set" value="Repair Facilities (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Jupiter" hidden="false" id="9724-b10f-7208-6f80" exportable="false">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="75"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="92a6-23c2-8949-a3da" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="ad9f-5fce-db5d-d926" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Repair" hidden="false" id="1778-ed44-34f3-ccad" targetId="6808-24f6-d6cf-08b5" primary="false"/>
+        <categoryLink name="Alliance" hidden="false" id="bea6-a607-ca9c-704c" targetId="534c-9506-e470-8b7c" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="b188-1687-6de1-3efa" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+        <categoryLink name="Ship" hidden="false" id="d838-2782-e12b-ea2b" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Vulcan" id="620d-b207-b849-4b9c" hidden="false" type="profile" targetId="2de5-940a-fc32-88e4"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="9012-ec6e-22ad-65f6" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="e9b4-afd5-ad37-1717" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4201-f04a-244c-21af" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0655-a5fc-554a-5d92" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="4f97-5b68-30c3-f6f6" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a07f-db0d-8436-37cd" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff7e-76ba-c701-4e50" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ablative Armour (x)" id="4bd6-5f54-19b2-443a" hidden="false" type="rule" targetId="b869-3539-5cf3-f3f3">
+              <modifiers>
+                <modifier type="set" value="Ablative Armour (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Attachment (x)" id="d9ec-fc38-6d9b-f8f3" hidden="false" type="rule" targetId="f748-f854-5457-8864">
+              <modifiers>
+                <modifier type="set" value="Attachment (Italian)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Heavy Prow (x)" id="077a-a1fd-1eb5-8f57" hidden="false" type="rule" targetId="61e3-7b8c-291a-f68e">
+              <modifiers>
+                <modifier type="set" value="Heavy Prow (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="7046-1c73-e7c8-254b" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="66cd-afa0-f4aa-66e7" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="050d-a02c-43d4-3993" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Boosted Propulsion (x)" id="d777-7e0b-475c-c176" hidden="false" type="rule" targetId="a1fa-f4df-058f-335b">
+              <modifiers>
+                <modifier type="set" value="Boosted Propulsion (+2&quot;)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Repair Facilities (x)" id="f4cb-1b65-d282-2e77" hidden="false" type="rule" targetId="0a02-c3fd-7a40-acf5">
+              <modifiers>
+                <modifier type="set" value="Repair Facilities (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Pugio" hidden="false" id="e761-b90a-9e0c-9592" exportable="false">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="75"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="640b-4881-fc11-11d6" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="b066-6cb1-e552-3319" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Repair" hidden="false" id="a9da-8b1c-472a-1f13" targetId="6808-24f6-d6cf-08b5" primary="false"/>
+        <categoryLink name="Alliance" hidden="false" id="0602-5ba3-41cc-10c6" targetId="534c-9506-e470-8b7c" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="2c85-d578-1d10-7ee1" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+        <categoryLink name="Ship" hidden="false" id="e877-46eb-7b58-d6a7" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Vulcan" id="bd6b-9905-be4e-833f" hidden="false" type="profile" targetId="2de5-940a-fc32-88e4"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="60fd-9345-19a0-d566" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="2aed-ad9c-1373-3200" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7bba-ca4f-d821-044a" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0495-cc78-253e-7b80" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="cf41-3caa-b245-2ef8" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9236-8f04-077d-9659" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b0bc-fdc6-888e-fcb4" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ablative Armour (x)" id="fcfe-1548-5d9f-15ce" hidden="false" type="rule" targetId="b869-3539-5cf3-f3f3">
+              <modifiers>
+                <modifier type="set" value="Ablative Armour (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Attachment (x)" id="3939-13b9-d435-370b" hidden="false" type="rule" targetId="f748-f854-5457-8864">
+              <modifiers>
+                <modifier type="set" value="Attachment (Italian)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Heavy Prow (x)" id="191d-0a3b-f10b-b79f" hidden="false" type="rule" targetId="61e3-7b8c-291a-f68e">
+              <modifiers>
+                <modifier type="set" value="Heavy Prow (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="017b-7a1e-8f76-60d7" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1334-ef9d-a0a3-d048" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9783-e271-da0a-cac8" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Boosted Propulsion (x)" id="381b-b471-f082-cbb5" hidden="false" type="rule" targetId="a1fa-f4df-058f-335b">
+              <modifiers>
+                <modifier type="set" value="Boosted Propulsion (+2&quot;)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Repair Facilities (x)" id="ab14-39c9-e6a6-f420" hidden="false" type="rule" targetId="0a02-c3fd-7a40-acf5">
+              <modifiers>
+                <modifier type="set" value="Repair Facilities (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Gladius" hidden="false" id="1425-2b26-75e6-2ccf" exportable="false">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="75"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6b2e-9e44-84eb-b91b" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="3718-95c6-02ec-ed66" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Repair" hidden="false" id="9870-abbc-dbcb-ae7a" targetId="6808-24f6-d6cf-08b5" primary="false"/>
+        <categoryLink name="Alliance" hidden="false" id="6710-974a-2cdd-aa29" targetId="534c-9506-e470-8b7c" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="7a04-e55d-e18b-4ed0" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+        <categoryLink name="Ship" hidden="false" id="9ecf-3a07-04b8-a320" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Vulcan" id="e7f0-d177-5233-bcb9" hidden="false" type="profile" targetId="2de5-940a-fc32-88e4"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="46bb-8b8b-5e0a-2697" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="c9d0-9a26-388d-0f9b" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="463e-0710-3658-e123" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d06f-6d5c-7f47-b330" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="b1f9-2fee-1d50-d778" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d318-389e-1a02-7c9f" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ef2a-8497-89ff-5163" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ablative Armour (x)" id="3b6e-f628-5748-ec78" hidden="false" type="rule" targetId="b869-3539-5cf3-f3f3">
+              <modifiers>
+                <modifier type="set" value="Ablative Armour (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Attachment (x)" id="5b12-79f6-b164-a548" hidden="false" type="rule" targetId="f748-f854-5457-8864">
+              <modifiers>
+                <modifier type="set" value="Attachment (Italian)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Heavy Prow (x)" id="55f7-0819-05ac-cad3" hidden="false" type="rule" targetId="61e3-7b8c-291a-f68e">
+              <modifiers>
+                <modifier type="set" value="Heavy Prow (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="71e9-ddeb-3c2e-5dc7" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fe19-0af8-e762-5c87" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba73-3c51-26a0-b571" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Boosted Propulsion (x)" id="f278-9b0d-d203-5560" hidden="false" type="rule" targetId="a1fa-f4df-058f-335b">
+              <modifiers>
+                <modifier type="set" value="Boosted Propulsion (+2&quot;)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Repair Facilities (x)" id="0749-2520-26b9-2140" hidden="false" type="rule" targetId="0a02-c3fd-7a40-acf5">
+              <modifiers>
+                <modifier type="set" value="Repair Facilities (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Cestus" hidden="false" id="c5ac-9859-9227-a1a8" exportable="false">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="9e60-f445-c136-0767" includeChildSelections="false"/>
+        <constraint type="max" value="6" field="selections" scope="parent" shared="true" id="f909-7567-b64e-33fc" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Alliance" hidden="false" id="7153-c562-f384-0c7d" targetId="534c-9506-e470-8b7c" primary="true"/>
+        <categoryLink name="Ship" hidden="false" id="fc76-5435-936d-8b75" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
+        <categoryLink name="Light Vessel" hidden="false" id="9cab-fdae-a621-1e09" targetId="49e0-1009-c7ce-ee43" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Cestus" id="3f71-aff1-7107-3c02" hidden="false" type="profile" targetId="91f1-65f6-872d-ccaa"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="27ef-ecbd-a0fe-0b5a" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="8a0a-a0d5-93d5-d19f" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cfca-e667-f231-706b" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e25b-6747-537e-7b02" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="48d9-81fa-6062-bdb3" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6dfc-fb36-c92e-dff1" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ad05-ced3-5006-5e23" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ablative Armour (x)" id="23d2-50d3-e9c5-0456" hidden="false" type="rule" targetId="b869-3539-5cf3-f3f3">
+              <modifiers>
+                <modifier type="set" value="Ablative Armour (1)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Light Vessel" id="81c9-79d3-8312-34fc" hidden="false" type="rule" targetId="d7e0-0b3e-b5e5-776d">
+              <modifiers>
+                <modifier type="set" value="Heavy Prow (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="ab19-8d9a-863c-e761" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4f70-47ce-f866-83a1" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3676-6e26-e07a-a075" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Flak Barrage (x)" id="0a5e-8f27-a6be-0caf" hidden="false" type="rule" targetId="5d6b-0b7c-1391-f860">
+              <modifiers>
+                <modifier type="set" value="Flak Barrage (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Scorpio" hidden="false" id="3b3f-71aa-95fd-118c" exportable="false">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="75"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a42b-a6d3-b77e-3922" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="eac0-0ef8-108b-518e" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Repair" hidden="false" id="3964-6ca6-6183-0705" targetId="6808-24f6-d6cf-08b5" primary="false"/>
+        <categoryLink name="Alliance" hidden="false" id="38f2-f2d0-58e1-75c9" targetId="534c-9506-e470-8b7c" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="8c08-394b-e44e-458a" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+        <categoryLink name="Ship" hidden="false" id="4739-5303-8d39-04fa" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Vulcan" id="ef1d-dfaf-371d-e7ee" hidden="false" type="profile" targetId="2de5-940a-fc32-88e4"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="c599-2f80-ac4b-279d" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="6580-3313-3250-ea8d" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bf35-976d-cf27-1474" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="34f6-28c7-e587-d232" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="f952-7f22-c326-a3fa" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="40cb-cdca-58f3-926d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d8c-9a97-5927-0494" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ablative Armour (x)" id="202b-97e2-9ce4-995d" hidden="false" type="rule" targetId="b869-3539-5cf3-f3f3">
+              <modifiers>
+                <modifier type="set" value="Ablative Armour (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Attachment (x)" id="10ba-311d-e61e-6c75" hidden="false" type="rule" targetId="f748-f854-5457-8864">
+              <modifiers>
+                <modifier type="set" value="Attachment (Italian)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Heavy Prow (x)" id="774f-be58-da1e-818e" hidden="false" type="rule" targetId="61e3-7b8c-291a-f68e">
+              <modifiers>
+                <modifier type="set" value="Heavy Prow (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="dd42-f6d6-a772-337e" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="94d3-bd17-8a9a-ee5b" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22ac-dbaf-4cfa-5f3d" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Boosted Propulsion (x)" id="b709-4e60-cbfe-f727" hidden="false" type="rule" targetId="a1fa-f4df-058f-335b">
+              <modifiers>
+                <modifier type="set" value="Boosted Propulsion (+2&quot;)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Repair Facilities (x)" id="0ee3-89ef-8f10-32fe" hidden="false" type="rule" targetId="0a02-c3fd-7a40-acf5">
+              <modifiers>
+                <modifier type="set" value="Repair Facilities (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Auxilia" hidden="false" id="6876-10c7-8549-862a" exportable="false">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="105"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a065-f5d7-8a4e-542b" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="9360-8d08-e04c-c722" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Alliance" hidden="false" id="92e5-89d5-dbd8-76ff" targetId="534c-9506-e470-8b7c" primary="true"/>
+        <categoryLink name="Ship" hidden="false" id="8435-9c59-f7eb-52a3" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Auxilia" id="a83c-cbdb-cc03-e184" hidden="false" type="profile" targetId="231c-5bb4-fe17-16c2"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="f137-f7df-ec73-9ee8" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="b4df-6633-e47e-5d0a" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6" sortIndex="1">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4fda-8ce5-0b83-e3a8" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ccbb-211d-9753-34c7" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Hardpoint Heavy" id="d9ab-5e90-a30b-6b60" hidden="false" sortIndex="2" defaultSelectionEntryId="4172-37a2-c77d-7383">
+              <entryLinks>
+                <entryLink import="true" name="Heavy Gun Battery" hidden="false" id="4172-37a2-c77d-7383" type="selectionEntry" targetId="fca5-ed10-40cc-bf79" sortIndex="1">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="dd77-d8bb-a72e-9471" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="dd77-d8bb-a72e-9471">
+                      <conditions>
+                        <condition type="greaterThan" value="0" field="selections" scope="6876-10c7-8549-862a" childId="25b9-7f26-cbd9-e68f" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Generator" hidden="false" id="7872-067a-d88a-afa3" type="selectionEntryGroup" targetId="16ff-1cef-24a8-20a2"/>
+                <entryLink import="true" name="Heat Lance" hidden="false" id="a753-d19e-b305-f01b" type="selectionEntry" targetId="fb2e-f804-7232-4cba" sortIndex="2">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="e9c6-f1c2-feaa-40db" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="e9c6-f1c2-feaa-40db">
+                      <conditions>
+                        <condition type="greaterThan" value="0" field="selections" scope="6876-10c7-8549-862a" childId="25b9-7f26-cbd9-e68f" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Heavy Magnetic Bombard" hidden="false" id="5d81-b906-6e50-64f6" type="selectionEntry" targetId="903c-562b-c3ab-766d" sortIndex="3">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8a27-79bc-35a1-1925" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="8a27-79bc-35a1-1925">
+                      <conditions>
+                        <condition type="greaterThan" value="0" field="selections" scope="6876-10c7-8549-862a" childId="25b9-7f26-cbd9-e68f" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Heavy Rocket Battery" hidden="false" id="4821-0b5b-2a69-d4af" type="selectionEntry" targetId="2159-a46b-54fe-7b24" sortIndex="4">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="8cdd-ee7c-e9a3-d408" includeChildSelections="false"/>
+                  </constraints>
+                  <modifiers>
+                    <modifier type="set" value="0" field="8cdd-ee7c-e9a3-d408">
+                      <conditions>
+                        <condition type="greaterThan" value="0" field="selections" scope="6876-10c7-8549-862a" childId="25b9-7f26-cbd9-e68f" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="b3c6-42dc-9456-32a7" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5539-3e86-d42e-a35f" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Hardpoint Light" id="7417-8c4a-2e7a-f606" hidden="false" sortIndex="3">
+              <entryLinks>
+                <entryLink import="true" name="Light Gun Battery" hidden="false" id="099f-371e-3ed9-c6a6" type="selectionEntry" targetId="54ff-d6e2-03f0-f6f5" sortIndex="1">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aa2a-bd38-a17c-739a" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43ab-d25c-366a-fa9c" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Heat Lancette" hidden="false" id="dbb7-5d8a-956c-77aa" type="selectionEntry" targetId="2251-4d30-f737-f8a8" sortIndex="2">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ae6a-a33b-a7c8-b6bc" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1824-9fde-e4c6-f8d1" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Light Rocket Battery" hidden="false" id="6535-de05-2733-712e" type="selectionEntry" targetId="0dc5-198d-16f9-9e4e" sortIndex="3">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c12-2a63-7d92-6d7a" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c25d-9971-b340-7b03" includeChildSelections="false"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="77fc-8f3e-7f74-b357" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="cfe9-1986-f63f-bb8c" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="b743-2e09-71f7-85f6" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ablative Armour (x)" id="7dc7-5739-06df-68cc" hidden="false" type="rule" targetId="b869-3539-5cf3-f3f3">
+              <modifiers>
+                <modifier type="set" value="Ablative Armour (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Daredevil Crew" id="983c-7201-c930-081a" hidden="false" type="rule" targetId="dedc-cf59-6818-6d90"/>
+            <infoLink name="Heavy Prow (x)" id="3f52-6fd0-a19d-d263" hidden="false" type="rule" targetId="61e3-7b8c-291a-f68e">
+              <modifiers>
+                <modifier type="set" value="Heavy Prow (5)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Vanguard (x&quot;)" id="0c76-4be4-7a37-e236" hidden="false" type="rule" targetId="d176-6604-7876-d65a">
+              <modifiers>
+                <modifier type="set" value="Vanguard (4&quot;)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="3b1b-d2c9-ae98-d2e5" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4dbf-7a82-9ee9-cda0" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f036-3b00-9500-0cfa" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Boosted Propulsion (+x&quot;)" id="8956-a888-6afc-54fa" hidden="false" type="rule" targetId="a1fa-f4df-058f-335b">
+              <modifiers>
+                <modifier type="set" value="Boosted Propulsion (+2&quot;)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Sagitta" hidden="false" id="e29a-a30f-dbd1-1e24" exportable="false">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="fda5-a9f1-0633-e857" includeChildSelections="false"/>
+        <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="20d1-de06-7bc3-0600" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Alliance" hidden="false" id="80e3-528e-0e98-e536" targetId="534c-9506-e470-8b7c" primary="true"/>
+        <categoryLink name="Submarine" hidden="false" id="c12a-2034-cccc-d757" targetId="6996-f3f4-a695-3bc3" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Sagitta" id="5857-a6e7-1229-4022" hidden="false" type="profile" targetId="279b-cdda-0238-c49d"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="c87e-fd39-d18c-a2eb" hidden="false" sortIndex="2">
+          <entryLinks>
+            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="47c3-083d-4739-83ca" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d1be-e773-c5df-7066" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cf4-793c-0d6d-ba1f" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="cc5c-1a3b-b7f8-6183" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a53f-5f80-fd75-3637" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="14bd-9725-5b21-4115" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Auxiliary Mine Layer (x)" id="5c64-5788-cff9-3df5" hidden="false" type="rule" targetId="7017-0742-e2b5-773a">
+              <modifiers>
+                <modifier type="set" value="Auxiliary Mine Layer (1)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Foreward Deployment" id="86d6-44a4-fb5b-fbc0" hidden="false" type="rule" targetId="9b38-bd89-23f9-0fc6"/>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="model" import="false" name="Spatha" hidden="false" id="bd6e-f647-1f6d-ec3f" exportable="false">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="75"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="256d-2a8d-dd1a-57ea" includeChildSelections="false"/>
+        <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="8535-8955-8566-ec84" includeChildSelections="false"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink name="Repair" hidden="false" id="a063-330d-2b39-b8df" targetId="6808-24f6-d6cf-08b5" primary="false"/>
+        <categoryLink name="Alliance" hidden="false" id="0223-9940-b9e4-fe8a" targetId="534c-9506-e470-8b7c" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="2cce-31e4-4a7c-8717" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+        <categoryLink name="Ship" hidden="false" id="04dd-fe1f-85e7-e6ce" targetId="39ed-38bb-f8e2-8cfd" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Vulcan" id="b177-b50b-7be0-fb44" hidden="false" type="profile" targetId="2de5-940a-fc32-88e4"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Weapons" id="27f4-6c2c-0104-1a47" hidden="false" sortIndex="3">
+          <entryLinks>
+            <entryLink import="true" name="Torpedo Salvo" hidden="false" id="dc11-b9be-4b44-cd35" type="selectionEntry" targetId="61fe-f84f-5e2d-d0a6">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b52-4952-c6d8-e0e0" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1434-76f8-3ecf-3b5b" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Properties" hidden="false" id="530d-1977-66e8-ea59" sortIndex="1">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2e71-f8c8-ba1c-fe9d" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8616-7676-aaed-7614" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Ablative Armour (x)" id="5d69-a63c-4e67-d6a3" hidden="false" type="rule" targetId="b869-3539-5cf3-f3f3">
+              <modifiers>
+                <modifier type="set" value="Ablative Armour (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Attachment (x)" id="013f-273f-22ec-7450" hidden="false" type="rule" targetId="f748-f854-5457-8864">
+              <modifiers>
+                <modifier type="set" value="Attachment (Italian)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Heavy Prow (x)" id="8aaf-1bbf-d071-6392" hidden="false" type="rule" targetId="61e3-7b8c-291a-f68e">
+              <modifiers>
+                <modifier type="set" value="Heavy Prow (3)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="417b-56a0-d23c-8600" sortIndex="2">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cdeb-956e-292c-5157" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fcf4-a548-a5eb-1641" includeChildSelections="false"/>
+          </constraints>
+          <infoLinks>
+            <infoLink name="Boosted Propulsion (x)" id="8d3f-9a8f-3a13-dd83" hidden="false" type="rule" targetId="a1fa-f4df-058f-335b">
+              <modifiers>
+                <modifier type="set" value="Boosted Propulsion (+2&quot;)" field="name"/>
+              </modifiers>
+            </infoLink>
+            <infoLink name="Repair Facilities (x)" id="fc4d-fe2e-fdd0-0812" hidden="false" type="rule" targetId="0a02-c3fd-7a40-acf5">
+              <modifiers>
+                <modifier type="set" value="Repair Facilities (2)" field="name"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <categoryEntries>
+    <categoryEntry name="Repair" id="6808-24f6-d6cf-08b5" hidden="false"/>
+    <categoryEntry name="Italian" id="9a44-fd2b-52a6-5609" hidden="false"/>
+    <categoryEntry name="Surface" id="9c42-b68b-9adf-01c5" hidden="false"/>
+    <categoryEntry name="Submarine" id="6996-f3f4-a695-3bc3" hidden="false"/>
+    <categoryEntry name="Support" id="b62d-5817-5bee-fefe" hidden="false"/>
+    <categoryEntry name="Light Vessel" id="49e0-1009-c7ce-ee43" hidden="false"/>
+  </categoryEntries>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Weapons" id="96ab-0f1c-3831-8285" targetId="dd9c-c27a-41e0-6c12"/>
+    <catalogueLink type="catalogue" name="Rules Glossary" id="1261-95db-5a34-6b9a" targetId="5ca6-5d76-4c4d-04e2"/>
+    <catalogueLink type="catalogue" name="Generator" id="5169-be13-9f47-d9d5" targetId="5a50-c7f6-8981-e1d8"/>
+  </catalogueLinks>
+  <selectionEntries>
+    <selectionEntry type="unit" import="false" name="Vulcan Repair Ship Squadron" hidden="false" id="4468-f1dd-d821-2085" publicationId="e265-8c7f-a4b2-a48e">
+      <categoryLinks>
+        <categoryLink name="Logistical" hidden="false" id="60dc-8085-1aa3-4be4" targetId="ea96-eb0a-5fde-a549" primary="true"/>
+        <categoryLink name="Italian" hidden="false" id="3ff9-2caf-d7a5-9b2b" targetId="9a44-fd2b-52a6-5609" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="238a-f407-9aa8-5563" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Vulcan" hidden="false" id="e7b2-24ca-a7f3-e300" type="selectionEntry" targetId="bb0f-5e45-cee1-9cd7">
+          <costs>
+            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="75"/>
+            <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Sagitta Hunter Submarine Squadron" hidden="false" id="1253-5259-d125-60e5" publicationId="e265-8c7f-a4b2-a48e">
+      <categoryLinks>
+        <categoryLink name="Italian" hidden="false" id="7b3e-9504-5303-5999" targetId="9a44-fd2b-52a6-5609" primary="false"/>
+        <categoryLink name="Support" hidden="false" id="e212-8835-e2a2-4d85" targetId="7fd7-2a27-af9f-92ed" primary="true"/>
+        <categoryLink name="Underwater" hidden="false" id="daec-1c50-7bf1-11e0" targetId="61e1-fb01-6250-eb82" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Sagitta" hidden="false" id="04dc-1e7c-0cec-cfa5" type="selectionEntry" targetId="e29a-a30f-dbd1-1e24">
+          <costs>
+            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="65"/>
+            <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="4"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Cestus Zebek Squadron" hidden="false" id="e623-dfb9-5de6-ebd3" publicationId="e265-8c7f-a4b2-a48e">
+      <categoryLinks>
+        <categoryLink name="Italian" hidden="false" id="872a-b3b8-70eb-5fbe" targetId="9a44-fd2b-52a6-5609" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="7442-8088-35e9-1e7d" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+        <categoryLink name="Patrol" hidden="false" id="6760-7259-d313-8607" targetId="ef05-e202-312e-2640" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Cestus" hidden="false" id="5f7c-a8f5-0ce3-52f0" type="selectionEntry" targetId="c5ac-9859-9227-a1a8">
+          <costs>
+            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="35"/>
+            <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="false" name="Auxilia Fast Cruiser Squadron" hidden="false" id="e623-dfb9-5de6-ebd3" publicationId="e265-8c7f-a4b2-a48e">
+      <categoryLinks>
+        <categoryLink name="Scout" hidden="false" id="65a7-4506-2bdb-245f" targetId="6619-1405-c9ec-096b" primary="true"/>
+        <categoryLink name="Italian" hidden="false" id="6f98-5c1b-a0e7-ef7d" targetId="9a44-fd2b-52a6-5609" primary="false"/>
+        <categoryLink name="Surface" hidden="false" id="5022-4b93-2715-820a" targetId="9c42-b68b-9adf-01c5" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Auxilia" hidden="false" id="2bb2-e0ac-34da-f143" type="selectionEntry" targetId="6876-10c7-8549-862a"/>
+      </entryLinks>
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="5"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <forceEntries>
+    <forceEntry name="Alliance Faction Battlefleet (Main)" id="9a29-7092-f19a-cca0" hidden="false" sortIndex="1">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="d946-3579-7e04-830d" targetId="fef3-1842-580c-4bef">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="cb9a-4778-7db7-7172" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="false" id="b6ca-1b61-7bc8-62a1" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Line" hidden="false" id="65c9-ad0c-858e-ab6a" targetId="d4bb-06c0-4e9a-18af">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="a767-3c40-487b-6ede" includeChildSelections="true"/>
+            <constraint type="max" value="6" field="selections" scope="force" shared="false" id="3887-4b7a-b728-d819" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="a767-3c40-487b-6ede">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="ef05-e202-312e-2640" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="3887-4b7a-b728-d819">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="ef05-e202-312e-2640" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Patrol" hidden="false" id="80ab-0e7d-c4f4-fe6c" targetId="ef05-e202-312e-2640">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="c33e-e0c2-c033-791b" includeChildSelections="true"/>
+            <constraint type="max" value="6" field="selections" scope="force" shared="false" id="bdd0-f98d-2695-6373" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="c33e-e0c2-c033-791b">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="d4bb-06c0-4e9a-18af" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="bdd0-f98d-2695-6373">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="d4bb-06c0-4e9a-18af" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Support" hidden="false" id="f60c-6a80-f3aa-e2b6" targetId="7fd7-2a27-af9f-92ed">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="4971-0a64-b6f5-c039" includeChildSelections="true"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="false" id="2437-1cd3-6334-48b0" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Scout" hidden="false" id="007d-7a46-d38f-c84a" targetId="6619-1405-c9ec-096b">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="b4ae-2c2b-3e5b-cc98" includeChildSelections="true"/>
+            <constraint type="max" value="2" field="selections" scope="force" shared="false" id="1f10-4f88-c7ba-cd46" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Logistical" hidden="false" id="f30a-f261-5cf6-167c" targetId="ea96-eb0a-5fde-a549">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="9190-3c5c-e366-7966" includeChildSelections="true"/>
+            <constraint type="max" value="2" field="selections" scope="force" shared="false" id="adf9-ad14-0a1d-5a41" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Airborne" hidden="false" id="04f1-5940-df03-5a26" targetId="933b-3024-a972-b371">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="false" id="bd91-ffab-4422-de88" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="bd91-ffab-4422-de88">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="61e1-fb01-6250-eb82" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Underwater" hidden="false" id="d5b4-de15-db0c-800c" targetId="61e1-fb01-6250-eb82">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="force" shared="false" id="8943-f830-8cea-e6d0" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="8943-f830-8cea-e6d0">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="933b-3024-a972-b371" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry name="Marine Levant Battlefleet (Specialist)" id="5b46-49e3-9c04-cf3b" hidden="false" sortIndex="2">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="9c84-9ccd-efcf-a6fe" targetId="fef3-1842-580c-4bef">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="force" shared="true" id="0467-bb25-b204-849f" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="false" id="5b88-628c-2645-171e" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Line" hidden="false" id="1d29-3f4d-3a98-1cb0" targetId="d4bb-06c0-4e9a-18af">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="9838-801b-96e4-08c8" includeChildSelections="true"/>
+            <constraint type="max" value="5" field="selections" scope="force" shared="false" id="eccd-bd64-fc66-05b2" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="9838-801b-96e4-08c8">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="6619-1405-c9ec-096b" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="decrement" value="1" field="eccd-bd64-fc66-05b2">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="6619-1405-c9ec-096b" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Patrol" hidden="false" id="8491-16a6-8105-2e96" targetId="ef05-e202-312e-2640">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="fc11-2591-a131-b08e" includeChildSelections="true"/>
+            <constraint type="max" value="2" field="selections" scope="force" shared="false" id="e0df-6bba-d0f1-93e5" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Support" hidden="false" id="e455-adef-d4c9-ecc8" targetId="7fd7-2a27-af9f-92ed">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="6c9b-1234-e197-b3bb" includeChildSelections="true"/>
+            <constraint type="max" value="2" field="selections" scope="force" shared="false" id="7310-1f2a-4efd-1109" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Scout" hidden="false" id="5a7d-21f6-1025-6ea6" targetId="6619-1405-c9ec-096b">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="ee94-7c90-c758-e547" includeChildSelections="true"/>
+            <constraint type="max" value="5" field="selections" scope="force" shared="false" id="75e9-e898-7321-2df1" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="ee94-7c90-c758-e547">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="d4bb-06c0-4e9a-18af" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="75e9-e898-7321-2df1">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="force" childId="d4bb-06c0-4e9a-18af" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Logistical" hidden="false" id="dd18-4224-7e6b-afb0" targetId="ea96-eb0a-5fde-a549">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="790a-ebec-119b-59d7" includeChildSelections="true"/>
+            <constraint type="max" value="2" field="selections" scope="force" shared="false" id="f1e3-6688-c5d1-80e8" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry name="Susa Battlefleet (Specialist)" id="cf0f-18ed-f80c-e6aa" hidden="false" sortIndex="4">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="829a-6204-ce53-2662" targetId="fef3-1842-580c-4bef">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="58c6-8d7d-166f-b63d" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="false" id="b803-9c34-9816-00a7" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Line" hidden="false" id="a33d-1cbd-efac-6be3" targetId="d4bb-06c0-4e9a-18af">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="b85f-5d5b-98c4-f3f5" includeChildSelections="true"/>
+            <constraint type="max" value="4" field="selections" scope="force" shared="false" id="46c8-eb9b-1a05-3cf2" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="b85f-5d5b-98c4-f3f5">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="7fd7-2a27-af9f-92ed" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="46c8-eb9b-1a05-3cf2">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="7fd7-2a27-af9f-92ed" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Patrol" hidden="false" id="74e9-52a6-2d0e-366b" targetId="ef05-e202-312e-2640">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="2275-3daf-de08-3a0d" includeChildSelections="true"/>
+            <constraint type="max" value="4" field="selections" scope="force" shared="false" id="5f8a-3a03-8750-8b6d" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Support" hidden="false" id="6ba3-65f5-723a-4fd9" targetId="7fd7-2a27-af9f-92ed">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="b6b9-aab8-738e-77f3" includeChildSelections="true"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="false" id="2db5-725d-c9d2-98d4" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="2db5-725d-c9d2-98d4">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="d4bb-06c0-4e9a-18af" shared="true" roundUp="false" includeChildSelections="true"/>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="7fd7-2a27-af9f-92ed" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Logistical" hidden="false" id="62df-ad7a-46a9-b2e7" targetId="ea96-eb0a-5fde-a549">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="b4ca-fb19-7880-9b63" includeChildSelections="true"/>
+            <constraint type="max" value="3" field="selections" scope="force" shared="false" id="da1a-87a7-81f4-9aac" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="da1a-87a7-81f4-9aac">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="7fd7-2a27-af9f-92ed" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry name="Italian League Battlefleet (Specialist)" id="8c6a-887f-3ea5-2b1f" hidden="false" sortIndex="3">
+      <categoryLinks>
+        <categoryLink name="Flagship" hidden="false" id="e73c-f302-c0ab-8fd3" targetId="fef3-1842-580c-4bef">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="36ba-f1cc-99a0-daaf" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="false" id="2a70-71ce-65f5-e1ed" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Line" hidden="false" id="194a-cb7e-18ec-6082" targetId="d4bb-06c0-4e9a-18af">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="132b-9926-2f47-3554" includeChildSelections="true"/>
+            <constraint type="max" value="4" field="selections" scope="force" shared="false" id="a127-3b33-37c3-1f5d" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="132b-9926-2f47-3554">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="7fd7-2a27-af9f-92ed" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="a127-3b33-37c3-1f5d">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="7fd7-2a27-af9f-92ed" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Patrol" hidden="false" id="d7c8-ddd7-91f8-218b" targetId="ef05-e202-312e-2640">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="b8de-df3b-97fd-14ef" includeChildSelections="true"/>
+            <constraint type="max" value="4" field="selections" scope="force" shared="false" id="cf22-7b4f-4cd5-b3ca" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink name="Support" hidden="false" id="85aa-17e1-0ce7-cb81" targetId="7fd7-2a27-af9f-92ed">
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="force" shared="true" id="6847-7557-589e-abaa" includeChildSelections="true"/>
+            <constraint type="max" value="4" field="selections" scope="force" shared="false" id="5bd9-18a5-487a-b29c" includeChildSelections="true"/>
+          </constraints>
+          <modifiers>
+            <modifier type="decrement" value="1" field="6847-7557-589e-abaa">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="d4bb-06c0-4e9a-18af" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" value="1" field="5bd9-18a5-487a-b29c">
+              <repeats>
+                <repeat value="1" repeats="1" field="selections" scope="force" childId="d4bb-06c0-4e9a-18af" shared="true" roundUp="false" includeChildSelections="true"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+        </categoryLink>
+        <categoryLink name="Logistical" hidden="false" id="34a8-55a2-95ad-efde" targetId="ea96-eb0a-5fde-a549">
+          <constraints>
+            <constraint type="min" value="0" field="selections" scope="force" shared="true" id="671f-2229-62f8-b6f5" includeChildSelections="true"/>
+            <constraint type="max" value="1" field="selections" scope="force" shared="false" id="c5a1-e0fb-ec62-fe44" includeChildSelections="true"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Generator" id="16ff-1cef-24a8-20a2" hidden="false">
+      <categoryLinks>
+        <categoryLink name="Generator" hidden="false" id="f586-6b3f-e33e-6f68" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink import="true" name="Atomic Generator" hidden="false" id="2815-76e4-5861-7134" type="selectionEntry" targetId="a3f0-73f0-4f93-d599">
+          <costs>
+            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Fury Generator" hidden="false" id="2815-76e4-5861-7134" type="selectionEntry" targetId="230c-f6f6-d1a5-74aa">
+          <costs>
+            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="20"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Magnetic Generator" hidden="false" id="de2f-f987-2f9e-995a" type="selectionEntry" targetId="a3a8-b135-7099-ce1c">
+          <costs>
+            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="15"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Heavy Shield Generator" hidden="false" id="8686-33a3-67bf-b046" type="selectionEntry" targetId="8f03-5ac9-164b-1f77">
+          <costs>
+            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="5"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Shroud Generator" hidden="false" id="8677-bdc3-9bc1-0227" type="selectionEntry" targetId="9ba8-6178-e09c-c346">
+          <costs>
+            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Repulsion Field Generator" hidden="false" id="5b15-ca19-bce0-b88f" type="selectionEntry" targetId="a17f-cdd6-efdd-63a1">
+          <costs>
+            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="10"/>
+          </costs>
+        </entryLink>
+        <entryLink import="true" name="Solex Generator" hidden="false" id="21c6-327b-ee69-1735" type="selectionEntry" targetId="9633-0946-c749-e1d1">
+          <costs>
+            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="10"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b26-1d08-4e45-9a7d" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="5a50-c7f6-8981-e1d8" name="Generator" gameSystemId="1242-c30b-419f-8229" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Heavy Shield Generator" hidden="false" id="8f03-5ac9-164b-1f77">
+      <categoryLinks>
+        <categoryLink name="Generator" hidden="false" id="dea6-1b8b-ef3d-300b" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Heavy Shield Generator" id="ccbc-058d-76fd-13d1" hidden="false" type="rule" targetId="a0f5-dbbb-3748-05f7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fury Generator" hidden="false" id="230c-f6f6-d1a5-74aa">
+      <categoryLinks>
+        <categoryLink name="Generator" hidden="false" id="5ba9-caa8-ae05-3320" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Fury Generator" id="7fe8-5ab2-e0c2-ce70" hidden="false" type="rule" targetId="bbe3-b3d9-fd42-515e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Solex Generator" hidden="false" id="9633-0946-c749-e1d1">
+      <categoryLinks>
+        <categoryLink name="Generator" hidden="false" id="509c-7d32-95d5-ce3c" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Solex Generator" id="5dee-1c23-d11e-a0e3" hidden="false" type="rule" targetId="79b3-017e-3883-2de2"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Repulsion Field Generator" hidden="false" id="a17f-cdd6-efdd-63a1">
+      <categoryLinks>
+        <categoryLink name="Generator" hidden="false" id="a543-0a3b-adfe-f196" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
+      </categoryLinks>
+      <modifierGroups>
+        <modifierGroup type="and">
+          <modifiers>
+            <modifier type="set" value="true" field="hidden" scope="parent" affects="933b-3024-a972-b371"/>
+            <modifier type="set" value="true" field="hidden" scope="parent" affects="61e1-fb01-6250-eb82"/>
+            <modifier type="set" value="true" field="hidden" scope="parent" affects="ad70-77b7-aabe-60c0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <infoLinks>
+        <infoLink name="Repulsion Field Generator" id="4eb7-b6ad-865b-c544" hidden="false" type="rule" targetId="2f49-f2d0-7a92-556e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Magnetic Generator" hidden="false" id="a3a8-b135-7099-ce1c">
+      <categoryLinks>
+        <categoryLink name="Generator" hidden="false" id="de84-bc44-9dfd-b8e2" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Magnetic Generator" id="e55d-1234-21a4-64ec" hidden="false" type="rule" targetId="964f-051a-2b8c-3061"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shroud Generator" hidden="false" id="9ba8-6178-e09c-c346">
+      <categoryLinks>
+        <categoryLink name="Generator" hidden="false" id="560d-f6aa-7b73-a014" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Shroud Generator" id="9adc-2dad-e5a2-eed3" hidden="false" type="rule" targetId="78e0-529d-4183-368d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Atomic Generator" hidden="false" id="a3f0-73f0-4f93-d599">
+      <categoryLinks>
+        <categoryLink name="Generator" hidden="false" id="49f4-9dfb-c224-106d" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="true" field="hidden" scope="parent" affects="ad70-77b7-aabe-60c0"/>
+      </modifiers>
+      <infoLinks>
+        <infoLink name="Atomic Generator" id="743f-9ae6-0f3e-7923" hidden="false" type="rule" targetId="0cfa-5159-6123-d70d"/>
+        <infoLink name="Agile (1)" id="27fb-ae69-1475-63e0" hidden="false" type="rule" targetId="a1c3-58c9-ce64-9a4a">
+          <modifiers>
+            <modifier type="set" value="Agile (x)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule name="Atomic Generator" id="0cfa-5159-6123-d70d" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit: When moving a model in this unit, the Admiral can declare an Atomic Surge. For the duration of the model’s move, it gains a +3” Modifier to its Maximum Speed and the Agile (1) property. At the end of its move, the model gains a level of Disorder. An Atomic Generator provides no Unit Benefit to Immobile models.</description>
+    </rule>
+    <rule name="Fury Generator" id="bbe3-b3d9-fd42-515e" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit: Each model in this unit has the Daredevil Crew property. In addition, at the start of this unit’s Action Step, the active Admiral can declare that they will Unleash Fury. If they do so, each model in the unit gains the Boarding Parties (X) property until the end of its current Activation, with an X value equal to the model’s Crew rating. In the Consolidation Step of the current Activation, each model in the unit that Participated in a Boarding action gains 1 level of Disorder.</description>
+    </rule>
+    <rule name="Heavy Shield Generator" id="a0f5-dbbb-3748-05f7" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit: This model gains a +1 Modifier to its Armour rating when it is the target of an Attack action. This has no effect against attacks made with Assault or Submerged Weapons.</description>
+    </rule>
+    <rule name="Magnetic Generator" id="964f-051a-2b8c-3061" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit: If a model in this unit is targeted by an Attack action involving Aerial, Assault, or Submerged Weapons, or an Attack Run mission, convert any Heavy Strikes in the Resistance Roll to Heavy Counters. In addition, if a model in this unit moves into Proximity with a Minefifield marker, it can gain 1 level of Disorder to attempt to Repel the mines. If it  does, roll an Action Die. If a Blank is rolled, the Minefield is Triggered as normal. On any other result, remove the Marker from the Play Area and, at the end of the model’s move, place it within 3” of the moving model, wholly within its Fore Arc. If this brings the Minefield marker into contact with another model, that model immediately counts as Triggering it.</description>
+    </rule>
+    <rule name="Repulsion Field Generator" id="2f49-f2d0-7a92-556e" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit: At the start of this unit’s Movement Step, before moving any models, the controlling Admiral can declare that they will Engage Repulsion Fields.
+For the duration of the Movement Step, each model in the unit gains the Skimmer property. At the end of the Movement Step, each model gains 1 level of Disorder. If a model ends its move in contact with a Terrain Feature, it is immediately Destroyed.</description>
+    </rule>
+    <rule name="Solex Generator" id="79b3-017e-3883-2de2" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit: When a unit containing a model with a Solex Generator makes an Attack action, its Admiral may declare Thermal Agitation. For the duration of the Action, all Contributing weapons that have the Solex (X) quality use the Enhanced Solex (X) quality instead, retaining the same X value. After the Action has been resolved, each model in the unit with a Solex Generator gains 1 level of Disorder, or suffers 1 Damage if it already has 3 Disorder. If this Unit Benefit is being conferred by the Generator Ship system, then the model with that System gains 1 level of Disorder instead.</description>
+    </rule>
+    <rule name="Shroud Generator" id="78e0-529d-4183-368d" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit: When an Attack action targets this model, each Participating model’s Visibility always counts as Hampered (as described in Environmental  Features on page 117 of the Dystopian Wars Rulebook) unless it is within 5” of the Initial Target and has the same Positional Trait. In addition, when this model Obscures another model’s Visibility during an Attack action, that model’s Visibility will be both Hampered and Obscured.</description>
+    </rule>
+  </sharedRules>
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Rules Glossary" id="1c74-eec6-81bb-999a" targetId="5ca6-5d76-4c4d-04e2"/>
+  </catalogueLinks>
+</catalogue>

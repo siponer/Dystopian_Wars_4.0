@@ -44,5 +44,8 @@ For each Success scored in the Action Roll, remove one SRS token from the targe
     <rule name="Vanguard (x&quot;)" id="d176-6604-7876-d65a" hidden="false">
       <description>This unit can make a Special Deployment Action to make a Vanguard Move. When it does so, each model in the unit makes a move as though it were the Movement Step of its Activation. During this move, each model has a Minimum Speed of 0” and a Maximum Speed of X”.</description>
     </rule>
+    <rule name="Mine Layer (x)" id="fd04-efdc-62c6-9965" hidden="false">
+      <description>As a Special Deployment Action, this model’s unit can Distribute Mines. When it does, for each model in the unit with this Property, the unit’s Admiral places up to X Minefield markers anywhere in the Play Area. Each one must be placed at least 10” from the enemy Deployment Zone, and cannot be placed within 1” of a model, a Terrain Feature, or another Marker.</description>
+    </rule>
   </sharedRules>
 </catalogue>

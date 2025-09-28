@@ -17,7 +17,11 @@
       <infoLinks>
         <infoLink name="Heavy Gun Battery" id="69a9-d439-5ad5-336b" hidden="false" type="profile" targetId="f4c2-399d-bb80-8ab7">
           <modifiers>
-            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0"/>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -26,7 +30,11 @@
       <infoLinks>
         <infoLink name="Light Gun Battery" id="fad8-9056-6f8d-75da" hidden="false" type="profile" targetId="46a1-6508-f7c6-080c">
           <modifiers>
-            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0"/>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -35,7 +43,11 @@
       <infoLinks>
         <infoLink name="Heat Lance" id="4743-fdd4-a63a-757b" hidden="false" type="profile" targetId="d1a0-d0aa-a382-9cd9">
           <modifiers>
-            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0"/>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink name="Solex (x)" id="0df1-3014-22ba-820d" hidden="false" type="rule" targetId="1bd0-eb6b-936d-e0e1">
@@ -49,7 +61,11 @@
       <infoLinks>
         <infoLink name="Heavy Magnetic Bombard" id="40cf-4f89-c0f3-bc7b" hidden="false" type="profile" targetId="9afa-1104-b06d-5ab4">
           <modifiers>
-            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0"/>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink name="Guided (x)" id="57b9-2c22-86fe-b4bc" hidden="false" type="rule" targetId="e54b-8443-2246-fb61">
@@ -68,7 +84,11 @@
       <infoLinks>
         <infoLink name="Heavy Rocket Battery" id="34f6-ed6f-b4e0-6350" hidden="false" type="profile" targetId="9aae-bbb7-05e7-09fa">
           <modifiers>
-            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0"/>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink name="Barrage" id="8451-f279-1b07-9931" hidden="false" type="rule" targetId="9813-d4e2-c748-6f68">
@@ -80,7 +100,15 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heat Lancette" hidden="false" id="2251-4d30-f737-f8a8">
       <infoLinks>
-        <infoLink name="Heat Lancette" id="e791-e1e0-0970-4f2e" hidden="false" type="profile" targetId="4d5a-d7d9-264c-d2ef"/>
+        <infoLink name="Heat Lancette" id="e791-e1e0-0970-4f2e" hidden="false" type="profile" targetId="4d5a-d7d9-264c-d2ef">
+          <modifiers>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="parent" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink name="Solex (x)" id="5eb3-97e8-6df4-c5cc" hidden="false" type="rule" targetId="1bd0-eb6b-936d-e0e1">
           <modifiers>
             <modifier type="set" value="Solex (1)" field="name"/>
@@ -92,7 +120,11 @@
       <infoLinks>
         <infoLink name="Light Rocket Battery" id="7185-2957-abe6-3de3" hidden="false" type="profile" targetId="4edc-c9b8-377f-4915">
           <modifiers>
-            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0"/>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink name="Barrage" id="2515-2850-f038-a6d6" hidden="false" type="rule" targetId="9813-d4e2-c748-6f68">
@@ -200,4 +232,7 @@
       <description>This weapon cannot Contribute to an Attack action if the Initial Target is an Underwater model. If all weapons Contributing to an Attack action have this Quality and the target is an Airborne model, only Standard Strikes in the Resistance Roll are converted to Standard Counters by the Unconventional Target rule.</description>
     </rule>
   </sharedRules>
+  <categoryEntries>
+    <categoryEntry name="FPS" id="925a-b2a6-a2d1-ac36" hidden="false"/>
+  </categoryEntries>
 </catalogue>

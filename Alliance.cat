@@ -1368,6 +1368,7 @@
                         <condition type="greaterThan" value="0" field="selections" scope="6876-10c7-8549-862a" childId="25b9-7f26-cbd9-e68f" shared="true"/>
                       </conditions>
                     </modifier>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Generator" hidden="false" id="7872-067a-d88a-afa3" type="selectionEntryGroup" targetId="16ff-1cef-24a8-20a2"/>
@@ -1381,6 +1382,7 @@
                         <condition type="greaterThan" value="0" field="selections" scope="6876-10c7-8549-862a" childId="25b9-7f26-cbd9-e68f" shared="true"/>
                       </conditions>
                     </modifier>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Heavy Magnetic Bombard" hidden="false" id="5d81-b906-6e50-64f6" type="selectionEntry" targetId="903c-562b-c3ab-766d" sortIndex="3">
@@ -1393,6 +1395,7 @@
                         <condition type="greaterThan" value="0" field="selections" scope="6876-10c7-8549-862a" childId="25b9-7f26-cbd9-e68f" shared="true"/>
                       </conditions>
                     </modifier>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Heavy Rocket Battery" hidden="false" id="4821-0b5b-2a69-d4af" type="selectionEntry" targetId="2159-a46b-54fe-7b24" sortIndex="4">
@@ -1405,6 +1408,7 @@
                         <condition type="greaterThan" value="0" field="selections" scope="6876-10c7-8549-862a" childId="25b9-7f26-cbd9-e68f" shared="true"/>
                       </conditions>
                     </modifier>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -1413,27 +1417,37 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5539-3e86-d42e-a35f" includeChildSelections="false"/>
               </constraints>
             </selectionEntryGroup>
-            <selectionEntryGroup name="Hardpoint Light" id="7417-8c4a-2e7a-f606" hidden="false" sortIndex="3">
+            <selectionEntryGroup name="Hardpoint Light" id="7417-8c4a-2e7a-f606" hidden="false" sortIndex="3" defaultSelectionEntryId="099f-371e-3ed9-c6a6">
               <entryLinks>
                 <entryLink import="true" name="Light Gun Battery" hidden="false" id="099f-371e-3ed9-c6a6" type="selectionEntry" targetId="54ff-d6e2-03f0-f6f5" sortIndex="1">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aa2a-bd38-a17c-739a" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="43ab-d25c-366a-fa9c" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                  </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Heat Lancette" hidden="false" id="dbb7-5d8a-956c-77aa" type="selectionEntry" targetId="2251-4d30-f737-f8a8" sortIndex="2">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ae6a-a33b-a7c8-b6bc" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1824-9fde-e4c6-f8d1" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                  </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Light Rocket Battery" hidden="false" id="6535-de05-2733-712e" type="selectionEntry" targetId="0dc5-198d-16f9-9e4e" sortIndex="3">
                   <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c12-2a63-7d92-6d7a" includeChildSelections="false"/>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c25d-9971-b340-7b03" includeChildSelections="false"/>
                   </constraints>
+                  <modifiers>
+                    <modifier type="add" value="925a-b2a6-a2d1-ac36" field="category"/>
+                  </modifiers>
                 </entryLink>
               </entryLinks>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6cce-2ee5-af25-a7df" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2de4-45f0-adfc-9722" includeChildSelections="false"/>
+              </constraints>
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntryGroup>
@@ -1461,6 +1475,16 @@
                 <modifier type="set" value="Vanguard (4&quot;)" field="name"/>
               </modifiers>
             </infoLink>
+            <infoLink name="Mine Layer (x)" id="7b35-749c-3edc-30f4" hidden="true" type="rule" targetId="fd04-efdc-62c6-9965">
+              <modifiers>
+                <modifier type="set" value="Mine Layer (1)" field="name"/>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="greaterThan" value="0" field="selections" scope="6876-10c7-8549-862a" childId="48ce-11f4-b98f-c5d7" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Systems" hidden="false" id="3b1b-d2c9-ae98-d2e5" sortIndex="2">
@@ -1477,6 +1501,9 @@
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink import="true" name="Scutum Mine Launcher" hidden="false" id="605f-9cdc-9ef7-3a49" type="selectionEntry" targetId="48ce-11f4-b98f-c5d7" sortIndex="0"/>
+      </entryLinks>
     </selectionEntry>
     <selectionEntry type="model" import="false" name="Sagitta" hidden="false" id="e29a-a30f-dbd1-1e24" exportable="false">
       <costs>
@@ -1596,6 +1623,15 @@
           </infoLinks>
         </selectionEntry>
       </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Scutum Mine Launcher" hidden="false" id="48ce-11f4-b98f-c5d7" publicationId="e265-8c7f-a4b2-a48e">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="10"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8dec-8bcd-3971-21b7" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>

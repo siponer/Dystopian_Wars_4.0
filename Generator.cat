@@ -32,9 +32,21 @@
       <modifierGroups>
         <modifierGroup type="and">
           <modifiers>
-            <modifier type="set" value="true" field="hidden" scope="parent" affects="933b-3024-a972-b371"/>
-            <modifier type="set" value="true" field="hidden" scope="parent" affects="61e1-fb01-6250-eb82"/>
-            <modifier type="set" value="true" field="hidden" scope="parent" affects="ad70-77b7-aabe-60c0"/>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="933b-3024-a972-b371" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="61e1-fb01-6250-eb82" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ad70-77b7-aabe-60c0" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </modifierGroup>
       </modifierGroups>
@@ -67,11 +79,109 @@
       </modifiers>
       <infoLinks>
         <infoLink name="Atomic Generator" id="743f-9ae6-0f3e-7923" hidden="false" type="rule" targetId="0cfa-5159-6123-d70d"/>
-        <infoLink name="Agile (1)" id="27fb-ae69-1475-63e0" hidden="false" type="rule" targetId="a1c3-58c9-ce64-9a4a">
+        <infoLink name="Agile (x)" id="27fb-ae69-1475-63e0" hidden="false" type="rule" targetId="a1c3-58c9-ce64-9a4a">
           <modifiers>
             <modifier type="set" value="Agile (x)" field="name"/>
           </modifiers>
         </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chrono Generator" hidden="false" id="89af-8549-7b00-fde7">
+      <infoLinks>
+        <infoLink name="Chrono Generator" id="9461-f246-1d5f-9791" hidden="false" type="rule" targetId="b27d-18ba-5a7b-6fec"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Chang’an Tower Generator" hidden="false" id="1dd7-ae04-4b04-99df">
+      <infoLinks>
+        <infoLink name="Chang’an Tower Generator" id="d936-23ad-9996-86be" hidden="false" type="rule" targetId="1c87-5fdc-e528-b2dd"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Great Wall Generator" hidden="false" id="1d70-c8bf-03d9-3bed">
+      <infoLinks>
+        <infoLink name="Great Wall Generator" id="7c32-98f0-70fe-c18a" hidden="false" type="rule" targetId="f057-7476-d0fc-1fc8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Arc Generator" hidden="false" id="915d-5a82-835c-fb38">
+      <infoLinks>
+        <infoLink name="Arc Generator" id="0ea5-e9be-d2e9-e5d9" hidden="false" type="rule" targetId="f82d-9a8e-e837-aaf9"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Guardian Generator (x)" hidden="false" id="1810-5c4a-8968-58d6">
+      <infoLinks>
+        <infoLink name="Guardian Generator (x)" id="aea9-d1ec-7f16-da82" hidden="false" type="rule" targetId="bc11-8186-dc17-975b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Interphase Generator" hidden="false" id="af9b-699d-bf7d-7d67">
+      <infoLinks>
+        <infoLink name="Interphase Generator" id="7f70-c1c6-423c-eca3" hidden="false" type="rule" targetId="a69a-bfab-9be2-8f1a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Langsam Generator" hidden="false" id="9b5d-476c-95df-0385">
+      <infoLinks>
+        <infoLink name="Langsam Generator" id="42ec-80d2-f618-6451" hidden="false" type="rule" targetId="4789-803c-e41e-625f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Magma Cast Generator" hidden="false" id="aeb2-f4d5-cf30-96ea">
+      <infoLinks>
+        <infoLink name="Magma Cast Generator" id="ce4f-b54a-fd66-c3a6" hidden="false" type="rule" targetId="b7c0-94f4-759a-6996"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Null-Clone Generator" hidden="false" id="bce6-ab24-926a-7b62">
+      <infoLinks>
+        <infoLink name="Null-Clone Generator" id="c888-a2ab-ab75-ff0a" hidden="false" type="rule" targetId="6930-27bf-7792-1b2a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Mirage Generator" hidden="false" id="821b-a7ba-5a0b-d5f1">
+      <infoLinks>
+        <infoLink name="Mirage Generator" id="5342-e034-c9f7-e4b1" hidden="false" type="rule" targetId="5aca-9ea8-34cc-27c0"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Power Transfer Generator" hidden="false" id="ec47-3b48-863a-8974">
+      <categoryLinks>
+        <categoryLink name="Generator" hidden="false" id="f2aa-d2f9-c053-2f34" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Power Transfer Generator" id="6df8-5a7e-4bbf-4e74" hidden="false" type="rule" targetId="ebd0-0308-6a7c-47a5"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Trident Generator" hidden="false" id="d929-6a4f-7eaa-0fa4">
+      <categoryLinks>
+        <categoryLink name="Generator" hidden="false" id="4747-61a7-374a-0fe7" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Trident Generator" id="141a-3132-52ea-e8f0" hidden="false" type="rule" targetId="8851-2147-b72a-6410"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Shockwave Generator" hidden="false" id="3cfe-aa45-fb93-f470">
+      <categoryLinks>
+        <categoryLink name="Generator" hidden="false" id="b1c4-58f2-a7cc-bc51" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Shockwave Generator" id="4689-836f-bde4-1cc9" hidden="false" type="rule" targetId="2478-7bea-d0aa-f54a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Storm Generator" hidden="false" id="ee9e-5a7d-34af-2da2">
+      <categoryLinks>
+        <categoryLink name="Generator" hidden="false" id="8696-6a21-2abe-2ba4" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Storm Generator" id="307b-8260-420a-8735" hidden="false" type="rule" targetId="3bb6-7bf3-c519-25da"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Sentinel Generator" hidden="false" id="7df0-42bc-7975-e346">
+      <categoryLinks>
+        <categoryLink name="Generator" hidden="false" id="1877-1232-06b0-1312" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Sentinel Generator" id="1c25-47f7-e046-8e2d" hidden="false" type="rule" targetId="9200-8bbc-064b-4bb3"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Portal Generator" hidden="false" id="9ea6-af7f-d31d-0739">
+      <categoryLinks>
+        <categoryLink name="Generator" hidden="false" id="0fa9-9e87-1149-d7fe" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Portal Generator" id="d1cf-72d0-10ea-f97f" hidden="false" type="rule" targetId="dfc7-5974-4710-8ff9"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -97,6 +207,156 @@ For the duration of the Movement Step, each model in the unit gains the Skimmer
     </rule>
     <rule name="Shroud Generator" id="78e0-529d-4183-368d" hidden="false">
       <description>This is a Generator and grants the following Unit Benefit: When an Attack action targets this model, each Participating model’s Visibility always counts as Hampered (as described in Environmental  Features on page 117 of the Dystopian Wars Rulebook) unless it is within 5” of the Initial Target and has the same Positional Trait. In addition, when this model Obscures another model’s Visibility during an Attack action, that model’s Visibility will be both Hampered and Obscured.</description>
+    </rule>
+    <rule name="Arc Generator" id="f82d-9a8e-e837-aaf9" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit:
+When this unit makes an Attack action, its Admiral can
+declare that they are Overcharging their weapons.
+For the duration of the Action, all Contributing weapons
+with the Arc (X ) quality gain the Devastating (1) quality,
+or increase the X value of their Devastating quality by 1.
+They also increase the X value of the Arc quality by 1.
+After the Action has been resolved, each model in the unit
+with this System gains 1 Disorder. If it already has 3 levels
+of Disorder, it suffers 1 Damage instead.
+If this Unit Benefit is being conferred by another model
+with the Generator Ship system, then the model with that
+System gains 1 level of Disorder.</description>
+    </rule>
+    <rule name="Trident Generator" id="8851-2147-b72a-6410" hidden="false">
+      <description>This is a Generator. This model’s unit can Flag a Target
+as a Special Action. Only models with a Trident Generator can Participate in this Action. When making this Action, the active Admiral chooses an enemy unit. Each model in that unit that is within 15” of a Participating model is given a Generator Effect token
+(unless it already has one) to show that it is now Flagged. When a Flagged model is the target of an Attack action involving Submerged Weapons, the active Admiral may remove its Generator Effect token at the start of the Count Hits step to convert all Standard Counters in the roll to Standard Strikes. In the Clean Up step of the End Phase, Generator Effect tokens are removed from any remaining Flagged models.</description>
+    </rule>
+    <rule name="Storm Generator" id="3bb6-7bf3-c519-25da" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit: When an Attack or Boarding action targets this model, the opposing Admiral must re-roll any Heavy Strikes in the Action Roll. Additionally, at the end of this model’s Activation, each enemy model in Proximity of at least one model with this System gains 1 level of Disorder.</description>
+    </rule>
+    <rule name="Shockwave Generator" id="2478-7bea-d0aa-f54a" hidden="false">
+      <description>This is a Generator. As a Special Action, this model’s unit can emit a Seismic Blast. Only models with the System may Participate. The active Admiral selects an enemy model within 10” of all Participating models. They then make a Shockwave Roll, using a number of Action Dice equal to the combined Mass rating of all Participating models. For each Exploding Strike that is rolled, the enemy model gains 1 level of Disorder</description>
+    </rule>
+    <rule name="Sentinel Generator" id="9200-8bbc-064b-4bb3" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit: Before the Resolve Exploding Strikes step of an Attack action or SRS Attack Run mission in which this model is the Target, the controlling Admiral may remove 2 Action Dice of their choice from the Action Roll. This System has no effect against Attacks from Assault, Bomb, or Submerged Weapons.</description>
+    </rule>
+    <rule name="Portal Generator" id="dfc7-5974-4710-8ff9" hidden="false">
+      <description>This model’s unit can Weave and Shift Portals, as described in the Portal Technology section of the Sultanate ORBAT.</description>
+    </rule>
+    <rule name="Null-Clone Generator" id="6930-27bf-7792-1b2a" hidden="false">
+      <description>This is a Generator. This model’s unit can Engage Null-Clone Generators as a Special Action. Only models with this System can Participate in this Action. When this Action is made, each enemy model within 5” of a Participating model gains a System Failure Critical
+Damage Effect, unless it already has one. For every System Failure inflicted in this way, the active Admiral can remove a System Failure from a Participating model, or another friendly model within 10” of a Participating model.</description>
+    </rule>
+    <rule name="Mirage Generator" id="5aca-9ea8-34cc-27c0" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit: When an Attack action targets a model in this unit, add Bonus Die to the Resistance Roll for each Participating model that is further than 5” from the Initial Target. Torrent Weapons or weapons with the Indiscriminate quality are not affected by this rule.
+In addition, immediately before the Action Roll is made
+for an Attack action against a model in this unit, its
+Admiral can attempt to enact a Special Valour Effect with it. If successful, the Action immediately ends.
+A unit can attempt this Special Valour Effect only once per Round. Mark the unit with a Valour Effect token, whether the Effect was successfully enacted or not. Remove the Token in the Clean Up step of the End Phase.</description>
+    </rule>
+    <rule name="Chang’an Tower Generator" id="1c87-5fdc-e528-b2dd" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit:
+If any model in this unit is the target of an Attack action,
+add 4 Bonus Dice to the Resistance Pool.</description>
+    </rule>
+    <rule name="Chrono Generator" id="b27d-18ba-5a7b-6fec" hidden="false">
+      <description>This is a Generator and grants the following Unit Benefit:
+When this unit is Activated, its Admiral can choose
+whether or not to engage the Chrono Generator. If they
+do so, make a Group Crew Check for the unit.
+If the Check is passed, and the Value of the drawn card
+is even, each Battle-Ready model in the unit immediately
+recovers 1 Damage.
+If the check is passed, and the Value of the drawn card
+is odd, the first Attack action made during this Activation
+adds 5 Bonus Dice to its Action Pool.
+If the check is passed, and the Value of the drawn card is
+1 or 2, the Admiral can choose one of the above results.
+If the check is failed, each model in the unit gains 1 level
+of Disorder. If a model already has 3 levels of Disorder, it
+suffers 1 Damage instead.</description>
+    </rule>
+    <rule name="Great Wall Generator" id="f057-7476-d0fc-1fc8" hidden="false">
+      <description>This is a Generator.
+While this model is within 5” of another friendly model that
+has the same Positional Trait and a Great Wall Generator, an
+Energy Wall is generated between the two models. This
+takes the form of a straight line, drawn between the Centre
+Points of the two models, and has a Strength equal to the
+highest Mass rating of the two models.
+A single model can generate multiple Energy Walls,
+provided it is within 5” of multiple eligible models.
+Whenever an enemy unit makes an Attack action, trace a
+straight line from the Centre Point of each Participating
+Model to the Centre Point of the Initial Target. For each
+line that passes through an Energy Wall, add Bonus Dice
+equal to the Energy Wall’s Strength to the Resistance
+Roll. If the line passes through multiple Energy Walls,
+the Energy Wall with the highest Strength is counted.
+Attack actions made with Assault, Bomb, or Submerged
+Weapons ignore Energy Walls.</description>
+    </rule>
+    <rule name="Guardian Generator (x)" id="bc11-8186-dc17-975b" hidden="false">
+      <description>This is a Generator.
+This model contributes X Action Dice to its Admiral’s
+Guardian Pool, as described in the Crown ORBAT.</description>
+    </rule>
+    <rule name="Interphase Generator" id="a69a-bfab-9be2-8f1a" hidden="false">
+      <description>This is a Generator. Its effect cannot be conferred to
+another unit via the Generator Ship property.
+If every model in a unit has an Interphase Generator, its
+Admiral can declare that it will Interphase at the end of its
+Consolidation Step. Mark the unit with a Special Effect token.
+All of the models in the unit are Interphasing until the start of
+the unit’s next Activation.
+In the subsequent Round, an Admiral must Activate any
+Interphasing units in their Force before they activate any
+units that are not Interphasing.
+An Interphasing model cannot be targeted by any Actions,
+rules or effects, and cannot gain Damage, Critical Damage
+or Disorder by any means. It cannot Block Visibility (though
+it can still Obscure it as normal) and any Properties and
+Systems it may have other than Interphase Generator are
+ignored. Surface models can Pass Through an Interphasing
+model, but if they do so, they gain 1 level of Disorder.
+In an Interphasing unit’s Movement Step, each model’s
+Maximum Speed rating is doubled, they treat all Terrain
+Features and Environmental Features as Open Water, they
+can Pass Through all other models, and are unaffected by
+Markers of any kind. They cannot Come About, but at the
+end of the move they can freely rotate around their Centre
+Point to face any direction. No model can end its move in
+contact with a Terrain Feature, model or Marker.
+At the end of the Movement Step, the Special Effect token
+is removed, and each other model, friend or foe, that one
+or more models in the active unit Passed Through gains 1
+level of Disorder.
+In the subsequent Action Step, the unit’s Action Limit is
+reduced to 1.
+It cannot Interphase again in its Consolidation step if it
+was Interphased at the start of its Activation.</description>
+    </rule>
+    <rule name="Langsam Generator" id="4789-803c-e41e-625f" hidden="false">
+      <description>This is a Generator. As a Special Action, this model’s unit can Slow an enemy unit, provided it is Visible. Only models with a Langsam Generator can Participate in this Action. When making this Action, the active Admiral chooses an enemy model within 10” of a Participating model to be the Main Target. They then roll a number of Action Dice equal to the number of Participating models, select the die of their choice, and resolve the corresponding result from the table below.
+
+
+&lt;B&gt;Explosive:&lt;/B&gt; The Main Target suffers 1 Critical Damage Effect. In addition, the Main Target’s unit is Slowed (as described below). 
+
+
+&lt;B&gt;Hits:&lt;/B&gt; The Main Target suffers 1 Damage. In addition, the Main Target’s unit is Slowed (as described below). 
+
+
+&lt;B&gt;Counters:&lt;/B&gt; The Main Target’s unit is Slowed (as described below). 
+
+
+&lt;B&gt;Blanck:&lt;/B&gt;Each Participating model suffers a System Failure Critical Damage Effect. 
+
+
+To show that a unit is Slowed, mark it with a Generator
+Effect token. While a unit is Slowed, its Action Limit has a -1 Modifier, and its Maximum Speed is reduced to its Minimum Speed. At the end of the unit’s next Activation, it stops being Slowed and the Generator Effect token is removed.</description>
+    </rule>
+    <rule name="Magma Cast Generator" id="b7c0-94f4-759a-6996" hidden="false">
+      <description>This model’s unit can make a Magma Sear Special Action, as described in the Empire ORBAT</description>
+    </rule>
+    <rule name="Power Transfer Generator" id="ebd0-0308-6a7c-47a5" hidden="false">
+      <description>This is a Generator. When making an Action Roll or Resistance Roll for another Enlightened model within 4” of this model, its Admiral can add 3 Bonus Dice to the Pool. If they do so, this model gains 1 level of Disorder. If it already has 3 Disorder, it suffers 1 Damage instead.</description>
     </rule>
   </sharedRules>
   <catalogueLinks>

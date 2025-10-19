@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="5ca6-5d76-4c4d-04e2" name="Rules Glossary" gameSystemId="1242-c30b-419f-8229" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="5ca6-5d76-4c4d-04e2" name="Rules Glossary" gameSystemId="1242-c30b-419f-8229" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule name="Ablative Armour (x)" id="b869-3539-5cf3-f3f3" hidden="false">
       <description>When this model is targeted by an Attack action, Convert X Exploding Strikes in the Action Roll to Heavy Strikes. Sometimes, this Property will be listed for a specific Arc, e.g. Ablative Armour: Fore (3). In this case, the Property only applies if at least half of the models Participating in the Attack action are within the listed Arc of the Target Model.</description>
@@ -138,13 +138,7 @@ A model with this Property may not attempt Jury-Rigged
 Repairs.</description>
     </rule>
     <rule name="Unexpected Arrival" id="bce0-4bcd-ead5-ead5" hidden="false">
-      <description>When this unit is deployed from Reserve, it can either be
-placed normally, or it can make an Unexpected Arrival.
-When a unit makes an Unexpected Arrival, its Admiral can
-place it anywhere in the Play Area provided that no models
-are placed in Proximity of another model or a Terrain
-Feature. During the unit’s first Activation its Movement
-Step is skipped and its Action Limit has a -1 Modifier.</description>
+      <description>When this unit is deployed from Reserve, it can either be placed normally, or it can make an Unexpected Arrival. When a unit makes an Unexpected Arrival, its Admiral can place it anywhere in the Play Area provided that no models are placed in Proximity of another model or a Terrain Feature. The unit is not marked with an Incoming status token, but when it is Activated later in the Round, its Movement Step is skipped and its Action Limit has a -1 Modifier.</description>
     </rule>
     <rule name="Very Large" id="e830-f4ec-15e9-5ddf" hidden="false">
       <description>A model with this Property suffers no Disorder from
@@ -237,14 +231,7 @@ Automata model within 10” instead. If they do, the Critical
 Damage Effect is not applied.</description>
     </rule>
     <rule name="Mechanical Soul" id="4869-05f3-3b02-6746" hidden="false">
-      <description>Unless this model is suffering from the System Failure
-Critical Damage Effffect, it cannot gain any levels of
-Disorder. Any Disorder that this model gains while
-affected by System Failure is immediately lost as soon as
-the Effect is removed.
-If every model in a unit has this Property then its Admiral
-cannot enact Valour Effffects with it. Special Valour Effffects
-can be enacted as normal.</description>
+      <description>This model’s Crew rating cannot be Modified Models with this Property are unaffected by Valour Effects enacted by their Admiral. They are affected by Special Valour Effects (enacted by either Admiral) as normal.</description>
     </rule>
     <rule name="Maritime Patrol" id="9315-6329-c88e-6a18" hidden="false">
       <description>During Deployment, enemy models cannot be deployed within 10” of this model unless they are fully within  their own Deployment Zone. Additionally, if all models in a unit have this Property, the unit can be deployed in the Deploy an Airborne Unit step and placed anywhere in the Play Area that is at least 15” from the enemy Deployment Zone and not within Proximity of an enemy model.</description>
@@ -276,27 +263,14 @@ of along an Edge.</description>
       <description>Once this model has been Deployed, it cannot move, or be moved, for the rest of the game. Nor can it ever Withdraw. When this model is targeted by an Attack action, the Vulnerable Stern rule does not apply. If this model is Destroyed, replace it with a Wreck marker, positioned over the model’s Centre Point. If this would cause the Marker to be placed in contact with a Terrain Feature, a model, or another Marker, it is not placed.</description>
     </rule>
     <rule name="Raking Strike (x)" id="b8aa-e7c3-3032-4ff7" hidden="false">
-      <description>Once per Activation, as a Special Action, this model’s
-unit can perform a Raking Strike. Only models with this
-Property can Participate.
-This Action targets an enemy model that at least one
-Participating model Passed Through during its Movement
-Step. The Target must have the same Positional Trait or
-be a Surface model.
-The controlling Admiral makes an Action Roll. There is
-no Resistance Roll.
-Action
-Pool
-X Action Dice for each Participating
-model.
-Success
-Threshold
-The Target’s Armour rating.
-For each Success scored in the Action Roll, the Target
-Model suffers 1 Damage. In addition, if the Action Roll
-results in at least one Success, the Target Model gains 1
-level of Disorder.
-RESILIENT</description>
+      <description>Once per Activation, as a Special Action, this model’s unit can perform a Raking Strike, even if it is an Underwater unit. Only models with this Property can Participate. This Action targets an enemy model that at least one Participating model Passed Through during its Movement Step. The Target must have the same Positional Trait or be a Surface model. The controlling Admiral makes an Action Roll. There is no Resistance Roll.
+
+
+&lt;B&gt;Action Pool:&lt;/B&gt; X Action Dice for each Participating model.
+&lt;B&gt;Success Threshold:&lt;/B&gt; The Target’s Armour rating.
+
+
+For each Success scored in the Action Roll, the Target Model suffers 1 Damage. In addition, if the Action Roll results in at least one Success, the Target Model gains 1 level of Disorder.</description>
     </rule>
     <rule name="Lingchi Shadow Jumpers (x)" id="a514-d8bd-ca20-3e92" hidden="false">
       <description>This model’s unit can make Boarding actions that target
@@ -322,12 +296,7 @@ to Standard Strikes.</description>
       <description>Airborne models with this Property do not benefit from the Unconventional Target rule, but count as Scoring Models so  long as they are not Crippled.</description>
     </rule>
     <rule name="Legionnaire Assault Pods (x)" id="6871-0416-21a6-14db" hidden="false">
-      <description>This model can make Boarding actions that target Surface
-models.
-When this model Participates in a Boarding action, it
-contributes X dice to the Action Roll. If the model’s Centre
-Point passed through the Target during the Movement
-Step of this Activation then the value of X is doubled.</description>
+      <description>This model’s unit can make Boarding actions that target Surface models. When this model Participates in a Boarding action, it contributes X dice to the Action Roll. If the model’s Centre Point passed through the Target during the Movement Step of this Activation then the value of X is doubled.</description>
     </rule>
     <rule name="Landstrider" id="9e02-cc15-4cdc-4fd4" hidden="false">
       <description>This model can move into or through Grounding Hazards
@@ -384,25 +353,7 @@ flank batteries can Contribute even if the Target has a
 different Positional Trait.</description>
     </rule>
     <rule name="Ground Assault (x)" id="7778-8760-08b5-14ca" hidden="false">
-      <description>This model’s unit can use a Special Action to make a
-Ground Assault on a single target Territory.
-To Participate in this Action, a model must be within 4”
-of the target Territory and have the Ground Assault (X)
-property.
-When this model Participates in a Ground Assault, its
-Admiral places a Stack of X Landing Party Tokens on
-the target Territory. If there is already a friendly Landing
-Party stack on the Territory, these Tokens are added to
-that stack. This model is then marked with a Depleted
-status token, and no longer counts as having this Property.
-This status token cannot be removed from the model for
-the remainder of the game.
-In the Complete Objectives step of the End Phase, each
-Admiral scores 2 Victory Points for every Territory where
-they have more Landing Party tokens than their opponent.
-Note that Landing Party tokens remain in play even after
-they have scored Victory Points, and may score Victory
-Points again in the End Phase of subsequent Rounds.</description>
+      <description>This model’s unit can use a Special Action to make a Ground Assault on a single target Territory. To Participate in this Action, a model must be within 4” of the target Territory and have the Ground Assault (X) property. When this model Participates in a Ground Assault, its Admiral places a Stack of X Landing Party Tokens on the target Territory. If there is already a friendly Landing Party stack on the Territory, these Tokens are added to that stack. This model is then marked with a Depleted status token, and no longer counts as having this Property. This status token cannot be removed from the model for the remainder of the game. In the Complete Objectives step of the End Phase, each Admiral scores 2 Victory Points for every Territory where they have more Landing Party tokens than their opponent. Note that Landing Party tokens remain in play even after they have scored Victory Points, and may score Victory Points again in the End Phase of subsequent Rounds.</description>
     </rule>
     <rule name="Fusillade" id="3c3c-8e22-35b1-3af3" hidden="false">
       <description>When making a Broadside action, the Admiral can re-roll
@@ -452,28 +403,14 @@ within any of its Arcs, not just Port and Starboard.</description>
       <description>If the opposing Admiral wishes to choose this model as the Target of an Attack or Broadside action, they must first make a Group Crew Check for the active unit. If the Check is failed, the Action ends immediately and the unit counts as having expended an Action. In addition, models with this Property can never benefit from the Raiding Parties rule.</description>
     </rule>
     <rule name="Deceptive Deployment" id="974e-2301-70ce-1e95" hidden="false">
-      <description>During Deployment, this unit can make a Special
-Deployment Action to Redeploy, so long as it has been
-deployed to the Play Area.
-The active Admiral removes the unit from play, then
-deploys it again, following all of the standard rules for
-deployment. A unit can be redeployed to the Reserve, so
-long as it would normally be able to do so.</description>
+      <description>During Deployment, this unit can make a Special Deployment Action to Redeploy, so long as it has been deployed to the Play Area. The active Admiral removes the unit from play, then deploys it again, following all of the standard rules for deployment. A unit can be redeployed to the Reserve, so long as it would normally be able to do so.</description>
     </rule>
     <rule name="Bushi Ryu Dojos (x)" id="0d67-e266-5835-0f1b" hidden="false">
-      <description>This model can make Boarding actions that target Surface
-models. If this model’s unit is Airborne, it can make
-Boarding actions that target Surface or Airborne models.
-When this model Participates in a Boarding action, it
-contributes X dice to the Action Roll. In addition, its
-Admiral can re-roll any Blank results.
-If this model is targeted by a Boarding action, it adds X
-dice to its Resistance Roll. In addition, its Admiral can
-re-roll any Blank results.</description>
+      <description>This model’s unit can make Boarding actions that target Surface models. If this model’s unit is Airborne, it can also make Boarding actions that target Airborne models. When this model  Participates in a Boarding action, it contributes X dice to the Action Roll. In addition, its Admiral can re-roll any Blank results. If this model is targeted by a Boarding action, it adds X
+dice to its Resistance Roll. In addition, its Admiral can re-roll any Blank results.</description>
     </rule>
     <rule name="Boarding Parties (x)" id="3f8d-a077-655f-2cb3" hidden="false">
-      <description>This model’s unit can Participate in Boarding actions that target Surface models. If this model is Participating in a Boarding action, it contributes X dice to the Action Roll.
-If this model is targeted by a Boarding action, it adds X dice to its Resistance Roll.</description>
+      <description>This model’s unit can make Boarding actions that target Surface models. If this model is Participating in a Boarding action, it contributes X dice to the Action Roll. If this model is targeted by a Boarding action, it adds X dice to its Resistance Roll.</description>
     </rule>
     <rule name="Cloud Dive" id="143f-fed3-6d05-8b13" hidden="false">
       <description>When this unit is Deployed, its Admiral must choose to
@@ -518,15 +455,10 @@ the Target suffers a single instance of that Critical
 Damage Effffect.</description>
     </rule>
     <rule name="Azhdaya Berserkers (x)" id="411a-0183-8503-21aa" hidden="false">
-      <description>This model can make Boarding actions that target Surface models. If this model is Airborne and successfully Rams another Airborne model, its unit can make a Boarding action that targets that model in the subsequent Action Step. Only models that Rammed the Target Model can Participate in this Action. When this model Participates in a Boarding action, it contributes X dice to the Action Roll. If the Action Roll scores at least one Success, the target suffers an additional random Critical Damage Effffect after the Boarding action has been resolved. If this model is targeted by a Boarding action, it adds X dice to its Resistance Roll.</description>
+      <description>This model’s unit can make Boarding actions that target Surface models. If this model is Airborne and successfully Rams another Airborne model, its unit can make a Boarding action that targets that model in the subsequent Action Step. Only models that Rammed the Target Model can Participate in this Action. When this model Participates in a Boarding action, it contributes X dice to the Action Roll. If the Action Roll scores at least one Success, the target suffers an additional random Critical Damage Effect after the Boarding action has been resolved. If this model is targeted by a Boarding action, it adds X dice to its Resistance Roll.</description>
     </rule>
     <rule name="Combat Divers (x)" id="5a7d-ffb1-b2c6-8c73" hidden="false">
-      <description>This model can make Boarding actions that target
-Underwater models.
-When this model Participates in a Boarding action, it
-contributes X dice to the Action Roll.
-If this model is targeted by a Boarding action, it adds X
-dice to its Resistance Roll.</description>
+      <description>This model’s unit can make Boarding actions that target Underwater models. When this model Participates in a Boarding action, it contributes X dice to the Action Roll. If this model is targeted by a Boarding action, it adds X dice to its Resistance Roll.</description>
     </rule>
     <rule name="Flight Deck (Srs Type)" id="de1c-b6f4-77c8-258b" hidden="false">
       <description>If a unit contains at least one model with this Property, its
@@ -544,6 +476,21 @@ add 1 SRS token of the listed type.</description>
     </rule>
     <rule name="Specialist" id="8e85-b382-98ad-a009" hidden="false">
       <description>When choosing a Mission for an SRS Stack that contains one or more Tokens with this type, its Admiral must choose from a specific list of Missions, as shown in its ORBAT. This might include Special Missions which are not normally available to SRS tokens. See the Short Range Squadrons section of this Token’s ORBAT for details</description>
+    </rule>
+    <rule name="Portal Strike" id="6cb7-97f4-8515-4487" hidden="false">
+      <description>When this Admiral resolves an Attack Run mission against
+an enemy unit that is within 10” of a Portal marker, they can
+declare a Portal Strike at the start of the Disengage Step by
+discarding a Victory &amp; Valour Card from their hand.
+If they do so, any SRS tokens with this SRS Property
+are not removed from play. Instead, the active Admiral
+chooses a different enemy unit that is within 10” of a
+different Portal marker, and allocates those SRS tokens to
+that unit, either forming a new SRS stack adding them to
+a friendly Stack that is already allocated to it.
+Mark the SRS Stack with a Negative Effect token until
+the Clean Up step of the End Phase to show that it cannot
+make another Portal Strike this Round.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -682,5 +629,42 @@ add 1 SRS token of the listed type.</description>
         <infoLink name="Daredevil Crew" id="4f71-1f3d-9c3a-31b5" hidden="false" type="rule" targetId="dedc-cf59-6818-6d90" exportable="false"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Boarding Parties (x)" hidden="false" id="a0f7-e278-0d24-4771">
+      <infoLinks>
+        <infoLink name="Boarding Parties (x)" id="f9e0-8328-7d95-f796" hidden="false" type="rule" targetId="3f8d-a077-655f-2cb3" exportable="false"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Agile (x)" hidden="false" id="0628-3b7c-b99d-9334">
+      <infoLinks>
+        <infoLink name="Agile (x)" id="6d7f-23b4-1f31-36af" hidden="false" type="rule" targetId="a1c3-58c9-ce64-9a4a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Amphibious" hidden="false" id="e3c1-bb93-0fbd-9b23">
+      <infoLinks>
+        <infoLink name="Amphibious" id="1b0c-691c-99f2-5af7" hidden="false" type="rule" targetId="436a-f751-c4df-d423"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Azhdaya Berserkers (x)" hidden="false" id="9425-597a-1323-d965">
+      <infoLinks>
+        <infoLink name="Azhdaya Berserkers (x)" id="668c-7461-f5e3-05d8" hidden="false" type="rule" targetId="411a-0183-8503-21aa" exportable="false"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dirigible" hidden="false" id="c268-32da-ed02-28a0">
+      <infoLinks>
+        <infoLink name="Dirigible" id="3fbe-de8a-2251-1ca3" hidden="false" type="rule" targetId="b6d4-87ae-3e3d-37de" exportable="false"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Descend" hidden="false" id="b410-6855-4ec4-3c07">
+      <infoLinks>
+        <infoLink name="Descend" id="38e3-837e-f193-3a2f" hidden="false" type="rule" targetId="85d2-d462-cf8a-3d6e" exportable="false"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Stoic" hidden="false" id="d0b5-ddd3-b4b0-2625">
+      <infoLinks>
+        <infoLink name="Stoic" id="2422-667f-4947-680d" hidden="false" type="rule" targetId="487f-4db8-ad20-be52"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
+  <readme>Revision 1: Initial release Ruòes Glossary Beta 2
+Revision 2: Initial release Ruòes Glossary Beta 3</readme>
 </catalogue>

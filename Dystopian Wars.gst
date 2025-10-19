@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1242-c30b-419f-8229" name="Dystopian Wars 4.0" battleScribeVersion="2.03" authorName="Riccardo Sipone" authorContact="siponeric@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false">
+<gameSystem id="1242-c30b-419f-8229" name="Dystopian Wars 4.0" battleScribeVersion="2.03" authorName="Riccardo Sipone" authorContact="siponeric@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false" revision="2">
   <publications>
     <publication id="7f09-e243-2307-78d0" name="Dystopian Rulebook"/>
     <publication id="e265-8c7f-a4b2-a48e" name="Alliance ORBAT"/>
@@ -124,7 +124,7 @@
         <infoLink id="c586-42af-6ae4-39b4" name="Escort Token" hidden="false" targetId="69d6-1736-e601-9751" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="10"/>
         <cost name="Victory Points" typeId="426e-670d-6ddd-9631" value="0"/>
       </costs>
     </selectionEntry>
@@ -138,9 +138,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Mercenary Battlefleet" hidden="false" id="4276-0dac-62d7-f428" collective="false">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="ec6b-8728-72f3-9ff5" includeChildSelections="false"/>
-      </constraints>
       <categoryLinks>
         <categoryLink name="Mercenary Battlefleet" hidden="false" id="6fb2-194b-a8af-3674" targetId="86ff-88da-5a0b-2d81" primary="false"/>
       </categoryLinks>
@@ -150,9 +147,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Specialist Battlefleet" hidden="false" id="1158-6e57-cab4-d521" collective="false">
-      <constraints>
-        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="bf8e-2439-6480-6e3d" includeChildSelections="false"/>
-      </constraints>
       <costs>
         <cost name="Victory Points" typeId="426e-670d-6ddd-9631" value="0"/>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -160,6 +154,33 @@
       <categoryLinks>
         <categoryLink name="Specialist Battlefleet" hidden="false" id="b862-a1fb-e3f2-1953" targetId="50f8-5d04-e502-e289" primary="false"/>
       </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Olympia Levant Drive" hidden="false" id="383b-311f-fb40-7549" sortIndex="1">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="15"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="693e-558e-9059-50cb" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Troop Transport" hidden="false" id="c5b5-9bde-7e64-8089" sortIndex="1">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="10"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc61-c0ca-be48-d816" includeChildSelections="false"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Defensive Mines" hidden="false" id="d501-e65c-adda-0d11" sortIndex="1">
+      <costs>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="20"/>
+        <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
+      </costs>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="462d-5b14-866e-d73e" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -213,5 +234,49 @@
         <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">-</characteristic>
       </characteristics>
     </profile>
+    <profile name="Europa" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="1dff-238f-753d-db0e">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">1</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hermes" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="1e44-79b7-1c26-67da">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">2</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">2</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">5</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Titan" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="a692-bc27-24f8-3f35">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">2</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">7</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
+  <readme>Revision 1: Initial release Rules Beta 2
+Revision 2: Initial release Rules Beta 3 (Complete Alliance ORBAT release)</readme>
 </gameSystem>

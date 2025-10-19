@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="dd9c-c27a-41e0-6c12" name="Weapons" gameSystemId="1242-c30b-419f-8229" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="dd9c-c27a-41e0-6c12" name="Weapon" gameSystemId="1242-c30b-419f-8229" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Torpedo Salvo" hidden="false" id="61fe-f84f-5e2d-d0a6">
       <infoLinks>
@@ -37,16 +37,6 @@
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="6" field="4209-eb47-9807-b834">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="9b5e-cf6f-74a7-95d2" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="8" field="d025-b048-0c22-fad5">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="9b5e-cf6f-74a7-95d2" shared="true"/>
-              </conditions>
-            </modifier>
             <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
@@ -63,14 +53,40 @@
               </conditions>
             </modifier>
             <modifier type="set" value="8" field="4209-eb47-9807-b834">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="87d3-c739-b69f-218d" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="76af-2665-2f3f-6217" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" value="5" field="d025-b048-0c22-fad5">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="87d3-c739-b69f-218d" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="76af-2665-2f3f-6217" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="6" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4831-7502-5a79-b08d" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="8" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4831-7502-5a79-b08d" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </infoLink>
@@ -389,28 +405,13 @@
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="8" field="d025-b048-0c22-fad5">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a04e-009d-e49e-4266" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="4" field="06b8-7f5e-e2df-751a">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a04e-009d-e49e-4266" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
+            <modifier type="prepend" value="Sharpshooter" field="name" join="">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="prepend" value="Precise (1)," field="faa3-d69c-5156-2acf" join=" ">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="prepend" value="Focussed 
-" field="name" join=" ">
+            <modifier type="prepend" value="Focussed
+" field="name" join="">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
               </conditions>
@@ -418,6 +419,21 @@
             <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="8" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a04e-009d-e49e-4266" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="881d-64c8-479e-0635" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="4" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a04e-009d-e49e-4266" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -505,7 +521,7 @@
             </modifier>
             <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
@@ -526,6 +542,11 @@
             <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="4" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ee08-5d68-8637-a5ab" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -581,29 +602,18 @@
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a1a4-f502-0637-4b6b" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="1" field="06b8-7f5e-e2df-751a">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="18e1-a5b9-21ae-2e91" shared="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="6" field="d025-b048-0c22-fad5">
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
                     <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="18e1-a5b9-21ae-2e91" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="18bf-e133-5337-a53b" shared="true"/>
                   </conditions>
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" value="1" field="06b8-7f5e-e2df-751a">
+            <modifier type="set" value="4" field="d025-b048-0c22-fad5">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a1a4-f502-0637-4b6b" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="2" field="06b8-7f5e-e2df-751a">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="18bf-e133-5337-a53b" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="792e-ec04-ae41-18e9" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
@@ -617,14 +627,14 @@
               </conditions>
             </modifier>
             <modifier type="prepend" value="Focussed
-" field="name" join="  ">
+" field="name" join="">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
@@ -681,6 +691,7 @@
           </modifiers>
         </infoLink>
         <infoLink name="Traction" id="5c2c-9bec-63aa-6f75" hidden="false" type="rule" targetId="cb35-186d-1676-7baf"/>
+        <infoLink name="Singular" id="c098-2907-8f0a-c978" hidden="false" type="rule" targetId="fcd7-6280-a4f0-2bc0"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Torpedo Turret" hidden="false" id="fd00-2a5e-c2ea-8e5c">
@@ -861,6 +872,320 @@
         <infoLink name="Torpedo" id="a8aa-f767-743c-82f1" hidden="false" type="rule" targetId="a357-9380-37f6-4124"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Zhalo Rocket Battery" hidden="false" id="9193-ecba-1e3b-cbb7">
+      <infoLinks>
+        <infoLink name="Zhalo Rocket Battery" id="b38c-58b0-ade0-25bc" hidden="false" type="profile" targetId="bc50-b41b-52cc-eacd">
+          <modifiers>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0155-1d26-a09b-982a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0155-1d26-a09b-982a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6329-e738-eb5f-b4bc" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6329-e738-eb5f-b4bc" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1523-10a2-3eca-f6a1" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1523-10a2-3eca-f6a1" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2d8e-78a9-facc-c720" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2d8e-78a9-facc-c720" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f225-a14a-3d73-af14" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f225-a14a-3d73-af14" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Rail (x)" id="904c-3673-435b-1871" hidden="true" type="rule" targetId="028b-6c23-6d1b-a51f">
+          <modifiers>
+            <modifier type="set" value="Rail (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Rail (x)" id="a014-2e06-68bb-1557" hidden="true" type="rule" targetId="028b-6c23-6d1b-a51f">
+          <modifiers>
+            <modifier type="set" value="Rail (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Railgun" hidden="false" id="c889-b6e4-4b9e-9291">
+      <infoLinks>
+        <infoLink name="Railgun" id="c889-313f-aaf6-f05c" hidden="false" type="profile" targetId="a1d1-e7c0-d0a7-b595">
+          <modifiers>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="735f-c476-5b96-f9c0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="735f-c476-5b96-f9c0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="735f-c476-5b96-f9c0" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="32e0-ed43-3e1c-1b87" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="32e0-ed43-3e1c-1b87" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="32e0-ed43-3e1c-1b87" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="da4f-3af2-9a8c-f511" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="da4f-3af2-9a8c-f511" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="da4f-3af2-9a8c-f511" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Rail (x)" id="e323-4af8-6b28-30a6" hidden="true" type="rule" targetId="028b-6c23-6d1b-a51f">
+          <modifiers>
+            <modifier type="set" value="Rail (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Seismic Mortar" hidden="false" id="1087-cb64-fe59-7a28">
+      <infoLinks>
+        <infoLink name="Seismic Mortar" id="832a-83a6-8690-c5f3" hidden="false" type="profile" targetId="4148-234d-38e1-c923">
+          <modifiers>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4fca-a290-d7b6-ad28" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4fca-a290-d7b6-ad28" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5f41-2a9c-b0b8-fb33" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5f41-2a9c-b0b8-fb33" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8254-9993-cc1e-3111" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8254-9993-cc1e-3111" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="41e5-7b23-646e-de4e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="1" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="41e5-7b23-646e-de4e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Rail (x)" id="27b9-995b-cb04-abbc" hidden="true" type="rule" targetId="028b-6c23-6d1b-a51f">
+          <modifiers>
+            <modifier type="set" value="Rail (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Heavy Gun Battery" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="f4c2-399d-bb80-8ab7">
@@ -913,7 +1238,7 @@
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
         <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
         <characteristic name="S" typeId="d025-b048-0c22-fad5">5</characteristic>
-        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">1</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Barrage</characteristic>
       </characteristics>
     </profile>
@@ -931,7 +1256,7 @@
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
         <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
         <characteristic name="S" typeId="d025-b048-0c22-fad5">7</characteristic>
-        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">3</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Barrage</characteristic>
       </characteristics>
     </profile>
@@ -989,6 +1314,33 @@
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Aerial&lt;/B&gt;, Breach (1), High Velocity (3), Torpedo</characteristic>
       </characteristics>
     </profile>
+    <profile name="Railgun" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="a1d1-e7c0-d0a7-b595">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">4</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">4</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">4</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Rail (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Seismic Mortar" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="4148-234d-38e1-c923">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">4</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">1</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Hazard (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Zhalo Rocket Battery" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="bc50-b41b-52cc-eacd">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">4</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">2</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">All Around, Barrage</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Submerged" id="0223-a895-90c5-d133" hidden="false" publicationId="129d-da97-caec-1ddd">
@@ -1010,7 +1362,8 @@
       <description>If the Initial Target of this Attack action suffers at least 1 Damage, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. If one or more dice show a Navigation Lock result, the Initial Target suffers one Critical Damage Effffect of that type. This is a Critical Damage Quality. If multiple different Critical Damage Qualities apply to an Attack, the Admiral makes a separate roll for each one.</description>
     </rule>
     <rule name="Barrage" id="9813-d4e2-c748-6f68" hidden="false">
-      <description>This weapon cannot Contribute to an Attack action if the Initial Target is an Underwater model. If all weapons Contributing to an Attack action have this Quality and the target is an Airborne model, only Standard Strikes in the Resistance Roll are converted to Standard Counters by the Unconventional Target rule.</description>
+      <description>If all weapons Contributing to an Attack action have this Quality and the target is an Airborne model, only Standard Strikes in the Resistance Roll are converted to Standard
+Counters by the Unconventional Target rule.</description>
     </rule>
     <rule name="Singular" id="fcd7-6280-a4f0-2bc0" hidden="false">
       <description>Weapons with this Special Attack Quality are Singular Weapons. See Singular Weapons on page 92 of the Dystopian Wars Rulebook.</description>
@@ -1022,12 +1375,10 @@
       <description>If an Attack action involving this weapon scores a number of Successes equal to or greater than the Mass rating of the Initial Target, the active Admiral may select one Contributing weapon with this Quality. The Initial Target immediately moves 4” directly towards the model on which that weapon is mounted, without changing its facing. Any Collisions that result from this move are resolved as normal.</description>
     </rule>
     <rule name="Hazard (x)" id="e581-2eac-7604-55e6" hidden="false">
-      <description>If the Initial Target of this Attack action suffers at least 1 Damage, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. If one or more dice show a Hazard result, the Initial Target suffers one Critical Damage Effect of that type. This is a Critical Damage Quality. If multiple different Critical Damage Qualities apply to an Attack, the Admiral
-makes a separate roll for each one.</description>
+      <description>If the Initial Target of this Attack action suffers at least 1 Damage, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. If one or more dice show a Hazard result, the Initial Target suffers one Critical Damage Effect of that type. This is a Critical Damage Quality. If multiple different Critical Damage Qualities apply to an Attack, the Admiral makes a separate roll for each one.</description>
     </rule>
     <rule name="Precise (x)" id="1c25-9329-32cc-b4f8" hidden="false">
-      <description>If the Initial Target of this Attack action suffers at least 1 Damage, the active Admiral chooses a Critical Damage
-Effect. After the Effect has been announced to the opposing Admiral, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. If at least one die matches the declared Effect, a single instance of that Effect is immediately applied to the Target.</description>
+      <description>If the Initial Target of this Attack action suffers at least 1 Damage, the active Admiral chooses a Critical Damage Effect. After the Effect has been announced to the opposing Admiral, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. If at least one die matches the declared Effect, a single instance of that Effect is immediately applied to the Target.</description>
     </rule>
     <rule name="Bomb" id="7979-1ca9-958e-b3f0" hidden="false">
       <description>Weapons with this Special Attack Quality are Bomb Weapons, and can only Contribute to an Attack action if all Contributing weapons are also Bomb Weapons. See Bomb Weapons on page 91 of the Dystopian Wars Rulebook. In addition, if a Bomb Weapon is mounted on a model whose Centre Point passed through the Initial Target during the Movement Step of this Activation, each of its Firepower ratings are doubled.</description>
@@ -1038,6 +1389,110 @@ Effect. After the Effect has been announced to the opposing Admiral, the activ
     <rule name="High Velocity (x)" id="de0b-036f-5c48-75ff" hidden="false">
       <description>At the start of the Count Hits step of this Attack, each Contributing weapon with this Quality allows the active Admiral to convert X Heavy Counters in the Resistance Roll to Standard Counters.</description>
     </rule>
+    <rule name="Rail (x)" id="028b-6c23-6d1b-a51f" hidden="false">
+      <description>In the Resolve Exploding Strikes step of the Action Roll for this Attack action, the first X Exploding Strikes cause two additional Action Dice to be rolled, instead of one. If multiple Contributing weapons have this Quality, their X values are combined.</description>
+    </rule>
+    <rule name="Indirect" id="ddb4-9437-c0dc-cc06" hidden="false">
+      <description>This weapon does not need to confirm Visibility to the Initial Target to Contribute to an Attack action. However, for each Indirect weapon that Contributes to an Attack where Visibility to the Initial Target is Blocked, add 3 Bonus Dice to the Resistance Roll. This weapon cannot Contribute to an Attack if the Initial Target is an Airborne model.</description>
+    </rule>
+    <rule name="Agitation" id="4b7a-ced9-69e6-44d2" hidden="false">
+      <description>This weapon has a variable Firepower rating. If listed as MAS, its Firepower is equal to the Mass rating of the Initial Target. If listed as 2 MAS, it is equal to twice the Mass rating of the Initial Target, and so on. If this Quality has an X value listed, the weapon’s Firepower cannot be greater than X.</description>
+    </rule>
+    <rule name="Alchemical" id="597c-c5e8-35f4-f082" hidden="false">
+      <description>After resolving this Attack action, the Initial Target immediately gains 1 level of Disorder, regardless of whether it suffered any Damage. A model cannot be affected by this Quality more than once during a single Action Step.</description>
+    </rule>
+    <rule name="All Around" id="8e45-241a-8a1d-6c7b" hidden="false">
+      <description>When Declaring Contributing Weapons for an Attack action, this weapon can Contribute regardless of which Targeting Arc the Initial Target is in.</description>
+    </rule>
+    <rule name="Arc (x)" id="4fc1-1e80-7770-dbdc" hidden="false">
+      <description>Before making the Action Roll for an Attack action, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. If any die shows a System  failure, the Initial Target immediately suffers a single System Failure Critical Damage Effect. If the Initial Target already has a System Failure, this Quality has no effect.</description>
+    </rule>
+    <rule name="Assault" id="3856-2806-f502-9b89" hidden="false">
+      <description>Weapons with this Special Attack Quality are Assault Weapons, and can only Contribute to an Attack action if all Contributing weapons are also Assault Weapons. See Assault Weapons on page 91 of the Dystopian Wars Rulebook.</description>
+    </rule>
+    <rule name="Aquatic" id="139c-5444-7bb8-52ee" hidden="false">
+      <description>An Underwater unit may make an Attack action if all Contributing weapons have this Quality, and the Initial Target is also an Underwater model.</description>
+    </rule>
+    <rule name="Blast (x)" id="dabd-cfc0-94a2-6673" hidden="false">
+      <description>After choosing a model to be the Initial Target, the active Admiral chooses a point on the model. Every other model (friend or foe) that is within 3” of this point and shares a Positional Trait with the Initial Target is a Secondary Target. After this Attack action has been resolved, the active Admiral makes a separate Action Roll for each Secondary
+Target. There is no Resistance Roll.
+
+
+&lt;B&gt;Action Pool:&lt;/B&gt;  X Action Dice for each Contributing weapon with this Quality.
+&lt;B&gt;Success Threshold:&lt;/B&gt; The Armour rating of the Secondary Target.
+
+
+For each Success scored in the Action Roll, the Secondary Target suffers 1 Damage.</description>
+    </rule>
+    <rule name="Celerity" id="18c5-20d8-4c86-4b78" hidden="false">
+      <description>After this Attack has been resolved, the active Admiral can attempt to enact a Special Valour Effect with the active unit. If the effect is successfully enacted, this unit can immediately make a Follow-Up Attack. First, each model in this unit that has a weapon with this Quality can immediately Pivot and move up to 4” straight forwards. Then, this unit makes another Attack action, which does not count towards its Action limit. Only weapons with this quality can Contribute to this action. A unit can only make one Follow-Up Attack per Activation</description>
+    </rule>
+    <rule name="Cruor (Trait)" id="0266-8041-c831-bae0" hidden="false">
+      <description>After resolving an Attack action in which one or more weapons with this Quality Contributed, the active Admiral may attempt to enact a Special Valour Effect with the active unit.
+If successful, each model within 10” of the Initial Target gains 1 level of Disorder, unless they have the listed Trait.</description>
+    </rule>
+    <rule name="Deathblow" id="4334-3653-27f1-d89f" hidden="false">
+      <description>When declaring an Attack action with a unit that has at least one weapon with this Quality, they can announce that they will attempt a Deathblow. After the Declare Contributing Weapons step, the Admiral makes a Group Crew Check for the Participating models. If the Check is passed then each weapon in the unit with this Quality doubles each of its  Firepower ratings, but counts as having the Intensive quality.</description>
+    </rule>
+    <rule name="Devastating (x)" id="ec96-edd2-053f-9053" hidden="false">
+      <description>At the start of the Resolve Exploding Strikes step of an Attack action, each  Contributing weapon with this Quality allows the active Admiral to convert up to X Heavy Strikes in the Action Roll to Exploding Strikes.</description>
+    </rule>
+    <rule name="Enhanced Solex (x)" id="ce77-780b-7dc9-7fa4" hidden="false">
+      <description>After the Resolve Exploding Strikes step of an Attack action, each Contributing weapon with this Quality allows the active Admiral to convert up to X Counters in the Action Roll into equivalent Strikes. (Standard Counters become Standard Strikes, and Heavy Counters become Heavy Strikes.)</description>
+    </rule>
+    <rule name="Homing" id="d261-4fdc-1254-debc" hidden="false">
+      <description>If at least half of the weapons Contributing to an Attack action have this Quality, the Resistance Roll does not gain any Bonus Dice for Obscured or Hampered Visibility.</description>
+    </rule>
+    <rule name="Indiscriminate" id="f032-893f-f777-8551" hidden="false">
+      <description>If at least half of the weapons Contributing to an Attack action have this Quality, the Resistance Roll does not gain any Bonus Dice for Obscured or Hampered Visibility.
+Additionally, after this Action has been resolved, roll an Action Die for each Escort token accompanying the target’s unit. On any Strike result, the Token is immediately discarded.</description>
+    </rule>
+    <rule name="Intensive" id="a26d-8530-ab29-85fc" hidden="false">
+      <description>If at least one weapon with this Quality Contributes to an Attack action, the active unit counts as having spent an additional Action. If the unit does not have enough Actions remaining, weapons with this Quality cannot Contribute to the Action</description>
+    </rule>
+    <rule name="Invalid Target (Trait)" id="5016-22b7-fc81-f5dd" hidden="false">
+      <description>This weapon cannot Contribute to an Attack action if the Initial Target has any of the listed Traits.</description>
+    </rule>
+    <rule name="Kingslayer" id="d295-c909-2d3d-d153" hidden="false">
+      <description>Increase each of this weapon’s Firepower ratings by an amount equal to the Mass rating of the Initial Target. Firepower ratings that do not have a value are not increased.</description>
+    </rule>
+    <rule name="Optimal Target (trait)" id="c27d-5d82-381a-f09a" hidden="false">
+      <description>If the Initial Target has all of the listed Traits, increase each of this weapon’s Firepower ratings by X. Firepower ratings that do not have a value are not increased.</description>
+    </rule>
+    <rule name="Powered" id="ef72-b196-a487-05c0" hidden="false">
+      <description>This weapon cannot Contribute to an Attack action if the model on which it is  mounted has a System Failure Critical Damage Effect.</description>
+    </rule>
+    <rule name="Shredded Defences" id="9175-a434-4ad5-0c6d" hidden="false">
+      <description>If the Initial Target of this Attack action suffers at least 1 Damage, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. If one or more dice show Shredded Defences result, the Initial Target suffers one Critical Damage Effect of that type. This is a Critical Damage Quality. If multiple different Critical Damage Qualities apply to an Attack, the Admiral makes a separate roll for each one.</description>
+    </rule>
+    <rule name="Structural Failure (x)" id="def3-61b3-b532-1ab7" hidden="false">
+      <description>If the Initial Target of this Attack action suffers at least 1  Damage, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. If one or more dice show a Structural Failure result, the Initial Target suffers one Critical Damage Effect of that type. This is a Critical Damage Quality. If multiple different Critical Damage Qualities apply to an Attack, the Admiral makes a separate roll for each one</description>
+    </rule>
+    <rule name="Sympathetic Detonation" id="eb71-060a-d98a-b698" hidden="false">
+      <description>When making an Attack action in which one or more weapons with this Quality is Contributing, the active Admiral may convert a single Heavy Strike into an Exploding Strike for  each model with the Mindless Storm property within 20” of the Initial Target. This conversion happens at the start of the Resolve Exploding Strikes step.</description>
+    </rule>
+    <rule name="Synergy" id="2d82-1074-368d-58e1" hidden="false">
+      <description>For each additional weapon with this Quality (above one) that Contributes to this Attack action, increase each of those weapons’ Firepower ratings by 1. Firepower ratings that do not have a value are not increased.</description>
+    </rule>
+    <rule name="System Failure" id="e698-9f99-5f8d-38da" hidden="false">
+      <description>If the Initial Target of this Attack action suffers at least 1 Damage, the active Admiral rolls X Critical Damage Dice for each Contributing weapon with this Quality. If one or more dice show a System Failure result, the Initial Target suffers one Critical Damage Effect of that type. This is a Critical Damage Quality. If multiple different Critical Damage Qualities apply to an Attack, the Admiral makes a separate roll for each one.</description>
+    </rule>
+    <rule name="Torrent (x)" id="7ef7-fad7-5567-7bdb" hidden="false">
+      <description>Weapons with this Special Attack Quality are Torrent Weapons, and can only Contribute to an Attack action if all Contributing weapons are also Torrent Weapons. See Torrent Weapons on page 92 of the Dystopian Wars Rulebook.</description>
+    </rule>
+    <rule name="Tracer" id="a31f-6c9b-73af-b995" hidden="false">
+      <description>After resolving an Attack action in which one or more  weapons with this Quality is Contributing, the Initial Target is Marked. Track this by placing a Negative Effect token on the Initial Target. When any unit makes an Attack action that targets a Marked model, the active Admiral re-rolls any Blanks in the Action Roll. Remove the Negative Effect token in the Clean Up step of the End Phase.</description>
+    </rule>
+    <rule name="Traction" id="3395-2aa7-2050-98d7" hidden="false">
+      <description>If an Attack action involving this weapon scores a number of Successes equal to or greater than the Mass rating of the Initial Target, the active Admiral may select one Contributing weapon with this Quality. The Initial Target immediately moves 4” directly towards the model on which that weapon is mounted, without changing its facing. Any
+Collisions that result from this move are resolved as normal.</description>
+    </rule>
+    <rule name="Triangulate (x)" id="8993-09a3-2987-505e" hidden="false">
+      <description>If the Initial Target of this Attack action is within 15” of a friendly model with the Hydrophone Relay system, increase each of this weapon’s Firepower ratings by X. Firepower ratings that do not have a value are not increased.</description>
+    </rule>
+    <rule name="Voltaic (x)" id="84d1-52a7-a6b0-16c6" hidden="false">
+      <description>If the Initial Target of this Attack action has one or more Generators, increase each of this weapon’s Firepower ratings by X. Firepower ratings that do not have a value are not increased.</description>
+    </rule>
   </sharedRules>
   <categoryEntries>
     <categoryEntry name="FPS" id="925a-b2a6-a2d1-ac36" hidden="true"/>
@@ -1047,26 +1502,46 @@ Effect. After the Effect has been announced to the opposing Admiral, the activ
     <categoryEntry name="FPSA" id="868d-ad37-4608-319f" hidden="true"/>
     <categoryEntry name="FPA" id="2232-2cbc-0823-6de7" hidden="true"/>
     <categoryEntry name="FSA" id="40f3-b1dc-a85f-1bbb" hidden="true"/>
-    <categoryEntry name="S46-" id="3fbe-12c7-d1f5-f7a8" hidden="true"/>
-    <categoryEntry name="S24-" id="3d66-9c0f-32b0-d49a" hidden="true"/>
-    <categoryEntry name="S106-" id="0339-c25f-7002-d5de" hidden="true"/>
-    <categoryEntry name="S85-" id="87d3-c739-b69f-218d" hidden="true"/>
-    <categoryEntry name="S84-" id="9025-2fa4-d17a-e4b3" hidden="true"/>
-    <categoryEntry name="S71-" id="2b05-fa32-d8aa-82bd" hidden="true"/>
-    <categoryEntry name="S74-" id="e80c-54f0-04f0-19fe" hidden="true"/>
-    <categoryEntry name="S6--" id="a30e-10a0-b8e2-c7ae" hidden="true"/>
-    <categoryEntry name="S61-" id="e71c-fa51-cf02-6b09" hidden="true"/>
-    <categoryEntry name="S47-" id="58aa-74dd-acc9-f6a1" hidden="true"/>
-    <categoryEntry name="S-71" id="a1a4-f502-0637-4b6b" hidden="true"/>
-    <categoryEntry name="S-61" id="18e1-a5b9-21ae-2e91" hidden="true"/>
+    <categoryEntry name="LGB46-" id="3fbe-12c7-d1f5-f7a8" hidden="true"/>
+    <categoryEntry name="LGB24-" id="3d66-9c0f-32b0-d49a" hidden="true"/>
+    <categoryEntry name="HL106-" id="0339-c25f-7002-d5de" hidden="true"/>
+    <categoryEntry name="HL85-" id="87d3-c739-b69f-218d" hidden="true"/>
+    <categoryEntry name="HL84-" id="9025-2fa4-d17a-e4b3" hidden="true"/>
+    <categoryEntry name="HLt71-" id="2b05-fa32-d8aa-82bd" hidden="true"/>
+    <categoryEntry name="HL74-" id="e80c-54f0-04f0-19fe" hidden="true"/>
+    <categoryEntry name="HLt6--" id="a30e-10a0-b8e2-c7ae" hidden="true"/>
+    <categoryEntry name="HLt61-" id="e71c-fa51-cf02-6b09" hidden="true"/>
+    <categoryEntry name="LGB47-" id="58aa-74dd-acc9-f6a1" hidden="true"/>
+    <categoryEntry name="LRB-7-" id="a1a4-f502-0637-4b6b" hidden="true"/>
+    <categoryEntry name="LRB-6-" id="18e1-a5b9-21ae-2e91" hidden="true"/>
     <categoryEntry name="Sharpshooter" id="94d8-d848-43a5-d84f" hidden="true"/>
-    <categoryEntry name="S-84" id="a04e-009d-e49e-4266" hidden="true"/>
+    <categoryEntry name="HRB-84" id="a04e-009d-e49e-4266" hidden="true"/>
     <categoryEntry name="Focussed" id="cca6-2932-4e61-2970" hidden="true"/>
-    <categoryEntry name="S-62" id="18bf-e133-5337-a53b" hidden="true"/>
-    <categoryEntry name="S444" id="6035-83da-2deb-031d" hidden="true"/>
-    <categoryEntry name="S-68" id="3d7a-9761-fdb3-7b53" hidden="true"/>
-    <categoryEntry name="S68-" id="9b5e-cf6f-74a7-95d2" hidden="true"/>
+    <categoryEntry name="TT444" id="6035-83da-2deb-031d" hidden="true"/>
+    <categoryEntry name="HMB-68" id="3d7a-9761-fdb3-7b53" hidden="true"/>
     <categoryEntry name="AS" id="3efb-647e-5bee-802e" hidden="true"/>
     <categoryEntry name="AP" id="38d7-3e65-b5bc-195a" hidden="true"/>
+    <categoryEntry name="RG333" id="32e0-ed43-3e1c-1b87" hidden="false"/>
+    <categoryEntry name="HGB85-" id="76af-2665-2f3f-6217" hidden="true"/>
+    <categoryEntry name="HGB68-" id="4831-7502-5a79-b08d" hidden="true"/>
+    <categoryEntry name="HRB-8-" id="881d-64c8-479e-0635" hidden="true"/>
+    <categoryEntry name="LRB-4-" id="792e-ec04-ae41-18e9" hidden="true"/>
+    <categoryEntry name="HLt41-" id="ee08-5d68-8637-a5ab" hidden="false"/>
+    <categoryEntry name="RG555" id="735f-c476-5b96-f9c0" hidden="false"/>
+    <categoryEntry name="RG222" id="da4f-3af2-9a8c-f511" hidden="false"/>
+    <categoryEntry name="SM-63" id="4fca-a290-d7b6-ad28" hidden="true"/>
+    <categoryEntry name="SM-61" id="5f41-2a9c-b0b8-fb33" hidden="true"/>
+    <categoryEntry name="SM-51 " id="8254-9993-cc1e-3111" hidden="true"/>
+    <categoryEntry name="SM-31" id="41e5-7b23-646e-de4e" hidden="true"/>
+    <categoryEntry name="ZRB-63" id="0155-1d26-a09b-982a" hidden="true"/>
+    <categoryEntry name="ZRB-31" id="f225-a14a-3d73-af14" hidden="true"/>
+    <categoryEntry name="ZRB-61" id="6329-e738-eb5f-b4bc" hidden="true"/>
+    <categoryEntry name="ZRB-53" id="1523-10a2-3eca-f6a1" hidden="true"/>
+    <categoryEntry name="ZRB-52" id="2d8e-78a9-facc-c720" hidden="true"/>
+    <categoryEntry name="P" id="013a-596b-b78b-1795" hidden="true"/>
+    <categoryEntry name="A" id="7369-1efe-1c3d-31ee" hidden="true"/>
+    <categoryEntry name="S" id="85d1-e166-cdd4-b59f" hidden="true"/>
   </categoryEntries>
+  <readme>Revision 1: Initial release Rules Glossary Beta 2
+Revision 2: Initial release Rules Glossary Beta 3 (complete Alleance ORBAT)</readme>
 </catalogue>

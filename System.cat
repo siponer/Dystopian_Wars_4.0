@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="85b3-1e07-6cca-b9a3" name="System" gameSystemId="1242-c30b-419f-8229" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="85b3-1e07-6cca-b9a3" name="System" gameSystemId="1242-c30b-419f-8229" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Priority Signals" hidden="false" id="d67c-9c2f-2438-8d6c" exportable="false">
       <rules>
         <rule name="Priority Signals" id="1d09-3821-b3e0-47ec" hidden="false">
-          <description>When attempting to enact a Valour Effect, but before
-the opposing Admiral declares whether or not they will
-attempt to Deny it, this model’s Admiral can declare that
-they are using Priority Signals, provided they have at least
-one model with this System in the Play Area.
-ORDER OF BATTLE PREVIEW
-20
-If they do so, the Value of the Valour card is treated as
-being 2 higher, to a maximum of 12.
-An Admiral can only use Priority Signals once per Round,
-even if their Force contains multiple models with this
-System.</description>
+          <description>When attempting to enact a Valour Effect, but before the opposing Admiral declares whether or not they will attempt to Deny it, this model’s Admiral can declare that they are using Priority Signals, provided they have at least one model with this System in the Play Area. If they do so, the Value of the Valour card is treated as being 2 higher, to a maximum of 12.
+An Admiral can only use Priority Signals once per Round, even if their Force contains multiple models with this System.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -181,20 +171,14 @@ Obscured.</description>
     <selectionEntry type="upgrade" import="true" name="Freya Array" hidden="false" id="4566-977a-21b8-c930" exportable="false">
       <rules>
         <rule name="Freya Array" id="364f-70e2-3c43-1698" hidden="false">
-          <description>This System provides the following Unit Benefit:
-When this unit makes an Attack action against an
-Underwater model, the controlling Admiral may re-roll
-any Blanks in the Action Roll.
-In addition, any Group Crew Checks taken as a result of
-such an Action, as required by the Blow the Tanks rule,
-have -1 Modifier to the models’ Crew ratings</description>
+          <description>This model’s unit can make a Special Action to generate a Disruptive Pulse. Only models in the unit with a Freya Array can Participate. When this Special Action is resolved, each enemy model within 10” of at least one Participating model gains 1 level of Disorder. Underwater units that gain Disorder in this way are subject to the Blow the Tanks rule.</description>
         </rule>
       </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Generator Ship" hidden="false" id="c085-bdeb-98fa-ec5f" exportable="false">
       <rules>
         <rule name="Generator Ship" id="6915-fd4c-4bff-9179" hidden="false">
-          <description>Generators mounted on this model provide Unit Benefits to all friendly models within 10” with the same Positional Trait.</description>
+          <description>Generators mounted on this model provide Unit Benefits to all friendly models within 7” with the same Positional  Trait.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -282,12 +266,7 @@ Action, as described in the Commonwealth ORBAT.</description>
     <selectionEntry type="upgrade" import="true" name="Defensive (x)" hidden="false" id="28bb-9094-4262-e5e5" exportable="false">
       <rules>
         <rule name="Defensive (x)" id="4574-5bf6-b7de-234f" hidden="false">
-          <description>When a model is targeted by an Attack action, add X
-Bonus Dice to the Resistance Pool for each friendly model
-within 4” that has this System and is Obscuring at least
-one Participating model’s Visibility. This benefit applies
-even if other rules would cause the Attack to ignore the
-effects of Obscured Visibility.</description>
+          <description>When a model is targeted by an Attack action, add X Bonus Dice to the Resistance Pool for each friendly model within 4” that has this System and is Obscuring at least one Participating model’s Visibility. This benefit applies even if other rules would cause the Attack to ignore the effects of Obscured Visibility.</description>
         </rule>
       </rules>
     </selectionEntry>
@@ -374,4 +353,6 @@ System, it recovers 1 Damage.</description>
       </rules>
     </selectionEntry>
   </sharedSelectionEntries>
+  <readme>Revision 1: Initial release Ruòes Glossary Beta 2
+Revision 2: Initial release Ruòes Glossary Beta 3</readme>
 </catalogue>

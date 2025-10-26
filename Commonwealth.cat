@@ -9374,13 +9374,14 @@
         <categoryLink name="Surface" hidden="false" id="10a3-5707-ea72-9f1c" targetId="9c42-b68b-9adf-01c5" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Moskva" hidden="false" id="4a53-527d-a3fa-13a9" type="selectionEntry" targetId="744f-7a57-5449-3563" sortIndex="3"/>
-        <entryLink import="true" name="Escort Token" hidden="false" id="0c11-269c-577a-f28f" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
+        <entryLink import="true" name="Moskva" hidden="false" id="4a53-527d-a3fa-13a9" type="selectionEntry" targetId="744f-7a57-5449-3563" sortIndex="4"/>
+        <entryLink import="true" name="Escort Token" hidden="false" id="0c11-269c-577a-f28f" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="false" id="ebf3-dcf8-706b-8798" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="12af-bf0a-a304-53f3" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="1"/>
+        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="12af-bf0a-a304-53f3" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="2"/>
+        <entryLink import="true" name="Fleet Doctrine" hidden="false" id="c8bf-cb9b-e789-491a" type="selectionEntryGroup" targetId="479d-3f6e-7b7f-37f1" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -9472,8 +9473,9 @@
         <categoryLink name="Airborne" hidden="false" id="97cb-b7af-5229-1e7b" targetId="933b-3024-a972-b371" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Khodynka" hidden="false" id="f84b-9ef7-036b-1b2c" type="selectionEntry" targetId="bb1c-6b3f-1877-abff" sortIndex="2"/>
-        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="f9ff-2a81-8016-be36" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="1"/>
+        <entryLink import="true" name="Khodynka" hidden="false" id="f84b-9ef7-036b-1b2c" type="selectionEntry" targetId="bb1c-6b3f-1877-abff" sortIndex="3"/>
+        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="f9ff-2a81-8016-be36" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="2"/>
+        <entryLink import="true" name="Fleet Doctrine" hidden="false" id="40a3-d0a0-e1d0-150d" type="selectionEntryGroup" targetId="479d-3f6e-7b7f-37f1" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -9511,8 +9513,9 @@
         <categoryLink name="Airborne" hidden="false" id="d526-3bc6-ce8c-c6bc" targetId="933b-3024-a972-b371" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Krasnaya" hidden="false" id="5605-accd-b820-bbe9" type="selectionEntry" targetId="440e-8c0a-12bc-3f06" sortIndex="2"/>
-        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="711c-4fd6-a205-8ea6" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="1"/>
+        <entryLink import="true" name="Krasnaya" hidden="false" id="5605-accd-b820-bbe9" type="selectionEntry" targetId="440e-8c0a-12bc-3f06" sortIndex="3"/>
+        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="711c-4fd6-a205-8ea6" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="2"/>
+        <entryLink import="true" name="Fleet Doctrine" hidden="false" id="15a7-5144-01a0-4d1f" type="selectionEntryGroup" targetId="479d-3f6e-7b7f-37f1" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -9740,6 +9743,7 @@
             <constraint type="max" value="4" field="selections" scope="parent" shared="false" id="6400-c29e-5c57-b442" includeChildSelections="false"/>
           </constraints>
         </entryLink>
+        <entryLink import="true" name="Fleet Doctrine" hidden="false" id="79da-ed75-7797-60ed" type="selectionEntryGroup" targetId="479d-3f6e-7b7f-37f1" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -9988,13 +9992,14 @@
         <categoryLink name="Russian" hidden="false" id="aac2-cd67-fd4a-67d6" targetId="e5a9-4fb8-e4d4-48d8" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Escort Token" hidden="false" id="c043-e60c-731b-a7c5" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
+        <entryLink import="true" name="Escort Token" hidden="false" id="c043-e60c-731b-a7c5" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="false" id="54f8-88e6-ce33-71ca" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Murmansk" hidden="false" id="cbdc-80af-901d-924f" type="selectionEntry" targetId="01c3-32a3-0c50-fb08" sortIndex="3"/>
-        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="db85-a4e2-fd24-4c52" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="1"/>
+        <entryLink import="true" name="Murmansk" hidden="false" id="cbdc-80af-901d-924f" type="selectionEntry" targetId="01c3-32a3-0c50-fb08" sortIndex="4"/>
+        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="db85-a4e2-fd24-4c52" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="2"/>
+        <entryLink import="true" name="Fleet Doctrine" hidden="false" id="3ea1-08bd-f411-4745" type="selectionEntryGroup" targetId="479d-3f6e-7b7f-37f1" sortIndex="1"/>
       </entryLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1c2b-82b8-da67-16e7" includeChildSelections="false"/>
@@ -10636,7 +10641,8 @@
         <categoryLink name="Underwater" hidden="false" id="7c9b-1c28-c853-417b" targetId="ac76-78d6-94ba-0b56" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Death Bringer" hidden="false" id="9404-5cb8-0d09-70e7" type="selectionEntry" targetId="e159-2d0a-fa3b-5773" sortIndex="3"/>
+        <entryLink import="true" name="Death Bringer" hidden="false" id="9404-5cb8-0d09-70e7" type="selectionEntry" targetId="e159-2d0a-fa3b-5773" sortIndex="1"/>
+        <entryLink import="true" name="Fleet Doctrine" hidden="false" id="94db-789f-db70-6387" type="selectionEntryGroup" targetId="479d-3f6e-7b7f-37f1" sortIndex="2"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -10665,8 +10671,9 @@
         <categoryLink name="Russian" hidden="false" id="8ed6-a1ca-bef1-14d2" targetId="e5a9-4fb8-e4d4-48d8" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Alexeyev" hidden="false" id="a442-c669-9f8d-0123" type="selectionEntry" targetId="1038-e78d-50c5-9ef9" sortIndex="2"/>
-        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="626a-cb13-a9ba-ddff" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="1"/>
+        <entryLink import="true" name="Alexeyev" hidden="false" id="a442-c669-9f8d-0123" type="selectionEntry" targetId="1038-e78d-50c5-9ef9" sortIndex="3"/>
+        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="626a-cb13-a9ba-ddff" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="2"/>
+        <entryLink import="true" name="Fleet Doctrine" hidden="false" id="d79b-8326-778a-c76c" type="selectionEntryGroup" targetId="479d-3f6e-7b7f-37f1" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -10694,13 +10701,14 @@
         <categoryLink name="Russian" hidden="false" id="4ed6-9f86-f8f8-d4ff" targetId="e5a9-4fb8-e4d4-48d8" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Tobolsk" hidden="false" id="3b2e-e3ef-d377-1a2a" type="selectionEntry" targetId="27a1-e2b5-5fc1-5339" sortIndex="3"/>
-        <entryLink import="true" name="Escort Token" hidden="false" id="2298-e4d4-9cf5-98b2" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
+        <entryLink import="true" name="Tobolsk" hidden="false" id="3b2e-e3ef-d377-1a2a" type="selectionEntry" targetId="27a1-e2b5-5fc1-5339" sortIndex="4"/>
+        <entryLink import="true" name="Escort Token" hidden="false" id="2298-e4d4-9cf5-98b2" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="false" id="39da-3856-1c63-b6ca" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="5d54-2160-c12f-6677" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="1"/>
+        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="5d54-2160-c12f-6677" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="2"/>
+        <entryLink import="true" name="Fleet Doctrine" hidden="false" id="a0e6-83dc-d52c-344b" type="selectionEntryGroup" targetId="479d-3f6e-7b7f-37f1" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -10728,13 +10736,14 @@
         <categoryLink name="Surface" hidden="false" id="2e7d-3ee9-a574-108b" targetId="9c42-b68b-9adf-01c5" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Mozhayski" hidden="false" id="5f9c-076b-4136-9a73" type="selectionEntry" targetId="f613-f992-d286-4dc1" sortIndex="3"/>
-        <entryLink import="true" name="Escort Token" hidden="false" id="189b-6de2-7db2-39b0" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
+        <entryLink import="true" name="Mozhayski" hidden="false" id="5f9c-076b-4136-9a73" type="selectionEntry" targetId="f613-f992-d286-4dc1" sortIndex="4"/>
+        <entryLink import="true" name="Escort Token" hidden="false" id="189b-6de2-7db2-39b0" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="false" id="b3bd-7208-d735-a6f0" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="efaf-0b55-fc7f-d695" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="1"/>
+        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="efaf-0b55-fc7f-d695" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="2"/>
+        <entryLink import="true" name="Fleet Doctrine" hidden="false" id="b8ff-ec73-4039-6019" type="selectionEntryGroup" targetId="479d-3f6e-7b7f-37f1" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -10772,13 +10781,14 @@
         <categoryLink name="Surface" hidden="false" id="cc33-3335-bc1d-e6d5" targetId="9c42-b68b-9adf-01c5" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Borodino" hidden="false" id="6e02-faf1-d4ec-6d3a" type="selectionEntry" targetId="111b-80b6-4f2d-244f" sortIndex="3"/>
-        <entryLink import="true" name="Escort Token" hidden="false" id="77ac-4938-3ffb-1704" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
+        <entryLink import="true" name="Borodino" hidden="false" id="6e02-faf1-d4ec-6d3a" type="selectionEntry" targetId="111b-80b6-4f2d-244f" sortIndex="4"/>
+        <entryLink import="true" name="Escort Token" hidden="false" id="77ac-4938-3ffb-1704" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
           <constraints>
             <constraint type="max" value="3" field="selections" scope="parent" shared="false" id="a957-856d-ece9-4d47" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="8dad-8cec-6bfd-ad3a" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="1"/>
+        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="8dad-8cec-6bfd-ad3a" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="2"/>
+        <entryLink import="true" name="Fleet Doctrine" hidden="false" id="18c1-f68a-a74e-2a77" type="selectionEntryGroup" targetId="479d-3f6e-7b7f-37f1" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -10806,13 +10816,14 @@
         <categoryLink name="Surface" hidden="false" id="e284-1d5f-0b81-04fc" targetId="9c42-b68b-9adf-01c5" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Prezidium" hidden="false" id="88da-0069-2112-8cea" type="selectionEntry" targetId="7c51-30fd-57d4-d35d" sortIndex="3"/>
-        <entryLink import="true" name="Escort Token" hidden="false" id="d8fd-fd13-ea9c-d022" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
+        <entryLink import="true" name="Prezidium" hidden="false" id="88da-0069-2112-8cea" type="selectionEntry" targetId="7c51-30fd-57d4-d35d" sortIndex="4"/>
+        <entryLink import="true" name="Escort Token" hidden="false" id="d8fd-fd13-ea9c-d022" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="false" id="9ead-0581-fae7-a79e" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="d35a-3470-eab8-2a36" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="1"/>
+        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="d35a-3470-eab8-2a36" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="2"/>
+        <entryLink import="true" name="Fleet Doctrine" hidden="false" id="7d6b-0f8d-f945-e659" type="selectionEntryGroup" targetId="479d-3f6e-7b7f-37f1" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -10840,13 +10851,14 @@
         <categoryLink name="Surface" hidden="false" id="885f-ed99-9451-eadb" targetId="9c42-b68b-9adf-01c5" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Rikhter" hidden="false" id="162d-9b8a-2eb6-ebc1" type="selectionEntry" targetId="bbf2-8462-54b8-9ad2" sortIndex="3"/>
-        <entryLink import="true" name="Escort Token" hidden="false" id="9f7a-3bc1-9b3c-0289" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="2">
+        <entryLink import="true" name="Rikhter" hidden="false" id="162d-9b8a-2eb6-ebc1" type="selectionEntry" targetId="bbf2-8462-54b8-9ad2" sortIndex="4"/>
+        <entryLink import="true" name="Escort Token" hidden="false" id="9f7a-3bc1-9b3c-0289" type="selectionEntry" targetId="9cc1-48f6-f9ea-943f" sortIndex="3">
           <constraints>
             <constraint type="max" value="4" field="selections" scope="parent" shared="false" id="e3de-4e1e-37e7-62a1" includeChildSelections="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="4f67-20be-5c9a-2098" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="1"/>
+        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="4f67-20be-5c9a-2098" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="2"/>
+        <entryLink import="true" name="Fleet Doctrine" hidden="false" id="364a-c2b6-0e0f-7f21" type="selectionEntryGroup" targetId="479d-3f6e-7b7f-37f1" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -10875,8 +10887,9 @@
         <categoryLink name="Russian" hidden="false" id="c62b-9023-5125-da5c" targetId="e5a9-4fb8-e4d4-48d8" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink import="true" name="Anastasia" hidden="false" id="b688-0ebd-f97e-8409" type="selectionEntry" targetId="46da-db35-c758-d469" sortIndex="2"/>
-        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="9e1c-dec6-01e5-c43f" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="1"/>
+        <entryLink import="true" name="Anastasia" hidden="false" id="b688-0ebd-f97e-8409" type="selectionEntry" targetId="46da-db35-c758-d469" sortIndex="3"/>
+        <entryLink import="true" name="Attachment (Russian Flagship)" hidden="false" id="9e1c-dec6-01e5-c43f" type="selectionEntryGroup" targetId="9da6-ae2c-ef40-3afb" sortIndex="2"/>
+        <entryLink import="true" name="Fleet Doctrine" hidden="false" id="9f34-155b-2323-4f56" type="selectionEntryGroup" targetId="479d-3f6e-7b7f-37f1" sortIndex="1"/>
       </entryLinks>
       <costs>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -11164,6 +11177,29 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="19ac-2cd7-60ca-63dd" includeChildSelections="true"/>
       </constraints>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Fleet Doctrine" id="479d-3f6e-7b7f-37f1" hidden="false">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Gunnery Sharpshooters" hidden="false" id="13f9-f0a4-b75c-802b">
+          <infoLinks>
+            <infoLink name="Gunnery Sharpshooters" id="d370-100d-dde4-a15a" hidden="false" type="rule" targetId="34da-cb20-918b-5cc3"/>
+          </infoLinks>
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="167f-77eb-01ab-137e" includeChildSelections="false"/>
+            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="ba11-e68c-3cde-6492" includeChildSelections="false"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="7687-cf2c-e3ed-36f7" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fb7c-cef9-f848-a1d6" includeChildSelections="false"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Strategic Reserves" hidden="false" id="c518-8447-b1c2-e06f" targetId="6153-0fba-f3f9-ccaf" type="selectionEntry"/>
+        <entryLink import="true" name="Forward Patrol" hidden="false" id="855a-9c8e-484a-305a" targetId="fa24-6ff9-e72c-7e5e" type="selectionEntry"/>
+        <entryLink import="true" name="Devil&apos;s Own Luck" hidden="false" id="4cde-0c98-8b36-2682" targetId="782b-86fe-8137-0f5e" type="selectionEntry"/>
+        <entryLink import="true" name="Do or Die" hidden="false" id="ad6e-3cb1-6893-e38e" targetId="fae0-5459-1e1a-5893" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule name="Wolves upon the Fold" id="0c5c-6858-a1bd-31da" hidden="false">
@@ -11177,6 +11213,9 @@
     </rule>
     <rule name="Evasive Manoeuvres" id="4a8a-5b35-b506-f537" hidden="false">
       <description>Immediately after making the Resistance Roll for an Attack action that targets a Polish-Lithuanian unit in their Force, this Battlefleet’s Admiral may enact a  Special Valour Effect. If successful, any Exploding Strikes in the Resistance Roll are immediately converted into Heavy Counters.</description>
+    </rule>
+    <rule name="Gunnery Sharpshooters" id="34da-cb20-918b-5cc3" hidden="false">
+      <description>Can only be purchased for a Commonwealth Flagship unit. If a unit in this Fleet makes an Attack action to which at least one weapon with the Rail quality Contributes, and the Initial Target suffers at least 1 Damage, the active Admiral can enact a Special Valour Effect. If the  effect is successfully enacted, the Initial Target suffers 1  Critical Damage.</description>
     </rule>
   </sharedRules>
   <entryLinks>

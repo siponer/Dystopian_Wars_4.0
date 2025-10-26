@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="5a50-c7f6-8981-e1d8" name="Generator" gameSystemId="1242-c30b-419f-8229" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="5a50-c7f6-8981-e1d8" name="Generators" gameSystemId="1242-c30b-419f-8229" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Heavy Shield Generator" hidden="false" id="8f03-5ac9-164b-1f77">
       <categoryLinks>
@@ -8,6 +8,16 @@
       <infoLinks>
         <infoLink name="Heavy Shield Generator" id="ccbc-058d-76fd-13d1" hidden="false" type="rule" targetId="a0f5-dbbb-3748-05f7"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73df-da74-3697-9d54" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Fury Generator" hidden="false" id="230c-f6f6-d1a5-74aa">
       <categoryLinks>
@@ -16,6 +26,16 @@
       <infoLinks>
         <infoLink name="Fury Generator" id="7fe8-5ab2-e0c2-ce70" hidden="false" type="rule" targetId="bbe3-b3d9-fd42-515e"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="afe5-9074-da9e-8ba0" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Solex Generator" hidden="false" id="9633-0946-c749-e1d1">
       <categoryLinks>
@@ -24,6 +44,16 @@
       <infoLinks>
         <infoLink name="Solex Generator" id="5dee-1c23-d11e-a0e3" hidden="false" type="rule" targetId="79b3-017e-3883-2de2"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5e75-8777-1aed-9cfc" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Repulsion Field Generator" hidden="false" id="a17f-cdd6-efdd-63a1">
       <categoryLinks>
@@ -36,7 +66,6 @@
               <conditionGroups>
                 <conditionGroup type="or">
                   <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ff0c-dccc-fc3f-6c02" shared="true"/>
                     <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="933b-3024-a972-b371" shared="true"/>
                   </conditions>
                 </conditionGroup>
@@ -58,6 +87,16 @@
       <infoLinks>
         <infoLink name="Repulsion Field Generator" id="4eb7-b6ad-865b-c544" hidden="false" type="rule" targetId="2f49-f2d0-7a92-556e"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="333f-d4ab-7290-e113" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Magnetic Generator" hidden="false" id="a3a8-b135-7099-ce1c">
       <categoryLinks>
@@ -66,6 +105,16 @@
       <infoLinks>
         <infoLink name="Magnetic Generator" id="e55d-1234-21a4-64ec" hidden="false" type="rule" targetId="964f-051a-2b8c-3061"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="436d-a031-47cd-b887" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Shroud Generator" hidden="false" id="9ba8-6178-e09c-c346">
       <categoryLinks>
@@ -74,13 +123,32 @@
       <infoLinks>
         <infoLink name="Shroud Generator" id="9adc-2dad-e5a2-eed3" hidden="false" type="rule" targetId="78e0-529d-4183-368d"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b0c-38e9-8af1-6a40" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Atomic Generator" hidden="false" id="a3f0-73f0-4f93-d599">
       <categoryLinks>
         <categoryLink name="Generator" hidden="false" id="49f4-9dfb-c224-106d" targetId="25b9-7f26-cbd9-e68f" primary="false"/>
       </categoryLinks>
       <modifiers>
-        <modifier type="set" value="true" field="hidden" scope="parent" affects="ad70-77b7-aabe-60c0"/>
+        <modifier type="set" value="true" field="hidden">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ad70-77b7-aabe-60c0" shared="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
       </modifiers>
       <infoLinks>
         <infoLink name="Atomic Generator" id="743f-9ae6-0f3e-7923" hidden="false" type="rule" targetId="0cfa-5159-6123-d70d"/>
@@ -90,21 +158,45 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4143-1318-dc27-ad4e" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Chrono Generator" hidden="false" id="89af-8549-7b00-fde7">
       <infoLinks>
         <infoLink name="Chrono Generator" id="9461-f246-1d5f-9791" hidden="false" type="rule" targetId="b27d-18ba-5a7b-6fec"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Chang’an Tower Generator" hidden="false" id="1dd7-ae04-4b04-99df">
       <infoLinks>
         <infoLink name="Chang’an Tower Generator" id="d936-23ad-9996-86be" hidden="false" type="rule" targetId="1c87-5fdc-e528-b2dd"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Great Wall Generator" hidden="false" id="1d70-c8bf-03d9-3bed">
       <infoLinks>
         <infoLink name="Great Wall Generator" id="7c32-98f0-70fe-c18a" hidden="false" type="rule" targetId="f057-7476-d0fc-1fc8"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Arc Generator" hidden="false" id="915d-5a82-835c-fb38">
       <infoLinks>
@@ -115,31 +207,73 @@
       <infoLinks>
         <infoLink name="Guardian Generator (x)" id="aea9-d1ec-7f16-da82" hidden="false" type="rule" targetId="bc11-8186-dc17-975b"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Interphase Generator" hidden="false" id="af9b-699d-bf7d-7d67">
       <infoLinks>
         <infoLink name="Interphase Generator" id="7f70-c1c6-423c-eca3" hidden="false" type="rule" targetId="a69a-bfab-9be2-8f1a"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Langsam Generator" hidden="false" id="9b5d-476c-95df-0385">
       <infoLinks>
         <infoLink name="Langsam Generator" id="42ec-80d2-f618-6451" hidden="false" type="rule" targetId="4789-803c-e41e-625f"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Magma Cast Generator" hidden="false" id="aeb2-f4d5-cf30-96ea">
       <infoLinks>
         <infoLink name="Magma Cast Generator" id="ce4f-b54a-fd66-c3a6" hidden="false" type="rule" targetId="b7c0-94f4-759a-6996"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Null-Clone Generator" hidden="false" id="bce6-ab24-926a-7b62">
       <infoLinks>
         <infoLink name="Null-Clone Generator" id="c888-a2ab-ab75-ff0a" hidden="false" type="rule" targetId="6930-27bf-7792-1b2a"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mirage Generator" hidden="false" id="821b-a7ba-5a0b-d5f1">
       <infoLinks>
         <infoLink name="Mirage Generator" id="5342-e034-c9f7-e4b1" hidden="false" type="rule" targetId="5aca-9ea8-34cc-27c0"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Power Transfer Generator" hidden="false" id="ec47-3b48-863a-8974">
       <categoryLinks>
@@ -148,6 +282,13 @@
       <infoLinks>
         <infoLink name="Power Transfer Generator" id="6df8-5a7e-4bbf-4e74" hidden="false" type="rule" targetId="ebd0-0308-6a7c-47a5"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Trident Generator" hidden="false" id="d929-6a4f-7eaa-0fa4">
       <categoryLinks>
@@ -156,6 +297,13 @@
       <infoLinks>
         <infoLink name="Trident Generator" id="141a-3132-52ea-e8f0" hidden="false" type="rule" targetId="8851-2147-b72a-6410"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Shockwave Generator" hidden="false" id="3cfe-aa45-fb93-f470">
       <categoryLinks>
@@ -164,6 +312,13 @@
       <infoLinks>
         <infoLink name="Shockwave Generator" id="4689-836f-bde4-1cc9" hidden="false" type="rule" targetId="2478-7bea-d0aa-f54a"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Storm Generator" hidden="false" id="ee9e-5a7d-34af-2da2">
       <categoryLinks>
@@ -172,6 +327,13 @@
       <infoLinks>
         <infoLink name="Storm Generator" id="307b-8260-420a-8735" hidden="false" type="rule" targetId="3bb6-7bf3-c519-25da"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sentinel Generator" hidden="false" id="7df0-42bc-7975-e346">
       <categoryLinks>
@@ -180,6 +342,13 @@
       <infoLinks>
         <infoLink name="Sentinel Generator" id="1c25-47f7-e046-8e2d" hidden="false" type="rule" targetId="9200-8bbc-064b-4bb3"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Portal Generator" hidden="false" id="9ea6-af7f-d31d-0739">
       <categoryLinks>
@@ -188,6 +357,13 @@
       <infoLinks>
         <infoLink name="Portal Generator" id="d1cf-72d0-10ea-f97f" hidden="false" type="rule" targetId="dfc7-5974-4710-8ff9"/>
       </infoLinks>
+      <modifiers>
+        <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="parent" childId="9ff7-ad4d-c560-d893" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -276,6 +452,7 @@ To show that a unit is Slowed, mark it with a Generator Effect token. While a 
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Rules Glossary" id="1c74-eec6-81bb-999a" targetId="5ca6-5d76-4c4d-04e2"/>
   </catalogueLinks>
-  <readme>Revision 1: Initial release Ruòes Glossary Beta 2
-Revision 2: Initial release Ruòes Glossary Beta 3</readme>
+  <readme>Revision 01: initial release Rules Glossary Beta 2
+Revision 02: Initial release Rules Glossary Beta 3 (Alliance ORBAT)
+Revision 03: improvment Rules Glossary Beta 3 (Commonwealth ORBAT)</readme>
 </catalogue>

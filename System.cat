@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="85b3-1e07-6cca-b9a3" name="System" gameSystemId="1242-c30b-419f-8229" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="85b3-1e07-6cca-b9a3" name="Systems" gameSystemId="1242-c30b-419f-8229" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Priority Signals" hidden="false" id="d67c-9c2f-2438-8d6c" exportable="false">
       <rules>
@@ -24,29 +24,9 @@ An Admiral can only use Priority Signals once per Round, even if their Force co
       </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Turbo Encabulation Drive" hidden="false" id="aac2-3d04-f739-8e9d" exportable="false">
-      <rules>
-        <rule name="Turbo Encabulation Drive" id="3bb8-c0ee-ef48-2891" hidden="false">
-          <description>At the start of this unit’s Movement Step, as long as no
-models in the unit have 3 levels of Disorder, its Admiral
-can declare that they will activate the Turbo Encabulation
-Drive. If they do, they must make a Group Crew Check
-for the unit.
-If the Check passes, the Admiral can move each model
-up to 20” in any direction, without changing their facing,
-and Passing Through any intervening models and Terrain
-Features. The unit must be placed so that all models are in
-Coherency. Each model gains 1 level of Disorder, and the
-rest of the Movement Step is skipped.
-If it is unsuccessful, check the Value of the card that
-was used to make the Group Crew Check. If it is an odd
-number, the unit forgoes its Movement Step entirely
-and each model gains both a System Failure and Hazard
-Critical Damage Effect. If it is an even number, the unit
-is removed from the Play Area and placed into Reserve,
-retaining any Damage, Disorder, Critical Damage and
-any other tokens.</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink name="Turbo Encabulation Drive" id="845a-ba52-bc1a-97b1" hidden="false" type="rule" targetId="3bb8-c0ee-ef48-2891"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Platform Transport" hidden="false" id="e24e-8095-a8e7-30ae" exportable="false">
       <rules>
@@ -328,20 +308,14 @@ Weapons.</description>
       </rules>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Aerial Repair Facilities (x)" hidden="false" id="e4f6-2430-8a0b-e24f" exportable="false">
-      <rules>
-        <rule name="Aerial Repair Facilities (x)" id="6297-b159-8ad2-6547" hidden="false">
-          <description>When making a Repair Roll for an Airborne model, add X Bonus Dice if it is within 4” of at least one friendly model with this System</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink name="Aerial Repair Facilities (x)" id="9401-aea8-8c3d-6495" hidden="false" type="rule" targetId="6297-b159-8ad2-6547"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Aerial Shield Enhancer (x&quot;)" hidden="false" id="c982-d70d-9ec9-96aa" exportable="false">
-      <rules>
-        <rule name="Aerial Shield Enhancer (x&quot;)" id="e54e-f164-9274-10b4" hidden="false">
-          <description>If an Airborne model within X” of at least one friendly
-model with this System benefits from a Heavy Shield
-Generator, its Armour rating receives a +2 Modifier instead of +1.</description>
-        </rule>
-      </rules>
+      <infoLinks>
+        <infoLink name="Aerial Shield Enhancer (x&quot;)" id="155c-2d0c-c672-7cf9" hidden="false" type="rule" targetId="50c8-aec2-ab7d-e7ed"/>
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Automata Repair Bay" hidden="false" id="816e-997e-a7ee-35b4" exportable="false">
       <rules>
@@ -353,6 +327,20 @@ System, it recovers 1 Damage.</description>
       </rules>
     </selectionEntry>
   </sharedSelectionEntries>
-  <readme>Revision 1: Initial release Ruòes Glossary Beta 2
-Revision 2: Initial release Ruòes Glossary Beta 3</readme>
+  <readme>Revision 01: initial release Rules Glossary Beta 2
+Revision 02: initial release Rules Glossary Beta 3 (System)
+Revision 03: correction Rules Glossary Beta 3 (Commonwealth ORBAT)</readme>
+  <sharedRules>
+    <rule name="Aerial Repair Facilities (x)" id="6297-b159-8ad2-6547" hidden="false">
+      <description>When making a Repair Roll for an Airborne model, add X Bonus Dice if it is within 4” of at least one friendly model with this System</description>
+    </rule>
+    <rule name="Turbo Encabulation Drive" id="3bb8-c0ee-ef48-2891" hidden="false">
+      <description>At the start of this unit’s Movement Step, as long as no models in the unit have 3 levels of Disorder, its Admiral can declare that they will activate the Turbo Encabulation Drive. If they do, they must make a  Group Crew Check for the unit. If the Check passes, the Admiral can move each model up to 20” in any direction, without changing their facing, and Passing Through any intervening models and Terrain Features. The unit must be placed so that all models are in Coherency. Each model gains 1 level of Disorder, and the rest of the Movement Step is skipped. If it is unsuccessful, check the Value of the card that was used to make the Group Crew Check. If it is an odd number, the unit forgoes its Movement Step entirely and each model gains both a System Failure and Hazard Critical Damage Effect. If it is an even number, the unit is removed from the Play Area and placed into Reserve, retaining any Damage, Disorder, Critical Damage and any other tokens.</description>
+    </rule>
+    <rule name="Aerial Shield Enhancer (x&quot;)" id="50c8-aec2-ab7d-e7ed" hidden="false">
+      <description>If an Airborne model within X” of at least one friendly
+model with this System benefits from a Heavy Shield
+Generator, its Armour rating receives a +2 Modifier instead of +1.</description>
+    </rule>
+  </sharedRules>
 </catalogue>

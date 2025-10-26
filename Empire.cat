@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="fd78-5fd4-bf89-5e39" name="Empire" gameSystemId="1242-c30b-419f-8229" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Generator" id="f590-7a0f-a50f-2fe6" targetId="5a50-c7f6-8981-e1d8"/>
+    <catalogueLink type="catalogue" name="SRS Properties" id="b47e-dea8-4a2f-102f" targetId="8084-b533-9713-767c"/>
+    <catalogueLink type="catalogue" name="Properties" id="cac3-8ca7-d340-c74b" targetId="5ca6-5d76-4c4d-04e2"/>
+    <catalogueLink type="catalogue" name="System" id="0f72-a271-5565-e740" targetId="85b3-1e07-6cca-b9a3"/>
+    <catalogueLink type="catalogue" name="Weapon" id="1035-dd4a-97d2-1075" targetId="dd9c-c27a-41e0-6c12"/>
+  </catalogueLinks>
+  <sharedProfiles>
+    <profile name="Akita" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="efed-ffad-d134-6605">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">6</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">4&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">1</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">8</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">6</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">14</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">4</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">5</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ergun" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="18bf-857b-43ff-2a94">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">3&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">9</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">12</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hachiman" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="930c-55b7-f76a-05e3">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">6</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">4&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">1</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">8</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">6</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">14</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">5</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heilong" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="dce9-3423-703a-e7bd">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">3&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">8</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">11</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kongo" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="d346-9459-e2f0-5b74">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">3&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">9</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">6</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Matsumoto" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="198b-6cfd-1d42-bde7">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">6</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">4&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">1</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">8</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">6</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">14</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">5</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Naraka" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="1712-2ee9-314f-f65f">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">3&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">8</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">12</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ning Jing" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="dae5-b3a9-35e0-2cd0">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">3&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">8</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Yangtze" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="0d8f-f5fa-1dff-b7f8">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">3&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">8</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">12</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">4</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Zhanmadao" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="8896-3344-ffdb-197b">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">8</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">0&quot;-9&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">1</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">8</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">16</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">5</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">5</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">11</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Diyu" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="3216-6c5f-3f6a-0666">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">7</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dong" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="acd4-6f42-dfe7-b689">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">2</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">4</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hokkaido" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="ce10-1403-d022-9328">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Jian" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="4db3-715e-7d60-700d">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Meru" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="3019-896c-26ad-212a">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Osaka" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="d358-dc7e-5a51-1099">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Qiang" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="32d1-faae-51d6-bc14">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sakata" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="d017-8937-0876-d27b">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">2</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">5</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Chubu" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="92ff-fc18-686e-a4a0">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">2</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">4</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hexie" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="1fa3-e99e-a608-d363">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-9&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">2</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">3</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">1</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Honshu" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="97f5-368f-bee0-2cd1">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-9&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kyoto" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="6f18-4120-fab0-4079">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-9&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">4</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mekong" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="9e63-ec1d-5276-b3fe">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Shanghai" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="6a21-08b9-70d2-4ee2">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">1</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">3</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">2</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Barango" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="799c-7996-561f-5801">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">-</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">7</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ika" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="be4d-303a-35d9-f279">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">0&quot;-4&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Kanagawa" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="a925-794e-7376-adbc">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9"/>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9"/>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906"/>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb"/>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24"/>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923"/>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da"/>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325"/>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9"/>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2"/>
+      </characteristics>
+    </profile>
+    <profile name="Kansai" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="4365-fbf6-7cf1-4938">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Malandok" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="a100-abe5-4c1e-3960">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">5</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">-</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">12</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Qianshao" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="39d8-76f0-a0d3-bc67">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">0&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">1</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ofukoro" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="73cf-58b1-e1a2-da6d">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">0&quot;-4&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">10</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">10</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Magwayen" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="f296-d3d7-8e31-f96a">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">-</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">7</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">4</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lantau" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="1ec1-a768-6fd7-589f">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">1</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Umibozu" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="3510-ef0e-e3cd-0fbe">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tianlong" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="523a-ccce-f89a-f866">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">0&quot;-10&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">9</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Koromodako" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="9f5f-108a-5fa8-347c">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">1&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ziwei" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="b5f8-7de6-60d6-fa8c">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">0&quot;-6&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">1</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">3</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Yaoji" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="9106-7eb3-e186-9d3c">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dao" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="b8a9-9620-2522-95e9">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-8&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">3</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Doksuri Fighters" typeId="6c8c-519d-ebdd-9439" typeName="SRS" hidden="false" id="84bb-19fb-91bf-8fca">
+      <characteristics>
+        <characteristic name="ATK" typeId="d211-5913-750c-a5ed">2</characteristic>
+        <characteristic name="INT" typeId="5f52-83be-cfa4-d6a0">3</characteristic>
+        <characteristic name="STP" typeId="9b6d-4843-ea37-4b2c">2</characteristic>
+        <characteristic name="RES" typeId="7383-84ef-3fdc-05e5">2</characteristic>
+        <characteristic name="SRS PROPERTIES" typeId="d28e-a32f-622a-48ff">Surgical Strike (Hazard)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rin Exo-Submersible" typeId="6c8c-519d-ebdd-9439" typeName="SRS" hidden="false" id="0fd6-8c9f-7763-0991">
+      <characteristics>
+        <characteristic name="ATK" typeId="d211-5913-750c-a5ed">4</characteristic>
+        <characteristic name="INT" typeId="5f52-83be-cfa4-d6a0">3</characteristic>
+        <characteristic name="STP" typeId="9b6d-4843-ea37-4b2c">2</characteristic>
+        <characteristic name="RES" typeId="7383-84ef-3fdc-05e5">4</characteristic>
+        <characteristic name="SRS PROPERTIES" typeId="d28e-a32f-622a-48ff">Exo-Sub, Offensive, Superior Mine Clearance</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Yanshi" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="5f50-086e-c388-bf3e">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">4</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">-</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">-</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">4</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">5</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">7</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">3</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">8</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wuhan" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="bdb1-4226-3f46-9930">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">1</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Wusong" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="b489-e397-ad32-4af4">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">2</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">5</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">4</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">8</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">2</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ryujin" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="bde0-4d8e-45de-5863">
+      <characteristics>
+        <characteristic name="MAS" typeId="dbde-866b-70b0-d5e9">3</characteristic>
+        <characteristic name="SPD" typeId="9e4a-2ba1-f396-74b9">2&quot;-7&quot;</characteristic>
+        <characteristic name="TRN" typeId="b9f6-2f65-e8c8-b906">4</characteristic>
+        <characteristic name="DEF" typeId="29a3-02bb-e7f3-0ddb">3</characteristic>
+        <characteristic name="ARM" typeId="c141-3bcf-41f5-6c24">3</characteristic>
+        <characteristic name="HUL" typeId="6428-9828-bb2e-f923">9</characteristic>
+        <characteristic name="ACT" typeId="b001-8ebf-b7fe-74da">2</characteristic>
+        <characteristic name="BRD" typeId="4c54-804a-8993-7325">-</characteristic>
+        <characteristic name="REP" typeId="ff43-364b-8da9-bce9">3</characteristic>
+        <characteristic name="CRW" typeId="939e-f49a-98f6-09c2">7</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedSelectionEntries>
+    <selectionEntry type="model" import="true" name="Ziwei" hidden="false" id="d557-b0ec-6117-c6a9">
+      <infoLinks>
+        <infoLink name="Ziwei" id="7e9c-1697-f8ef-0bd9" hidden="false" type="profile" targetId="b5f8-7de6-60d6-fa8c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Akita" hidden="false" id="5276-35a8-90d1-c038">
+      <infoLinks>
+        <infoLink name="Akita" id="74e7-a30e-54bd-7b34" hidden="false" type="profile" targetId="efed-ffad-d134-6605"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Barango" hidden="false" id="ec4c-3508-eb02-129d">
+      <infoLinks>
+        <infoLink name="Barango" id="b6fb-a541-3d63-3f5e" hidden="false" type="profile" targetId="799c-7996-561f-5801"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Chubu" hidden="false" id="52d9-7728-574e-e0c9">
+      <infoLinks>
+        <infoLink name="Chubu" id="feb0-8032-c2d0-8e96" hidden="false" type="profile" targetId="92ff-fc18-686e-a4a0"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Dao" hidden="false" id="6e9e-9fc1-fd38-0cbb">
+      <infoLinks>
+        <infoLink name="Dao" id="deb7-0389-f1c8-a42f" hidden="false" type="profile" targetId="b8a9-9620-2522-95e9"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Diyu" hidden="false" id="41d3-713d-3e1d-2402">
+      <infoLinks>
+        <infoLink name="Diyu" id="962d-581c-56fd-9127" hidden="false" type="profile" targetId="3216-6c5f-3f6a-0666"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Dong" hidden="false" id="7a1c-7f6a-7a46-2357">
+      <infoLinks>
+        <infoLink name="Dong" id="8fb0-5267-7528-a348" hidden="false" type="profile" targetId="acd4-6f42-dfe7-b689"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ergun" hidden="false" id="1158-2291-223d-7ba2">
+      <infoLinks>
+        <infoLink name="Ergun" id="d4fb-89a1-6bac-b437" hidden="false" type="profile" targetId="18bf-857b-43ff-2a94"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hachiman" hidden="false" id="3e28-adc9-d936-fd20">
+      <infoLinks>
+        <infoLink name="Hachiman" id="9909-3755-619b-e6a4" hidden="false" type="profile" targetId="930c-55b7-f76a-05e3"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Heilong" hidden="false" id="fc8e-f368-48f2-fc1a">
+      <infoLinks>
+        <infoLink name="Heilong" id="fec2-f02f-18ad-221c" hidden="false" type="profile" targetId="dce9-3423-703a-e7bd"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hexie" hidden="false" id="e508-c8d4-ff2d-0049">
+      <infoLinks>
+        <infoLink name="Hexie" id="209d-3594-cd91-53bf" hidden="false" type="profile" targetId="1fa3-e99e-a608-d363"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Hokkaido" hidden="false" id="83fd-895b-a771-bff2">
+      <infoLinks>
+        <infoLink name="Hokkaido" id="c7e2-543d-2868-0e5b" hidden="false" type="profile" targetId="ce10-1403-d022-9328"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Honshu" hidden="false" id="4fb0-b867-2f3c-4bb0">
+      <infoLinks>
+        <infoLink name="Honshu" id="6f06-799f-ffb4-df9b" hidden="false" type="profile" targetId="97f5-368f-bee0-2cd1"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ika" hidden="false" id="acf8-a95c-b2bb-3ce4">
+      <infoLinks>
+        <infoLink name="Ika" id="efc2-c12c-1d9d-278f" hidden="false" type="profile" targetId="be4d-303a-35d9-f279"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Jian" hidden="false" id="514d-7051-9e5e-eb62">
+      <infoLinks>
+        <infoLink name="Jian" id="560d-4bc7-b813-07c2" hidden="false" type="profile" targetId="4db3-715e-7d60-700d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Kanagawa" hidden="false" id="2597-aeb4-fa40-7c55">
+      <infoLinks>
+        <infoLink name="Kanagawa" id="6b12-0691-7635-5b96" hidden="false" type="profile" targetId="a925-794e-7376-adbc"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Kansai" hidden="false" id="3c2c-b7ab-1f09-264a">
+      <infoLinks>
+        <infoLink name="Kansai" id="ed59-52b7-1b22-a945" hidden="false" type="profile" targetId="4365-fbf6-7cf1-4938"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Kongo" hidden="false" id="22b2-feef-fe9b-4771">
+      <infoLinks>
+        <infoLink name="Kongo" id="8d3f-34cf-8c81-c6d2" hidden="false" type="profile" targetId="d346-9459-e2f0-5b74"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Koromodako" hidden="false" id="587b-40d9-cc2d-981a">
+      <infoLinks>
+        <infoLink name="Koromodako" id="3875-e0fe-bda7-05de" hidden="false" type="profile" targetId="9f5f-108a-5fa8-347c"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Kyoto" hidden="false" id="a9ef-b1c4-f09a-6cb2">
+      <infoLinks>
+        <infoLink name="Kyoto" id="ea1b-9c83-bd6d-86ac" hidden="false" type="profile" targetId="6f18-4120-fab0-4079"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Lantau" hidden="false" id="1b96-9d47-813e-8afe">
+      <infoLinks>
+        <infoLink name="Lantau" id="628e-d412-c2cd-8578" hidden="false" type="profile" targetId="1ec1-a768-6fd7-589f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Magwayen" hidden="false" id="18a5-e212-20e5-6b0a">
+      <infoLinks>
+        <infoLink name="Magwayen" id="3dcf-4a0b-45b7-9a0c" hidden="false" type="profile" targetId="f296-d3d7-8e31-f96a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Malandok" hidden="false" id="e8b0-72bf-b26e-34a3">
+      <infoLinks>
+        <infoLink name="Malandok" id="7579-7e20-6db9-9cbb" hidden="false" type="profile" targetId="a100-abe5-4c1e-3960"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Matsumoto" hidden="false" id="e909-212d-ad64-bf89">
+      <infoLinks>
+        <infoLink name="Matsumoto" id="2686-4e9b-f09b-841a" hidden="false" type="profile" targetId="198b-6cfd-1d42-bde7"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Mekong" hidden="false" id="b8e5-5793-20f2-65de">
+      <infoLinks>
+        <infoLink name="Mekong" id="3c15-3c1f-2e6c-7e61" hidden="false" type="profile" targetId="9e63-ec1d-5276-b3fe"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Meru" hidden="false" id="9bde-7ca9-72fc-6656">
+      <infoLinks>
+        <infoLink name="Meru" id="c0be-967d-c82b-2f6c" hidden="false" type="profile" targetId="3019-896c-26ad-212a"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Naraka" hidden="false" id="cba9-69ee-b763-5380">
+      <infoLinks>
+        <infoLink name="Naraka" id="a5c4-419d-1772-e2f9" hidden="false" type="profile" targetId="1712-2ee9-314f-f65f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ning Jing" hidden="false" id="cb16-83ee-fa86-2960">
+      <infoLinks>
+        <infoLink name="Ning Jing" id="00ff-0f70-ca09-0d85" hidden="false" type="profile" targetId="dae5-b3a9-35e0-2cd0"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ofukoro" hidden="false" id="425d-2165-17e8-145f">
+      <infoLinks>
+        <infoLink name="Ofukoro" id="21b8-0be7-dcec-6ae9" hidden="false" type="profile" targetId="73cf-58b1-e1a2-da6d"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Zhanmadao" hidden="false" id="25c4-8279-71fc-0074">
+      <infoLinks>
+        <infoLink name="Zhanmadao" id="798e-f8fa-fe00-eece" hidden="false" type="profile" targetId="8896-3344-ffdb-197b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Osaka" hidden="false" id="3055-fd51-2c49-f19d">
+      <infoLinks>
+        <infoLink name="Osaka" id="bc7b-76ca-920b-9166" hidden="false" type="profile" targetId="d358-dc7e-5a51-1099"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Qiang" hidden="false" id="cf4f-6616-0730-b790">
+      <infoLinks>
+        <infoLink name="Qiang" id="4812-f6c3-f987-57ce" hidden="false" type="profile" targetId="32d1-faae-51d6-bc14"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Qianshao" hidden="false" id="a55a-12a9-e82d-3177">
+      <infoLinks>
+        <infoLink name="Qianshao" id="fcc3-f38f-8d08-59ee" hidden="false" type="profile" targetId="39d8-76f0-a0d3-bc67"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Ryujin" hidden="false" id="fef6-e8d7-0f3e-0000">
+      <infoLinks>
+        <infoLink name="Ryujin" id="263b-f5b7-76bc-a808" hidden="false" type="profile" targetId="bde0-4d8e-45de-5863"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Sakata" hidden="false" id="7c0f-35f8-43b7-18d3">
+      <infoLinks>
+        <infoLink name="Sakata" id="33df-1871-434f-8f38" hidden="false" type="profile" targetId="d017-8937-0876-d27b"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Shanghai" hidden="false" id="0429-c7d1-a701-0696">
+      <infoLinks>
+        <infoLink name="Shanghai" id="5560-b0d0-49a5-809a" hidden="false" type="profile" targetId="6a21-08b9-70d2-4ee2"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Tianlong" hidden="false" id="78a2-6742-38c6-836b">
+      <infoLinks>
+        <infoLink name="Tianlong" id="bf7d-0533-5e00-1355" hidden="false" type="profile" targetId="523a-ccce-f89a-f866"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Umibozu" hidden="false" id="4750-6862-7efa-567b">
+      <infoLinks>
+        <infoLink name="Umibozu" id="0d50-34f2-02ef-9b67" hidden="false" type="profile" targetId="3510-ef0e-e3cd-0fbe"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Wuhan" hidden="false" id="dca3-f2cd-4095-7a07">
+      <infoLinks>
+        <infoLink name="Wuhan" id="5c53-aa77-ef30-3e3f" hidden="false" type="profile" targetId="bdb1-4226-3f46-9930"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Wusong" hidden="false" id="a0c0-692e-01e8-36c7">
+      <infoLinks>
+        <infoLink name="Wusong" id="c8d6-1785-9e84-4297" hidden="false" type="profile" targetId="b489-e397-ad32-4af4"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Yangtze" hidden="false" id="3488-60df-1290-da8b">
+      <infoLinks>
+        <infoLink name="Yangtze" id="76bb-1f5f-4fa6-b8aa" hidden="false" type="profile" targetId="0d8f-f5fa-1dff-b7f8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Yanshi" hidden="false" id="cfac-781e-2027-9654">
+      <infoLinks>
+        <infoLink name="Yanshi" id="a2c1-3bcc-eeef-4415" hidden="false" type="profile" targetId="5f50-086e-c388-bf3e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Yaoji" hidden="false" id="0a27-7862-4f6c-f12b">
+      <infoLinks>
+        <infoLink name="Yaoji" id="6212-203f-ef9b-1b66" hidden="false" type="profile" targetId="9106-7eb3-e186-9d3c"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

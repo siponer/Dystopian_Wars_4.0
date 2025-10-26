@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1242-c30b-419f-8229" name="Dystopian Wars 4.0" battleScribeVersion="2.03" authorName="Riccardo Sipone" authorContact="siponeric@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false" revision="2">
+<gameSystem id="1242-c30b-419f-8229" name="Dystopian Wars 4.0 Edition" battleScribeVersion="2.03" authorName="Riccardo Sipone" authorContact="siponeric@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false" revision="3">
   <publications>
     <publication id="7f09-e243-2307-78d0" name="Dystopian Rulebook"/>
     <publication id="e265-8c7f-a4b2-a48e" name="Alliance ORBAT"/>
@@ -109,6 +109,14 @@
     <categoryEntry name="Submarine" id="6996-f3f4-a695-3bc3" hidden="false"/>
     <categoryEntry name="Surface" id="9c42-b68b-9adf-01c5" hidden="false"/>
     <categoryEntry name="Repair" id="6808-24f6-d6cf-08b5" hidden="false"/>
+    <categoryEntry name="Tracer" id="99ca-9745-f98e-4805" hidden="false"/>
+    <categoryEntry name="Colossus" id="4e63-4a6b-08a9-90a4" hidden="false"/>
+    <categoryEntry name="Carrier" id="347a-b873-97b4-d758" hidden="false"/>
+    <categoryEntry name="Deport" id="109e-1591-2bde-79d8" hidden="false"/>
+    <categoryEntry name="Repair" id="985b-40bc-e930-4b8e" hidden="false"/>
+    <categoryEntry name="Upgrade" id="3497-f9c2-d752-71ae" hidden="true"/>
+    <categoryEntry name="Properties" id="c8ea-afea-b119-ce3c" hidden="true"/>
+    <categoryEntry name="Systems" id="9ff7-ad4d-c560-d893" hidden="true"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="44e8-1fde-db6e-20f6" name="Battlefleet (generic don&apos;t use)" publicationId="7f09-e243-2307-78d0" hidden="true">
@@ -136,15 +144,23 @@
         <cost name="Victory Points" typeId="426e-670d-6ddd-9631" value="0"/>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="6f6b-895b-6f94-a729"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="4ff6-7e74-edd8-58ae"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Mercenary Battlefleet" hidden="false" id="4276-0dac-62d7-f428" collective="false">
       <categoryLinks>
-        <categoryLink name="Mercenary Battlefleet" hidden="false" id="6fb2-194b-a8af-3674" targetId="86ff-88da-5a0b-2d81" primary="false"/>
+        <categoryLink name="Specialist Battlefleet" hidden="false" id="503e-f8c3-8b75-c5d2" targetId="50f8-5d04-e502-e289" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name="Victory Points" typeId="426e-670d-6ddd-9631" value="0"/>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
       </costs>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="4464-cbd9-fcec-ed7a"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5a51-4936-67cf-9dd9"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Specialist Battlefleet" hidden="false" id="1158-6e57-cab4-d521" collective="false">
       <costs>
@@ -154,6 +170,10 @@
       <categoryLinks>
         <categoryLink name="Specialist Battlefleet" hidden="false" id="b862-a1fb-e3f2-1953" targetId="50f8-5d04-e502-e289" primary="false"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="6ef8-3203-8f93-496d"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="4aa2-e9a5-2b51-8a38"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Olympia Levant Drive" hidden="false" id="383b-311f-fb40-7549" sortIndex="1">
       <costs>
@@ -277,6 +297,7 @@
       </characteristics>
     </profile>
   </sharedProfiles>
-  <readme>Revision 1: Initial release Rules Beta 2
-Revision 2: Initial release Rules Beta 3 (Complete Alliance ORBAT release)</readme>
+  <readme>Revision 01: initial release Rules Beta 2
+Revision 02: initial release Alliance Beta 3 (Complete ORBAT release)
+Revision 03: initial release Commonwealth Beta 3 (Complete ORBAT release)</readme>
 </gameSystem>

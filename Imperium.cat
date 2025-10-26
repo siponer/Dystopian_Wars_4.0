@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="7bd6-043f-a99f-7598" name="Imperium" gameSystemId="1242-c30b-419f-8229" gameSystemRevision="2" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Generator" id="a436-9cc0-335f-464c" targetId="5a50-c7f6-8981-e1d8"/>
+    <catalogueLink type="catalogue" name="Properties" id="f186-7a49-bf3a-1075" targetId="5ca6-5d76-4c4d-04e2"/>
+    <catalogueLink type="catalogue" name="SRS Properties" id="12b1-0070-2ca9-24c2" targetId="8084-b533-9713-767c"/>
+    <catalogueLink type="catalogue" name="System" id="7dec-796a-c211-6520" targetId="85b3-1e07-6cca-b9a3"/>
+    <catalogueLink type="catalogue" name="Weapon" id="0564-65fb-d71b-4a95" targetId="dd9c-c27a-41e0-6c12"/>
+  </catalogueLinks>
+</catalogue>

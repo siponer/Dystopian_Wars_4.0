@@ -11184,8 +11184,8 @@
             <infoLink name="Gunnery Sharpshooters" id="d370-100d-dde4-a15a" hidden="false" type="rule" targetId="34da-cb20-918b-5cc3"/>
           </infoLinks>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="167f-77eb-01ab-137e" includeChildSelections="false"/>
-            <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="ba11-e68c-3cde-6492" includeChildSelections="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="167f-77eb-01ab-137e" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba11-e68c-3cde-6492" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
       </selectionEntries>

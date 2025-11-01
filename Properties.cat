@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="5ca6-5d76-4c4d-04e2" name="Properties" gameSystemId="1242-c30b-419f-8229" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="5ca6-5d76-4c4d-04e2" name="Properties" gameSystemId="1242-c30b-419f-8229" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule name="Ablative Armour (x)" id="b869-3539-5cf3-f3f3" hidden="false">
       <description>When this model is targeted by an Attack action, Convert X Exploding Strikes in the Action Roll to Heavy Strikes. Sometimes, this Property will be listed for a specific Arc, e.g. Ablative Armour: Fore (3). In this case, the Property only applies if at least half of the models Participating in the Attack action are within the listed Arc of the Target Model.</description>
@@ -149,11 +149,7 @@ For each Success scored in the Action Roll, the Target Model suffers 1 Damage. 
       <description>This model’s unit can make Boarding actions that target Surface models. When this model Participates in a Boarding action, it contributes X dice to the Action Roll. If the model’s Centre Point passed through the Target during the Movement Step of this Activation then the value of X is doubled.</description>
     </rule>
     <rule name="Landing Party Support" id="9e02-cc15-4cdc-4fd4" hidden="false">
-      <description>If this model is within 4” of a Territory at the end of its
-Movement Step, its Admiral can either add one token to
-an existing friendly Landing Party stack on that Territory,
-or remove one Token from an enemy Landing Party stack
-on that Territory</description>
+      <description>If this model is within 4” of a Territory at the end of its Movement Step, its Admiral can either add one token to an existing friendly Landing Party stack on that Territory, or remove one Token from an enemy Landing Party stack on that Territory</description>
     </rule>
     <rule name="Inspirational (x”)" id="27cb-a835-e5db-8151" hidden="false">
       <description>A model within X” of a friendly Battle-Ready model with this Property can always Rally, even if another rule would prevent it from doing so. In addition, whenever such a model Rallies, it loses one additional level of Disorder.</description>
@@ -249,7 +245,7 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Attachment (x)" hidden="false" id="b5c5-7074-a27c-602c">
       <infoLinks>
-        <infoLink name="Attachment (x)" id="38f0-a3fb-52a9-c990" hidden="false" type="rule" targetId="f748-f854-5457-8864"/>
+        <infoLink name="Agile (x)" id="38f0-a3fb-52a9-c990" hidden="false" type="rule" targetId="a1c3-58c9-ce64-9a4a"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy Prow (x)" hidden="false" id="ed13-1ee8-f191-111f">
@@ -384,7 +380,7 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Agile (x)" hidden="false" id="0628-3b7c-b99d-9334">
       <infoLinks>
-        <infoLink name="Boarding Parties (x)" id="6d7f-23b4-1f31-36af" hidden="false" type="rule" targetId="3f8d-a077-655f-2cb3"/>
+        <infoLink name="Agile (x)" id="6d7f-23b4-1f31-36af" hidden="false" type="rule" targetId="a1c3-58c9-ce64-9a4a"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Amphibious" hidden="false" id="e3c1-bb93-0fbd-9b23">
@@ -605,5 +601,6 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
   </sharedSelectionEntries>
   <readme>Revision 01: initial release Rules Glossary Beta 2
 Revision 02: initial release Rules Glossary Beta 3
-Revision 03: initial release Rules Glossary Beta 3 (Properties)</readme>
+Revision 03: initial release Rules Glossary Beta 3 (Properties)
+Revision 04: correction</readme>
 </catalogue>

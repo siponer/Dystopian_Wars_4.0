@@ -149,6 +149,16 @@
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="7" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="09b3-b04c-f8fd-fc60" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="9" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="09b3-b04c-f8fd-fc60" shared="true"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </infoLink>
         <infoLink name="Precise (x)" id="fbbb-c33b-c00d-f4f9" hidden="true" type="rule" targetId="1c25-9329-32cc-b4f8">
@@ -537,11 +547,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink name="Barrage" id="8451-f279-1b07-9931" hidden="false" type="rule" targetId="9813-d4e2-c748-6f68">
-          <modifiers>
-            <modifier type="set" value="Guided (3)" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Barrage" id="8451-f279-1b07-9931" hidden="false" type="rule" targetId="9813-d4e2-c748-6f68"/>
         <infoLink name="Precise (x)" id="91fa-d493-d7ab-a050" hidden="true" type="rule" targetId="1c25-9329-32cc-b4f8">
           <modifiers>
             <modifier type="set" value="Precise (1)" field="name"/>
@@ -758,11 +764,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink name="Barrage" id="2515-2850-f038-a6d6" hidden="false" type="rule" targetId="9813-d4e2-c748-6f68">
-          <modifiers>
-            <modifier type="set" value="Guided (3)" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Barrage" id="2515-2850-f038-a6d6" hidden="false" type="rule" targetId="9813-d4e2-c748-6f68"/>
         <infoLink name="Precise (x)" id="ffaa-23b7-f85a-f45d" hidden="true" type="rule" targetId="1c25-9329-32cc-b4f8">
           <modifiers>
             <modifier type="set" value="Precise (1)" field="name"/>
@@ -1283,9 +1285,9 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink name="Rail (x)" id="27b9-995b-cb04-abbc" hidden="true" type="rule" targetId="028b-6c23-6d1b-a51f">
+        <infoLink name="Hazard (x)" id="27b9-995b-cb04-abbc" hidden="true" type="rule" targetId="e581-2eac-7604-55e6">
           <modifiers>
-            <modifier type="set" value="Rail (1)" field="name"/>
+            <modifier type="set" value="Hazard (1)" field="name"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1512,7 +1514,7 @@
             <modifier type="set" value="Hazard (2)" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Torrent (x)" id="5b86-eccd-ad14-506e" hidden="false" type="rule" targetId="7ef7-fad7-5567-7bdb">
+        <infoLink name="Devastating (x)" id="5b86-eccd-ad14-506e" hidden="false" type="rule" targetId="ec96-edd2-053f-9053">
           <modifiers>
             <modifier type="set" value="Devastating (2)" field="name"/>
           </modifiers>
@@ -1572,7 +1574,7 @@
         </infoLink>
         <infoLink name="Torrent (x)" id="f092-096d-1886-1bd7" hidden="false" type="rule" targetId="7ef7-fad7-5567-7bdb" publicationId="129d-da97-caec-1ddd">
           <modifiers>
-            <modifier type="set" value="Arc (1)" field="name"/>
+            <modifier type="set" value="Torrent (2)" field="name"/>
           </modifiers>
         </infoLink>
         <infoLink name="Piercing (x)" id="6962-9549-c779-8822" hidden="true" type="rule" targetId="76f1-471a-09c5-ddde">
@@ -1590,11 +1592,7 @@
             <modifier type="set" value="Arc (1)" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Assault" id="632b-99bc-0871-374d" hidden="false" type="rule" targetId="3856-2806-f502-9b89" publicationId="129d-da97-caec-1ddd">
-          <modifiers>
-            <modifier type="set" value="Arc (1)" field="name"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Assault" id="632b-99bc-0871-374d" hidden="false" type="rule" targetId="3856-2806-f502-9b89" publicationId="129d-da97-caec-1ddd"/>
         <infoLink name="Piercing (x)" id="83e3-70d2-8af4-b107" hidden="true" type="rule" targetId="76f1-471a-09c5-ddde">
           <modifiers>
             <modifier type="set" value="Piercing (1)" field="name"/>
@@ -1698,21 +1696,484 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mega Apokalyps Cannon" hidden="false" id="ff6c-d621-725b-641a">
       <infoLinks>
-        <infoLink name="Mega Apokalyps Cannon" id="2a23-007d-e75d-a245" hidden="false" type="profile" targetId="8ebf-4e46-c2ae-03da"/>
-        <infoLink name="Powered" id="8b1a-9076-0562-f046" hidden="false" type="rule" targetId="ef72-b196-a487-05c0" publicationId="129d-da97-caec-1ddd"/>
-        <infoLink name="Limited" id="b307-769f-0991-506c" hidden="false" type="rule" targetId="7958-8ef6-2b33-64df" publicationId="129d-da97-caec-1ddd"/>
-        <infoLink name="Intensive" id="6993-e7bf-e998-4915" hidden="false" type="rule" targetId="a26d-8530-ab29-85fc" publicationId="129d-da97-caec-1ddd"/>
-        <infoLink name="Devastating (x)" id="43ef-59f5-4302-9e36" hidden="false" type="rule" targetId="ec96-edd2-053f-9053" publicationId="129d-da97-caec-1ddd">
+        <infoLink name="Limited" id="78b4-b92a-1b96-85a6" hidden="false" type="rule" targetId="7958-8ef6-2b33-64df" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Singular" id="3f03-84c7-e727-fd23" hidden="false" type="rule" targetId="fcd7-6280-a4f0-2bc0" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Mega Apokalyps Cannon" id="1cb0-6f5e-8f18-10b6" hidden="false" type="profile" targetId="8ebf-4e46-c2ae-03da"/>
+        <infoLink name="Devastating (x)" id="f77c-5992-ffa7-a777" hidden="false" type="rule" targetId="ec96-edd2-053f-9053" publicationId="129d-da97-caec-1ddd">
           <modifiers>
             <modifier type="set" value="Devastating (10)" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Hazard (x)" id="78b4-b92a-1b96-85a6" hidden="false" type="rule" targetId="e581-2eac-7604-55e6" publicationId="129d-da97-caec-1ddd">
+        <infoLink name="Hazard (x)" id="482d-3679-57c1-5b9c" hidden="false" type="rule" targetId="e581-2eac-7604-55e6" publicationId="129d-da97-caec-1ddd">
           <modifiers>
             <modifier type="set" value="Hazard (6)" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Singular" id="3f03-84c7-e727-fd23" hidden="false" type="rule" targetId="fcd7-6280-a4f0-2bc0" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Intensive" id="dedb-1722-793c-04bb" hidden="false" type="rule" targetId="a26d-8530-ab29-85fc" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Powered" id="5bcd-8e05-c4da-8f2e" hidden="false" type="rule" targetId="ef72-b196-a487-05c0" publicationId="129d-da97-caec-1ddd"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Light Alchemical Rockets" hidden="false" id="3d41-96c2-7f9c-0962">
+      <infoLinks>
+        <infoLink name="Light Alchemical Rockets" id="4d83-fc53-cd39-325b" hidden="false" type="profile" targetId="30f1-4fd0-dbc8-33ac">
+          <modifiers>
+            <modifier type="set" value="7" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1bd5-658c-7a06-7e4a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="162f-d795-f376-9abd" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="4" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="8da1-292c-89a5-0566" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Precise (1)," field="faa3-d69c-5156-2acf" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Focussed
+" field="name" join="">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Barrage" id="d1bc-3dc7-e7f1-0f06" hidden="false" type="rule" targetId="9813-d4e2-c748-6f68"/>
+        <infoLink name="Alchemical" id="5012-316b-2f15-b909" hidden="true" type="rule" targetId="597c-c5e8-35f4-f082"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Corrosive Mortars" hidden="false" id="a185-3ee9-2ed9-08b8">
+      <infoLinks>
+        <infoLink name="Corrosive Mortars" id="bcfa-3efa-10bc-d820" hidden="false" type="profile" targetId="b02b-8833-1701-cc2e">
+          <modifiers>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f112-8239-213d-52f7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f112-8239-213d-52f7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d803-0f73-a950-854e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d803-0f73-a950-854e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Hazard (x)" id="dc65-2257-f262-b31f" hidden="true" type="rule" targetId="e581-2eac-7604-55e6">
+          <modifiers>
+            <modifier type="set" value="Hazard (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Indirect" id="6171-1dc1-dae1-1b71" hidden="true" type="rule" targetId="ddb4-9437-c0dc-cc06"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Dragon’s Breath Huoqaing" hidden="false" id="bfb6-3be4-0b6a-a1bb">
+      <infoLinks>
+        <infoLink name="Dragon’s Breath Huoqaing" id="4cee-7327-b993-8b58" hidden="false" type="profile" targetId="96bc-f04d-0d0d-0976"/>
+        <infoLink name="Alchemical" id="fc80-a1ae-97a8-0367" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Torrent (x)" id="de52-4921-3d54-a18b" hidden="false" type="rule" targetId="7ef7-fad7-5567-7bdb" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Torrent (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Hazard (x)" id="cb42-7ab0-7910-f584" hidden="true" type="rule" targetId="e581-2eac-7604-55e6">
+          <modifiers>
+            <modifier type="set" value="Hazard (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Draconic Heat Lancette" hidden="false" id="6b38-7998-e16a-2e64">
+      <infoLinks>
+        <infoLink name="Draconic Heat Lancette" id="1de0-cdb6-32b9-ea5b" hidden="false" type="profile" targetId="7d94-26f9-ac53-518f">
+          <modifiers>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Structural Failure (x)" id="9181-5596-d3ef-b679" hidden="false" type="rule" targetId="def3-61b3-b532-1ab7">
+          <modifiers>
+            <modifier type="set" value="Structural Failure (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Devastating (x)" id="3620-d956-38a7-e55c" hidden="false" type="rule" targetId="ec96-edd2-053f-9053">
+          <modifiers>
+            <modifier type="set" value="Devastating (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Scything Tail" hidden="false" id="9f0d-2404-534e-1bea">
+      <infoLinks>
+        <infoLink name="Scything Tail" id="91e2-1f84-822a-8895" hidden="false" type="profile" targetId="7b51-4ac2-b9d3-f2bd"/>
+        <infoLink name="Assault" id="172e-9e72-85d6-f569" hidden="false" type="rule" targetId="3856-2806-f502-9b89"/>
+        <infoLink name="Aquatic" id="52c0-1214-4340-bdd6" hidden="false" type="rule" targetId="139c-5444-7bb8-52ee"/>
+        <infoLink name="Devastating (x)" id="6d0f-d48a-2255-9360" hidden="false" type="rule" targetId="ec96-edd2-053f-9053" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Devastating (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Deathblow" id="1bfa-110f-7ad9-c021" hidden="false" type="rule" targetId="4334-3653-27f1-d89f"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Huoqiang" hidden="false" id="c141-1ddb-72f0-ea53">
+      <infoLinks>
+        <infoLink name="Heavy Huoqiang" id="2d1c-7e7f-3019-c967" hidden="false" type="profile" targetId="f949-1de7-206b-f921">
+          <modifiers>
+            <modifier type="set" value="A" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="7369-1efe-1c3d-31ee" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="7" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="28f1-dfd2-9507-3ffe" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="28f1-dfd2-9507-3ffe" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Alchemical" id="61f6-6547-ed6c-8a99" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082"/>
+        <infoLink name="Hazard (x)" id="4683-5898-4bb2-8501" hidden="false" type="rule" targetId="e581-2eac-7604-55e6">
+          <modifiers>
+            <modifier type="set" value="Hazard (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Torrent (x)" id="7b34-285b-859b-ff80" hidden="false" type="rule" targetId="7ef7-fad7-5567-7bdb" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Torrent (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Heavy Alchemical Rockets" hidden="false" id="939e-b039-7b56-22ee">
+      <infoLinks>
+        <infoLink name="Heavy Alchemical Rockets" id="17c2-d6dc-d4dc-4234" hidden="false" type="profile" targetId="4080-f631-e522-49bb">
+          <modifiers>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Sharpshooter" field="name" join="">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Focussed
+" field="name" join="">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="9" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="00ad-97a1-cc46-c88e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="8" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e884-df2a-586e-816d" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Alchemical" id="4bbc-3bb7-99b5-10d9" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082"/>
+        <infoLink name="Barrage" id="e464-17ed-a01a-bd19" hidden="false" type="rule" targetId="9813-d4e2-c748-6f68"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Super Heavy Huoqiang" hidden="false" id="475d-1322-9b5d-4309">
+      <infoLinks>
+        <infoLink name="Super Heavy Huoqiang" id="5a76-e445-1e6a-5a93" hidden="false" type="profile" targetId="e5b5-e10e-8202-40f4">
+          <modifiers>
+            <modifier type="set" value="A" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="7369-1efe-1c3d-31ee" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Alchemical" id="52a8-45ea-ffa6-c828" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082"/>
+        <infoLink name="Hazard (x)" id="3430-0f78-3199-9a4f" hidden="false" type="rule" targetId="e581-2eac-7604-55e6">
+          <modifiers>
+            <modifier type="set" value="Hazard (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Torrent (x)" id="2f38-a32f-f634-b62a" hidden="false" type="rule" targetId="7ef7-fad7-5567-7bdb" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Torrent (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Hyperbeam Lense Cannon" hidden="false" id="b1c8-c70b-1439-d5bc">
+      <infoLinks>
+        <infoLink name="Hyperbeam Lense Cannon" id="8310-fdaf-9f8d-f3cc" hidden="false" type="profile" targetId="cc93-c5b4-c08e-7132"/>
+        <infoLink name="Powered" id="6ad7-f926-31d7-d624" hidden="false" type="rule" targetId="ef72-b196-a487-05c0" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Kingslayer" id="836f-5df0-3f9f-6403" hidden="false" type="rule" targetId="d295-c909-2d3d-d153" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Intensive" id="e014-af0a-2653-92fe" hidden="false" type="rule" targetId="a26d-8530-ab29-85fc" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Devastating (x)" id="9934-452d-c3b6-e42b" hidden="false" type="rule" targetId="ec96-edd2-053f-9053" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Devastating (4)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Singular" id="847a-d90a-5932-4bd6" hidden="false" type="rule" targetId="fcd7-6280-a4f0-2bc0" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Structural Failure (x)" id="1f97-8a4d-2288-bede" hidden="false" type="rule" targetId="def3-61b3-b532-1ab7" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Structural Failure (4)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Fenghuang Dual-Cannon" hidden="false" id="0fe4-a895-d7de-1e60">
+      <infoLinks>
+        <infoLink name="Fenghuang Dual-Cannon" id="3180-afd5-8a9a-7819" hidden="false" type="profile" targetId="79cb-fc07-d240-4487"/>
+        <infoLink name="Alchemical" id="34e3-a818-428e-18db" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Blast (x)" id="9ba6-f3c1-3d7d-72b8" hidden="false" type="rule" targetId="dabd-cfc0-94a2-6673" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Blast (6)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Hazard (x)" id="ae5d-16f8-adba-4df2" hidden="false" type="rule" targetId="e581-2eac-7604-55e6" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Hazard (4)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Singular" id="a9da-4a75-06d1-8d45" hidden="false" type="rule" targetId="fcd7-6280-a4f0-2bc0" publicationId="129d-da97-caec-1ddd"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Erlang Shen Bombard Array" hidden="false" id="ed76-e8ae-08a2-c43a">
+      <infoLinks>
+        <infoLink name="Limited" id="a7b0-2c13-0edd-1519" hidden="false" type="rule" targetId="7958-8ef6-2b33-64df" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Singular" id="957a-8b5e-2936-09b8" hidden="false" type="rule" targetId="fcd7-6280-a4f0-2bc0" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Erlang Shen Bombard Array" id="2a23-007d-e75d-a245" hidden="false" type="profile" targetId="1fa5-9d6c-8f37-adbe"/>
+        <infoLink name="Alchemical" id="8b1a-9076-0562-f046" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Deathblow" id="6993-e7bf-e998-4915" hidden="false" type="rule" targetId="4334-3653-27f1-d89f" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Indirect" id="b307-769f-0991-506c" hidden="false" type="rule" targetId="ddb4-9437-c0dc-cc06" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Blast (x)" id="43ef-59f5-4302-9e36" hidden="false" type="rule" targetId="dabd-cfc0-94a2-6673" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Blast (8)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Alchemical Cluster Bombs" hidden="false" id="64bd-186e-f3c7-4b42">
+      <infoLinks>
+        <infoLink name="Thermal Cluster Bombs" id="598a-13fd-6bb6-3254" hidden="false" type="profile" targetId="67e4-00aa-7ed3-518d"/>
+        <infoLink name="Blast (x)" id="c227-ebf2-d035-7743" hidden="false" type="rule" targetId="dabd-cfc0-94a2-6673">
+          <modifiers>
+            <modifier type="set" value="Blast (6)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Alchemical" id="0794-298d-23d5-8bf1" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082"/>
+        <infoLink name="Bomb" id="c63d-0a30-5e00-b95d" hidden="false" type="rule" targetId="7979-1ca9-958e-b3f0"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Light Huoqiang" hidden="false" id="f0e3-3a1b-a7b2-79f3">
+      <infoLinks>
+        <infoLink name="Light Huoqiang" id="7aff-d6eb-3207-eb97" hidden="false" type="profile" targetId="2546-0f26-8984-f22d">
+          <modifiers>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Alchemical" id="2737-1f46-d898-c82a" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082"/>
+        <infoLink name="Torrent (x)" id="fd27-636b-d55c-2b1a" hidden="false" type="rule" targetId="7ef7-fad7-5567-7bdb" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Torrent (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Inferno Cannon" hidden="false" id="cc55-c686-c7e0-7867">
+      <infoLinks>
+        <infoLink name="Inferno Cannon" id="10c2-71b6-6528-ddac" hidden="false" type="profile" targetId="95fa-99e3-b58c-3c5b"/>
+        <infoLink name="Blast (x)" id="6790-f7fe-1980-698a" hidden="false" type="rule" targetId="dabd-cfc0-94a2-6673">
+          <modifiers>
+            <modifier type="set" value="Blast (4)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Alchemical" id="7c7d-079f-83a7-330f" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Light Torpedo Salvo" hidden="false" id="f747-0ce9-f98d-f6bf">
+      <infoLinks>
+        <infoLink name="Light Torpedo Salvo" id="ed53-86fa-f852-b3a3" hidden="false" type="profile" targetId="2ac9-6942-69ad-ae6d">
+          <modifiers>
+            <modifier type="set" value="A" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="7369-1efe-1c3d-31ee" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Submerged" id="7cce-690f-9004-195b" hidden="false" type="rule" targetId="0223-a895-90c5-d133"/>
+        <infoLink name="Torpedo" id="39ab-e1f5-374a-c356" hidden="false" type="rule" targetId="a357-9380-37f6-4124"/>
+        <infoLink name="Breach (x)" id="f529-e096-6ab2-9f6a" hidden="false" type="rule" targetId="cb11-ebcd-43d4-ccf5" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Breach (1)" field="name"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2005,6 +2466,141 @@
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Singular&lt;/B&gt;, Limited, Intensive, Optimal Target (2, Surface)</characteristic>
       </characteristics>
     </profile>
+    <profile name="Light Alchemical Rockets" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="30f1-4fd0-dbc8-33ac">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">5</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Alchemical, Barrage</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Corrosive Mortars" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="b02b-8833-1701-cc2e">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">4</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">4</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Hazard (1), Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Dragon’s Breath Huoqaing" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="96bc-f04d-0d0d-0976">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPS</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">8</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">2</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (2)&lt;B&gt;, Alchemical, Hazard (3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Draconic Heat Lancette" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="7d94-26f9-ac53-518f">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">6</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">5</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Hazard (1), Solex (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scything Tail" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="7b51-4ac2-b9d3-f2bd">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPSA</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">4</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Assault Assault&lt;/B&gt;, Optimal Target: Airborne (4), Piercing (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Alchemical Rockets" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="4080-f631-e522-49bb">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">7</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Alchemical, Barrage</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Huoqiang" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="f949-1de7-206b-f921">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">8</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">3</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (2)&lt;B&gt;, Alchemical, Hazard (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Super Heavy Huoqiang" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="e5b5-e10e-8202-40f4">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">10</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">43</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (3)&lt;B&gt;, Alchemical, Hazard (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Hyperbeam Lense Cannon" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="cc93-c5b4-c08e-7132">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">25</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">25</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">25</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Singular&lt;/B&gt;, Devastating (4),  Kingslayer, Intensive, Powered, Structural Failure (4)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Fenghuang Dual-Cannon" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="79cb-fc07-d240-4487">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">18</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">10</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Singular&lt;B&gt;, Alchemical, Blast (6), Hazard (4)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Erlang Shen Bombard Array" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="1fa5-9d6c-8f37-adbe">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">15</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">15</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Singular&lt;/B&gt;, Alchemical, Deathblow, Indirect, Blast (8), Limited</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Alchemical Cluster Bombs" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="1e4f-f8f2-2b81-43bf">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">A</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">16</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Bomb&lt;/B&gt;, Alchemical, Blast (6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Light Huoqiang" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="2546-0f26-8984-f22d">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">5</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (2)&lt;B&gt;, Alchemical</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Inferno Cannon" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="95fa-99e3-b58c-3c5b">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">11</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">5</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Alchemical, Blast (4)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Light Torpedo Salvo" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="2ac9-6942-69ad-ae6d">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">3</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">3</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">3</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Submerged&lt;/B&gt;, Breach (1), Torpedo</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Submerged" id="0223-a895-90c5-d133" hidden="false" publicationId="129d-da97-caec-1ddd">
@@ -2223,6 +2819,15 @@ X values are combined.</description>
     <categoryEntry name="TRG666" id="85bf-38fd-ced4-429c" hidden="true"/>
     <categoryEntry name="HGB710-" id="e238-1dff-28ef-e305" hidden="true"/>
     <categoryEntry name="SHTS12" id="73ae-eaf7-efb8-a22e" hidden="true"/>
+    <categoryEntry name="LAR-7-" id="1bd5-658c-7a06-7e4a" hidden="false"/>
+    <categoryEntry name="LAR-6-" id="162f-d795-f376-9abd" hidden="false"/>
+    <categoryEntry name="LAR-4-" id="8da1-292c-89a5-0566" hidden="false"/>
+    <categoryEntry name="CM-55" id="f112-8239-213d-52f7" hidden="false"/>
+    <categoryEntry name="CM-33" id="d803-0f73-a950-854e" hidden="false"/>
+    <categoryEntry name="HAR-9-" id="00ad-97a1-cc46-c88e" hidden="false"/>
+    <categoryEntry name="HAR-8-" id="e884-df2a-586e-816d" hidden="false"/>
+    <categoryEntry name="HGB79-" id="09b3-b04c-f8fd-fc60" hidden="true"/>
+    <categoryEntry name="HHq72-" id="28f1-dfd2-9507-3ffe" hidden="false"/>
   </categoryEntries>
   <readme>Revision 01: initial release Rules Glossary Beta 2
 Revision 02: initial release Rules Glossary Beta 3 (complete Alleance ORBAT)

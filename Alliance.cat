@@ -11190,76 +11190,18 @@
             <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="46ec-b350-7cf1-5521" includeChildSelections="false"/>
           </constraints>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Chain of Commnd" hidden="false" id="4d73-d218-3084-0f94">
-          <infoLinks>
-            <infoLink name="Chain of Commnd" id="71e8-b41a-7995-ccc8" hidden="false" type="rule" targetId="ff0e-8a4e-5153-a51c"/>
-          </infoLinks>
-          <costs>
-            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="25"/>
-            <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1e3b-b4ff-8989-7ec3" includeChildSelections="false"/>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="3656-f119-f939-1b7b" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Forward Patrol" hidden="false" id="fa24-6ff9-e72c-7e5e">
-          <infoLinks>
-            <infoLink name="Forward Patrol" id="eaa4-d76a-a49d-19f0" hidden="false" type="rule" targetId="8d7e-99bb-59bc-f12e"/>
-          </infoLinks>
-          <costs>
-            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="15"/>
-            <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ab9-fd2b-8804-5f57" includeChildSelections="false"/>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="1602-e82c-a16c-13e6" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Devil&apos;s Own Luck" hidden="false" id="782b-86fe-8137-0f5e">
-          <costs>
-            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="25"/>
-            <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
-          </costs>
-          <infoLinks>
-            <infoLink name="Devil&apos;s Own Luck" id="3bb4-4e4a-c029-bbda" hidden="false" type="rule" targetId="e994-21ba-abc3-e147"/>
-          </infoLinks>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c521-e53f-d0cc-a861" includeChildSelections="false"/>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="70ec-8501-9951-26f4" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Do or Die" hidden="false" id="fae0-5459-1e1a-5893">
-          <infoLinks>
-            <infoLink name="Do or Die" id="6dee-42a0-862f-eff6" hidden="false" type="rule" targetId="f562-2bac-e231-00c8"/>
-          </infoLinks>
-          <costs>
-            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="30"/>
-            <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="543b-2645-b10e-9dc7" includeChildSelections="false"/>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="03f6-f20f-4ef0-2d2d" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Strategic Reserves" hidden="false" id="6153-0fba-f3f9-ccaf">
-          <infoLinks>
-            <infoLink name="Strategic Reserves" id="a361-680c-e365-279e" hidden="false" type="rule" targetId="00a2-ebe2-6de5-a47b"/>
-          </infoLinks>
-          <costs>
-            <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="20"/>
-            <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
-          </costs>
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ba2-d652-d545-2503" includeChildSelections="false"/>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="6653-6ce8-8de4-18ce" includeChildSelections="false"/>
-          </constraints>
-        </selectionEntry>
       </selectionEntries>
       <constraints>
         <constraint type="min" value="0" field="selections" scope="parent" shared="true" id="28c0-a741-d7e0-fc52" includeChildSelections="false"/>
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1874-7f00-7934-98a5" includeChildSelections="false"/>
       </constraints>
+      <entryLinks>
+        <entryLink targetId="4d73-d218-3084-0f94" id="1ccd-543c-ce0c-bac8" type="selectionEntry" name="Chain of Commnd" hidden="false"/>
+        <entryLink targetId="6153-0fba-f3f9-ccaf" id="174e-0c0d-5a15-b82f" type="selectionEntry" name="Strategic Reserves" hidden="false"/>
+        <entryLink targetId="fa24-6ff9-e72c-7e5e" id="8833-b370-b4ca-537f" type="selectionEntry" name="Forward Patrol" hidden="false"/>
+        <entryLink targetId="782b-86fe-8137-0f5e" id="e8ed-1873-f4ef-76be" type="selectionEntry" name="Devil&apos;s Own Luck" hidden="false"/>
+        <entryLink targetId="fae0-5459-1e1a-5893" id="fc1f-4e0d-0bb5-6e52" type="selectionEntry" name="Do or Die" hidden="false"/>
+      </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup name="Attachment (French, Levant)" id="038b-26b0-d9bd-078a" hidden="false">
       <selectionEntries>
@@ -11536,21 +11478,6 @@ Whenever a French Surface unit in this Force would gain a
 level of Disorder due to the Under Fire rule, its Admiral
 may discard a Victory &amp; Valour card from their hand. If
 they do, the unit does not gain a level of Disorder.</description>
-    </rule>
-    <rule name="Forward Patrol" id="8d7e-99bb-59bc-f12e" hidden="false">
-      <description>At the start of their turn in the Make a Special Deployment Action step of Deployment, this Admiral can nominate one of their units in the Play Area that is not Immobile. That unit gains the Vanguard (5”) property.</description>
-    </rule>
-    <rule name="Strategic Reserves" id="00a2-ebe2-6de5-a47b" hidden="false">
-      <description>Whenever this Admiral makes a Reserve Roll for a unit in their Force, they can roll one additional Action Die.</description>
-    </rule>
-    <rule name="Chain of Commnd" id="ff0e-8a4e-5153-a51c" hidden="false">
-      <description>Once per Round, during the Resolve Re-rolls step of an Action Roll this Admiral is making for a unit in  their force, they can enact a Special Valour Effffect with that unit. The unit must either be a Flagship, or be within 10” of a friendly Flagship. If the Effect is successfully enacted, the Admiral can re-roll any number of dice in the pool.</description>
-    </rule>
-    <rule name="Devil&apos;s Own Luck" id="e994-21ba-abc3-e147" hidden="false">
-      <description>Once per game, when the opposing Admiral attempts to enact a Valour Effffect, this Admiral can use this Doctrine instead of attempting to Deny the effect. The opposing Admiral reveals their Valour Card. If it has a Value of 8 or less, it is discarded without being enacted.</description>
-    </rule>
-    <rule name="Do or Die" id="f562-2bac-e231-00c8" hidden="false">
-      <description>Once per Round, before this Admiral makes a Crew Check for a model, they can use this Doctrine to grant a +2 Modifier to that model’s Crew rating, for the purposes of this test only.  In the case of a Group Crew Check, this Modifier applies to all models in the unit.</description>
     </rule>
     <rule name="Revolutionary Zeal" id="0ea0-d2b8-1638-6037" hidden="false">
       <description>When making a Group Crew Check to see if a Crippled model with the SUSA trait can participate in an Action, this Battlefleet’s Admiral can discard a Victory &amp; Valour Card from their hand to automatically pass the Check.</description>

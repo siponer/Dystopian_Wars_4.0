@@ -155,7 +155,7 @@
   <readme>Revision 01: initial release Rules Glossary Beta 2
 Revision 02: initial release Rules Glossary Beta 3 (System)
 Revision 03: correction Rules Glossary Beta 3 (Commonwealth ORBAT)
-Revision 04: correction </readme>
+Revision 04: correction</readme>
   <sharedRules>
     <rule name="Aerial Repair Facilities (x)" id="6297-b159-8ad2-6547" hidden="false">
       <description>When making a Repair Roll for an Airborne model, add X Bonus Dice if it is within 4” of at least one friendly model with this System</description>
@@ -296,7 +296,4 @@ of the Hazard Critical Damage Effect.</description>
       <description>Before moving this model, its Admiral can declare that they will Boost its Propulsion. If they do so, then for the duration of the current Movement Step, the model’s Minimum Speed is increased to its unmodified Maximum Speed, its Maximum Speed by X”, and its Turn Limit reduced to 0.</description>
     </rule>
   </sharedRules>
-  <infoLinks>
-    <infoLink name="Turbo Encabulation Drive" id="845a-ba52-bc1a-97b1" hidden="false" type="rule" targetId="3bb8-c0ee-ef48-2891"/>
-  </infoLinks>
 </catalogue>

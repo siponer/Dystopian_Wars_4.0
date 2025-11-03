@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="8456-7166-73ec-b4ab" name="Alliance" gameSystemId="1242-c30b-419f-8229" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="8456-7166-73ec-b4ab" name="Alliance" gameSystemId="1242-c30b-419f-8229" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedProfiles>
     <profile name="Couronne" typeId="4cb0-515e-e6e0-153a" typeName="Standard Model" hidden="false" id="26cd-37f8-5846-17df">
       <characteristics>
@@ -9163,6 +9163,63 @@
         <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="10"/>
       </costs>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Battlefleet" hidden="false" id="2258-06d4-c41e-e90e" sortIndex="0">
+      <constraints>
+        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="7307-c3a0-1c9a-9979" includeChildSelections="true"/>
+        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8445-c638-130c-81b2" includeChildSelections="true"/>
+      </constraints>
+      <entryLinks>
+        <entryLink import="true" name="Main Battlefleet" hidden="true" id="c09a-6bbd-5f02-028c" type="selectionEntry" targetId="dd77-1355-2580-a469" sortIndex="1">
+          <modifiers>
+            <modifier type="set" value="1" field="6f6b-895b-6f94-a729">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="forces" scope="force" childId="9a29-7092-f19a-cca0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="0" field="forces" scope="force" childId="5b46-49e3-9c04-cf3b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="0" field="forces" scope="force" childId="9a29-7092-f19a-cca0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="0" field="forces" scope="force" childId="5b46-49e3-9c04-cf3b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Specialist Battlefleet" hidden="true" id="7c12-4b14-2268-a120" type="selectionEntry" targetId="1158-6e57-cab4-d521" sortIndex="2">
+          <modifiers>
+            <modifier type="set" value="1" field="6ef8-3203-8f93-496d">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="8c6a-887f-3ea5-2b1f" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="cf0f-18ed-f80c-e6aa" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="false" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="8c6a-887f-3ea5-2b1f" shared="true" includeChildSelections="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="cf0f-18ed-f80c-e6aa" shared="true" includeChildSelections="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Mercenary Battlefleet" hidden="true" id="1d8f-dd5c-28b3-38e1" type="selectionEntry" targetId="4276-0dac-62d7-f428" sortIndex="3"/>
+      </entryLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <categoryEntries>
     <categoryEntry name="Italian" id="9a44-fd2b-52a6-5609" hidden="false"/>
@@ -10816,7 +10873,7 @@
       <modifiers>
         <modifier type="set" value="0" field="8bb4-13af-306c-334c">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5b46-49e3-9c04-cf3b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="greaterThan" value="0" field="selections" scope="roster" childId="f56a-3df4-17d2-db01" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -10889,12 +10946,12 @@
         <infoLink name="Levant Surge" id="1ab3-d99f-a376-0ee5" hidden="false" type="rule" targetId="273b-40db-8a72-42e3"/>
       </infoLinks>
       <constraints>
-        <constraint type="min" value="1" field="selections" scope="roster" shared="true" id="d767-801d-f92c-be37" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="min" value="1" field="forces" scope="roster" shared="true" id="d767-801d-f92c-be37" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <modifiers>
         <modifier type="set" value="0" field="d767-801d-f92c-be37">
           <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="roster" childId="9a29-7092-f19a-cca0" shared="true" includeChildSelections="true" includeChildForces="true"/>
+            <condition type="greaterThan" value="0" field="selections" scope="roster" childId="f56a-3df4-17d2-db01" shared="true" includeChildSelections="true" includeChildForces="true"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -11013,18 +11070,38 @@
         <infoLink name="Revolutionary Zeal" id="c9bc-50f4-df07-d59d" hidden="false" type="rule" targetId="0ea0-d2b8-1638-6037"/>
       </infoLinks>
       <constraints>
-        <constraint type="max" value="0" field="forces" scope="parent" shared="false" id="329d-af84-3dd6-c69d" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="0" field="forces" scope="parent" shared="true" id="329d-af84-3dd6-c69d" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <modifiers>
-        <modifier type="increment" value="1" field="329d-af84-3dd6-c69d">
-          <repeats>
-            <repeat value="1" repeats="1" field="selections" scope="parent" childId="f56a-3df4-17d2-db01" shared="false" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
-          </repeats>
+        <modifier type="set" value="1" field="329d-af84-3dd6-c69d">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="f56a-3df4-17d2-db01" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="2" field="selections" scope="roster" childId="50f8-5d04-e502-e289" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
-        <modifier type="decrement" value="1" field="329d-af84-3dd6-c69d">
-          <repeats>
-            <repeat value="1" repeats="1" field="forces" scope="parent" childId="8c6a-887f-3ea5-2b1f" shared="true" roundUp="false" includeChildSelections="false" includeChildForces="true"/>
-          </repeats>
+        <modifier type="set" value="2" field="329d-af84-3dd6-c69d">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="2" field="selections" scope="roster" childId="f56a-3df4-17d2-db01" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="3" field="selections" scope="roster" childId="50f8-5d04-e502-e289" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="3" field="329d-af84-3dd6-c69d">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="3" field="selections" scope="roster" childId="f56a-3df4-17d2-db01" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="4" field="selections" scope="roster" childId="50f8-5d04-e502-e289" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </forceEntry>
@@ -11090,18 +11167,38 @@
         <infoLink name="Testudo Viridis" id="0826-a375-cdf5-f734" hidden="false" type="rule" targetId="7f6b-cae4-e088-f5e0"/>
       </infoLinks>
       <constraints>
-        <constraint type="max" value="0" field="forces" scope="parent" shared="false" id="bda5-6165-3a14-a3e0" includeChildSelections="true" includeChildForces="true"/>
+        <constraint type="max" value="0" field="forces" scope="roster" shared="true" id="bda5-6165-3a14-a3e0" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <modifiers>
-        <modifier type="increment" value="1" field="bda5-6165-3a14-a3e0">
-          <repeats>
-            <repeat value="1" repeats="1" field="selections" scope="roster" childId="f56a-3df4-17d2-db01" shared="false" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
-          </repeats>
+        <modifier type="set" value="1" field="bda5-6165-3a14-a3e0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="1" field="selections" scope="roster" childId="f56a-3df4-17d2-db01" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="2" field="selections" scope="roster" childId="50f8-5d04-e502-e289" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
-        <modifier type="decrement" value="1" field="bda5-6165-3a14-a3e0">
-          <repeats>
-            <repeat value="1" repeats="1" field="forces" scope="parent" childId="cf0f-18ed-f80c-e6aa" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="true"/>
-          </repeats>
+        <modifier type="set" value="2" field="bda5-6165-3a14-a3e0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="2" field="selections" scope="roster" childId="f56a-3df4-17d2-db01" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="3" field="selections" scope="roster" childId="50f8-5d04-e502-e289" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="3" field="bda5-6165-3a14-a3e0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition type="equalTo" value="3" field="selections" scope="roster" childId="f56a-3df4-17d2-db01" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="lessThan" value="4" field="selections" scope="roster" childId="50f8-5d04-e502-e289" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </forceEntry>
@@ -11402,66 +11499,6 @@
         <categoryLink name="Attached Unit" hidden="false" id="7e35-02ff-18e0-aa4f" targetId="4cec-a877-ad69-0968" primary="false"/>
       </categoryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Battlefleet" id="ed3b-f6d7-3551-9c41" hidden="false">
-      <entryLinks>
-        <entryLink import="true" name="Main Battlefleet" hidden="true" id="50fc-7bf8-eb2a-bb66" type="selectionEntry" targetId="dd77-1355-2580-a469" sortIndex="1">
-          <modifiers>
-            <modifier type="set" value="1" field="6f6b-895b-6f94-a729">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="instanceOf" value="0" field="forces" scope="force" childId="9a29-7092-f19a-cca0" shared="true" includeChildSelections="true" includeChildForces="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="5b46-49e3-9c04-cf3b" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" value="false" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="9a29-7092-f19a-cca0" shared="true" includeChildSelections="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="5b46-49e3-9c04-cf3b" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Specialist Battlefleet" hidden="true" id="bf4d-47f7-c557-3715" type="selectionEntry" targetId="1158-6e57-cab4-d521" sortIndex="2">
-          <modifiers>
-            <modifier type="set" value="1" field="6ef8-3203-8f93-496d">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="8c6a-887f-3ea5-2b1f" shared="true" includeChildSelections="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="cf0f-18ed-f80c-e6aa" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" value="false" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="8c6a-887f-3ea5-2b1f" shared="true" includeChildSelections="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="force" childId="cf0f-18ed-f80c-e6aa" shared="true" includeChildSelections="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Mercenary Battlefleet" hidden="true" id="c4d7-07b4-f86b-9128" type="selectionEntry" targetId="4276-0dac-62d7-f428" sortIndex="3"/>
-      </entryLinks>
-      <categoryLinks>
-        <categoryLink name="Fleet Abilities" hidden="false" id="6a9a-7582-5940-1493" targetId="dfe9-b90a-3878-78f5" primary="true"/>
-      </categoryLinks>
-      <constraints>
-        <constraint type="min" value="1" field="selections" scope="force" shared="true" id="4446-b243-2cf1-8cb5" includeChildSelections="true"/>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="f130-73d6-2419-c44b" includeChildSelections="true"/>
-      </constraints>
-    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule name="Testudo Viridis" id="7f6b-cae4-e088-f5e0" hidden="false">
@@ -11488,8 +11525,13 @@ they do, the unit does not gain a level of Disorder.</description>
   </sharedRules>
   <readme>Revision 01: Initial release Alliance Beta 2
 Revision 02: Initial release Alliance Beta 3 (Complete ORBAT release)
-Revision 03: correction of Alliance Beta 3</readme>
+Revision 03: correction of Alliance Beta 3
+Revision 04: correction of Alliance Beta 3</readme>
   <entryLinks>
-    <entryLink import="true" name="Battlefleet" hidden="false" id="9d96-dbb3-ae56-21bb" type="selectionEntryGroup" targetId="ed3b-f6d7-3551-9c41" sortIndex="0"/>
+    <entryLink import="true" name="Battlefleet" hidden="false" id="a860-f7a3-ccc5-fb27" type="selectionEntry" targetId="2258-06d4-c41e-e90e" sortIndex="0">
+      <categoryLinks>
+        <categoryLink name="Fleet Abilities" hidden="false" id="0baa-e94a-3951-ee36" targetId="dfe9-b90a-3878-78f5" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
 </catalogue>

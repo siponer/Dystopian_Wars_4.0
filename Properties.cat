@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="5ca6-5d76-4c4d-04e2" name="Properties" gameSystemId="1242-c30b-419f-8229" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="5ca6-5d76-4c4d-04e2" name="Properties" gameSystemId="1242-c30b-419f-8229" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule name="Ablative Armour (x)" id="b869-3539-5cf3-f3f3" hidden="false">
       <description>When this model is targeted by an Attack action, Convert X Exploding Strikes in the Action Roll to Heavy Strikes. Sometimes, this Property will be listed for a specific Arc, e.g. Ablative Armour: Fore (3). In this case, the Property only applies if at least half of the models Participating in the Attack action are within the listed Arc of the Target Model.</description>
@@ -194,8 +194,7 @@ For each Success scored in the Action Roll, the Target Model suffers 1 Damage. 
       <description>During Deployment, this unit can make a Special Deployment Action to Redeploy, so long as it has been deployed to the Play Area. The active Admiral removes the unit from play, then deploys it again, following all of the standard rules for deployment. A unit can be redeployed to the Reserve, so long as it would normally be able to do so.</description>
     </rule>
     <rule name="Bushi Ryu Dojos (x)" id="0d67-e266-5835-0f1b" hidden="false">
-      <description>This model’s unit can make Boarding actions that target Surface models. If this model’s unit is Airborne, it can also make Boarding actions that target Airborne models. When this model  Participates in a Boarding action, it contributes X dice to the Action Roll. In addition, its Admiral can re-roll any Blank results. If this model is targeted by a Boarding action, it adds X
-dice to its Resistance Roll. In addition, its Admiral can re-roll any Blank results.</description>
+      <description>This model’s unit can make Boarding actions that target Surface models. If this model’s unit is Airborne, it can also make Boarding actions that target Airborne models. When this model  Participates in a Boarding action, it contributes X dice to the Action Roll. In addition, its Admiral can re-roll any Blank results. If this model is targeted by a Boarding action, it adds X dice to its Resistance Roll. In addition, its Admiral can re-roll any Blank results.</description>
     </rule>
     <rule name="Boarding Parties (x)" id="3f8d-a077-655f-2cb3" hidden="false">
       <description>This model’s unit can make Boarding actions that target Surface models. If this model is Participating in a Boarding action, it contributes X dice to the Action Roll. If this model is targeted by a Boarding action, it adds X dice to its Resistance Roll.</description>
@@ -245,7 +244,7 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Attachment (x)" hidden="false" id="b5c5-7074-a27c-602c">
       <infoLinks>
-        <infoLink name="Agile (x)" id="38f0-a3fb-52a9-c990" hidden="false" type="rule" targetId="a1c3-58c9-ce64-9a4a"/>
+        <infoLink name="Attachment (x)" id="38f0-a3fb-52a9-c990" hidden="false" type="rule" targetId="f748-f854-5457-8864"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy Prow (x)" hidden="false" id="ed13-1ee8-f191-111f">
@@ -602,5 +601,6 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
   <readme>Revision 01: initial release Rules Glossary Beta 2
 Revision 02: initial release Rules Glossary Beta 3
 Revision 03: initial release Rules Glossary Beta 3 (Properties)
-Revision 04: correction</readme>
+Revision 04: correction
+Revision 05: release Empire ORBAT Beta 3</readme>
 </catalogue>

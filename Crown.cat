@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="45d2-da76-a2ec-5673" name="Crown" gameSystemId="1242-c30b-419f-8229" gameSystemRevision="3" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Weapons" id="94b8-c736-0ee0-cb79" targetId="dd9c-c27a-41e0-6c12"/>
+    <catalogueLink type="catalogue" name="Generators" id="697d-164a-845a-b6c3" targetId="5a50-c7f6-8981-e1d8"/>
+    <catalogueLink type="catalogue" name="Properties" id="b9c5-2400-049f-5fa6" targetId="5ca6-5d76-4c4d-04e2"/>
+    <catalogueLink type="catalogue" name="SRS Properties" id="6826-6339-2ae3-956b" targetId="8084-b533-9713-767c"/>
+    <catalogueLink type="catalogue" name="Systems" id="beba-a682-c5fb-e721" targetId="85b3-1e07-6cca-b9a3"/>
+  </catalogueLinks>
+</catalogue>

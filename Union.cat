@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="b641-a586-6c12-2b6f" name="Union" gameSystemId="1242-c30b-419f-8229" gameSystemRevision="3" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Generators" id="b9db-18ef-9f69-7216" targetId="5a50-c7f6-8981-e1d8"/>
+    <catalogueLink type="catalogue" name="Properties" id="8a9d-26e2-b76f-2aee" targetId="5ca6-5d76-4c4d-04e2"/>
+    <catalogueLink type="catalogue" name="SRS Properties" id="fc4d-bf2f-0ff5-e194" targetId="8084-b533-9713-767c"/>
+    <catalogueLink type="catalogue" name="Systems" id="e377-d8f2-4c22-5a47" targetId="85b3-1e07-6cca-b9a3"/>
+    <catalogueLink type="catalogue" name="Weapons" id="178e-b66b-757d-64f4" targetId="dd9c-c27a-41e0-6c12"/>
+  </catalogueLinks>
+</catalogue>

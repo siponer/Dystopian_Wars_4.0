@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1242-c30b-419f-8229" name="Dystopian Wars 4.0 Edition" battleScribeVersion="2.03" authorName="Riccardo Sipone" authorContact="siponeric@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false" revision="3">
+<gameSystem id="1242-c30b-419f-8229" name="Dystopian Wars 4.0 Edition" battleScribeVersion="2.03" authorName="Riccardo Sipone" authorContact="siponeric@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false" revision="4">
   <publications>
     <publication id="7f09-e243-2307-78d0" name="Dystopian Rulebook"/>
     <publication id="e265-8c7f-a4b2-a48e" name="Alliance ORBAT"/>
@@ -113,7 +113,6 @@
     <categoryEntry name="Colossus" id="4e63-4a6b-08a9-90a4" hidden="false"/>
     <categoryEntry name="Carrier" id="347a-b873-97b4-d758" hidden="false"/>
     <categoryEntry name="Deport" id="109e-1591-2bde-79d8" hidden="false"/>
-    <categoryEntry name="Repair" id="985b-40bc-e930-4b8e" hidden="false"/>
     <categoryEntry name="Upgrade" id="3497-f9c2-d752-71ae" hidden="true"/>
     <categoryEntry name="Properties" id="c8ea-afea-b119-ce3c" hidden="true"/>
     <categoryEntry name="Systems" id="9ff7-ad4d-c560-d893" hidden="true"/>
@@ -136,7 +135,7 @@
         <cost name="Victory Points" typeId="426e-670d-6ddd-9631" value="0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Main Battlefleet" hidden="false" id="dd77-1355-2580-a469" collective="false">
+    <selectionEntry type="upgrade" import="false" name="Main Battlefleet" hidden="false" id="dd77-1355-2580-a469" collective="false" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Main Battlefleet" hidden="false" id="754a-5678-2197-2985" targetId="f56a-3df4-17d2-db01" primary="false"/>
       </categoryLinks>
@@ -149,7 +148,7 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="4ff6-7e74-edd8-58ae"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Mercenary Battlefleet" hidden="false" id="4276-0dac-62d7-f428" collective="false">
+    <selectionEntry type="upgrade" import="false" name="Mercenary Battlefleet" hidden="false" id="4276-0dac-62d7-f428" collective="false" sortIndex="3">
       <categoryLinks>
         <categoryLink name="Specialist Battlefleet" hidden="false" id="503e-f8c3-8b75-c5d2" targetId="50f8-5d04-e502-e289" primary="false"/>
       </categoryLinks>
@@ -162,7 +161,7 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5a51-4936-67cf-9dd9"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="false" name="Specialist Battlefleet" hidden="false" id="1158-6e57-cab4-d521" collective="false">
+    <selectionEntry type="upgrade" import="false" name="Specialist Battlefleet" hidden="false" id="1158-6e57-cab4-d521" collective="false" sortIndex="3">
       <costs>
         <cost name="Victory Points" typeId="426e-670d-6ddd-9631" value="0"/>
         <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
@@ -378,5 +377,6 @@
   </sharedProfiles>
   <readme>Revision 01: initial release Rules Beta 2
 Revision 02: initial release Alliance Beta 3 (Complete ORBAT release)
-Revision 03: initial release Commonwealth Beta 3 (Complete ORBAT release)</readme>
+Revision 03: initial release Commonwealth Beta 3 (Complete ORBAT release)
+Revision 04: initial release Empire Beta 3 (Complete ORBAT release)</readme>
 </gameSystem>

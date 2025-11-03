@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="6764-45ac-d59c-763f" name="Sultanate" gameSystemId="1242-c30b-419f-8229" gameSystemRevision="3" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Generators" id="0f3d-4203-043d-9dcf" targetId="5a50-c7f6-8981-e1d8"/>
+    <catalogueLink type="catalogue" name="Properties" id="ba1b-4380-8a0e-606b" targetId="5ca6-5d76-4c4d-04e2"/>
+    <catalogueLink type="catalogue" name="Weapons" id="b0a7-1d56-8abc-77a0" targetId="dd9c-c27a-41e0-6c12"/>
+    <catalogueLink type="catalogue" name="SRS Properties" id="c73d-7101-c3ca-08d5" targetId="8084-b533-9713-767c"/>
+    <catalogueLink type="catalogue" name="Systems" id="211d-0419-696d-7abe" targetId="85b3-1e07-6cca-b9a3"/>
+  </catalogueLinks>
+</catalogue>

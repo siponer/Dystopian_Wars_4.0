@@ -43,6 +43,7 @@
       </categoryLinks>
       <infoLinks>
         <infoLink name="Solex Generator" id="5dee-1c23-d11e-a0e3" hidden="false" type="rule" targetId="79b3-017e-3883-2de2"/>
+        <infoLink name="Enhanced Solex (x)" id="e4e3-e047-3e5e-7d2d" hidden="false" type="rule" targetId="ce77-780b-7dc9-7fa4"/>
       </infoLinks>
       <modifiers>
         <modifier type="remove" value="25b9-7f26-cbd9-e68f" field="category">
@@ -63,13 +64,9 @@
         <modifierGroup type="and">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="933b-3024-a972-b371" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="933b-3024-a972-b371" shared="true"/>
+              </conditions>
             </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
@@ -447,6 +444,9 @@ To show that a unit is Slowed, mark it with a Generator Effect token. While a 
     </rule>
     <rule name="Power Transfer Generator" id="ebd0-0308-6a7c-47a5" hidden="false">
       <description>&lt;B&gt;This is a Generator.&lt;/B&gt; When making an Action Roll or Resistance Roll for another Enlightened model within 4” of this model, its Admiral can add 3 Bonus Dice to the Pool. If they do so, this model gains 1 level of Disorder. If it already has 3 Disorder, it suffers 1 Damage instead.</description>
+    </rule>
+    <rule name="Enhanced Solex (x)" id="ce77-780b-7dc9-7fa4" hidden="false">
+      <description>After the Resolve Exploding Strikes step of an Attack action, each Contributing weapon with this Quality allows the active Admiral to convert up to X Counters in the Action Roll into equivalent Strikes. (Standard Counters become Standard Strikes, and Heavy Counters become Heavy Strikes.)</description>
     </rule>
   </sharedRules>
   <catalogueLinks>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="dd9c-c27a-41e0-6c12" name="Weapons" gameSystemId="1242-c30b-419f-8229" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="dd9c-c27a-41e0-6c12" name="Weapons" gameSystemId="1242-c30b-419f-8229" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Torpedo Salvo" hidden="false" id="61fe-f84f-5e2d-d0a6">
       <infoLinks>
@@ -1944,9 +1944,14 @@
               </conditions>
             </modifier>
             <modifier type="set" value="7" field="4209-eb47-9807-b834">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="28f1-dfd2-9507-3ffe" shared="true"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="28f1-dfd2-9507-3ffe" shared="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="a0ea-ab19-c014-b9b1" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" value="2" field="d025-b048-0c22-fad5">
               <conditions>
@@ -1967,6 +1972,15 @@
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
               </conditions>
+            </modifier>
+            <modifier type="set" value="4" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="a0ea-ab19-c014-b9b1" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
         </infoLink>
@@ -2116,7 +2130,15 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Alchemical Cluster Bombs" hidden="false" id="64bd-186e-f3c7-4b42">
       <infoLinks>
-        <infoLink name="Thermal Cluster Bombs" id="598a-13fd-6bb6-3254" hidden="false" type="profile" targetId="67e4-00aa-7ed3-518d"/>
+        <infoLink name="Alchemical Cluster Bombs" id="598a-13fd-6bb6-3254" hidden="false" type="profile" targetId="1e4f-f8f2-2b81-43bf">
+          <modifiers>
+            <modifier type="set" value="8" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1981-892a-2f6e-74a9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
         <infoLink name="Blast (x)" id="c227-ebf2-d035-7743" hidden="false" type="rule" targetId="dabd-cfc0-94a2-6673">
           <modifiers>
             <modifier type="set" value="Blast (6)" field="name"/>
@@ -2170,6 +2192,63 @@
         <infoLink name="Submerged" id="7cce-690f-9004-195b" hidden="false" type="rule" targetId="0223-a895-90c5-d133"/>
         <infoLink name="Torpedo" id="39ab-e1f5-374a-c356" hidden="false" type="rule" targetId="a357-9380-37f6-4124"/>
         <infoLink name="Breach (x)" id="f529-e096-6ab2-9f6a" hidden="false" type="rule" targetId="cb11-ebcd-43d4-ccf5" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Breach (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Flak Gun" hidden="false" id="c34a-ba08-fbf9-a527">
+      <infoLinks>
+        <infoLink name="Flak Gun" id="7cd8-9c64-8010-a5f6" hidden="false" type="profile" targetId="79f3-d3bb-5485-f53e"/>
+        <infoLink name="Aerial" id="65c0-a5ad-bef4-f7d4" hidden="false" type="rule" targetId="453d-e232-544c-b2c3"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Scalpel Lancette" hidden="false" id="4cd2-7468-0890-87a3">
+      <infoLinks>
+        <infoLink name="Scalpel Lancette" id="1dfd-b0e5-f523-966d" hidden="false" type="profile" targetId="bc86-39bf-ee9f-a19b"/>
+        <infoLink name="Precise (x)" id="2df1-099f-feac-cfbd" hidden="false" type="rule" targetId="1c25-9329-32cc-b4f8">
+          <modifiers>
+            <modifier type="set" value="Precise (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Devastating (x)" id="8e47-d212-63ad-20e1" hidden="false" type="rule" targetId="ec96-edd2-053f-9053">
+          <modifiers>
+            <modifier type="set" value="Devastating (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Scything Blades" hidden="false" id="2b64-0e37-f7ad-6df6">
+      <infoLinks>
+        <infoLink name="Scything Blades" id="d158-f507-ae8b-19e1" hidden="false" type="profile" targetId="965b-416c-75df-c053"/>
+        <infoLink name="Assault" id="8548-969a-7a8a-336d" hidden="false" type="rule" targetId="3856-2806-f502-9b89"/>
+        <infoLink name="Aquatic" id="e4e6-8e54-fc04-7c3a" hidden="false" type="rule" targetId="139c-5444-7bb8-52ee"/>
+        <infoLink name="Piercing (x)" id="4ade-36ac-ecb8-7ae2" hidden="false" type="rule" targetId="76f1-471a-09c5-ddde" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Piercing (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Erlang Shen Bombard" hidden="false" id="b0bd-1c9f-924b-1eec">
+      <infoLinks>
+        <infoLink name="Indirect" id="70da-d7c3-4ef5-5f57" hidden="false" type="rule" targetId="ddb4-9437-c0dc-cc06" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Erlang Shen Bombard" id="9b34-9bd7-adf0-5082" hidden="false" type="profile" targetId="8a2f-ffa2-3207-a7ea"/>
+        <infoLink name="Alchemical" id="4f5b-35db-8ca2-85c1" hidden="false" type="rule" targetId="597c-c5e8-35f4-f082" publicationId="129d-da97-caec-1ddd"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Tentacles" hidden="false" id="ff14-0121-a674-157b">
+      <infoLinks>
+        <infoLink name="Aquatic" id="7655-b11d-ca6e-e300" hidden="false" type="rule" targetId="139c-5444-7bb8-52ee"/>
+        <infoLink name="Assault" id="3b4d-8a13-b002-9a5f" hidden="false" type="rule" targetId="3856-2806-f502-9b89" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Tentacles" id="a962-c562-cd00-dbf2" hidden="false" type="profile" targetId="47a9-37c3-9c0c-5dcc"/>
+        <infoLink name="Structural Failure (x)" id="23f5-e137-4b86-7f13" hidden="false" type="rule" targetId="def3-61b3-b532-1ab7" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Structural Failure (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Breach (x)" id="dbf4-c50a-ce61-4a12" hidden="false" type="rule" targetId="cb11-ebcd-43d4-ccf5" publicationId="129d-da97-caec-1ddd">
           <modifiers>
             <modifier type="set" value="Breach (1)" field="name"/>
           </modifiers>
@@ -2533,7 +2612,7 @@
       <characteristics>
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
         <characteristic name="C" typeId="4209-eb47-9807-b834">10</characteristic>
-        <characteristic name="S" typeId="d025-b048-0c22-fad5">43</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">4</characteristic>
         <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (3)&lt;B&gt;, Alchemical, Hazard (2)</characteristic>
       </characteristics>
@@ -2599,6 +2678,51 @@
         <characteristic name="S" typeId="d025-b048-0c22-fad5">3</characteristic>
         <characteristic name="E" typeId="06b8-7f5e-e2df-751a">3</characteristic>
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Submerged&lt;/B&gt;, Breach (1), Torpedo</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Flak Gun" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="79f3-d3bb-5485-f53e">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPS</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">4</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">4</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">**Aerial**</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scalpel Lancette" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="bc86-39bf-ee9f-a19b">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPS</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">6</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Precise (2), Devastating (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scything Blades" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="965b-416c-75df-c053">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPS</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">8</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Assault&lt;/B&gt;, Aquatic, Piercing (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Erlang Shen Bombard" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="8a2f-ffa2-3207-a7ea">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">9</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">9</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Alchemical, Indirect</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tentacles" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="47a9-37c3-9c0c-5dcc">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">6</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Assault, Aquatic, Breach (1), Structural  Failure (1)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -2697,9 +2821,6 @@ If successful, each model within 10” of the Initial Target gains 1 level of D
     <rule name="Devastating (x)" id="ec96-edd2-053f-9053" hidden="false">
       <description>At the start of the Resolve Exploding Strikes step of an Attack action, each  Contributing weapon with this Quality allows the active Admiral to convert up to X Heavy Strikes in the Action Roll to Exploding Strikes.</description>
     </rule>
-    <rule name="Enhanced Solex (x)" id="ce77-780b-7dc9-7fa4" hidden="false">
-      <description>After the Resolve Exploding Strikes step of an Attack action, each Contributing weapon with this Quality allows the active Admiral to convert up to X Counters in the Action Roll into equivalent Strikes. (Standard Counters become Standard Strikes, and Heavy Counters become Heavy Strikes.)</description>
-    </rule>
     <rule name="Homing" id="d261-4fdc-1254-debc" hidden="false">
       <description>If at least half of the weapons Contributing to an Attack action have this Quality, the Resistance Roll does not gain any Bonus Dice for Obscured or Hampered Visibility.</description>
     </rule>
@@ -2754,14 +2875,7 @@ Collisions that result from this move are resolved as normal.</description>
       <description>If the Initial Target of this Attack action has one or more Generators, increase each of this weapon’s Firepower ratings by X. Firepower ratings that do not have a value are not increased.</description>
     </rule>
     <rule name="Piercing (x)" id="76f1-471a-09c5-ddde" hidden="false">
-      <description>In the Resolve Outcome step of this Attack action, the
-Initial Target suffers a -1 Modifier to its Armour rating (to
-a minimum of 1) during the Resolve Outcome step. Once
-X Successes have been resolved, this Quality ceases to
-apply, and any remaining Hits are re-grouped according
-to the Target’s unmodified Armour rating.
-If multiple Contributing weapons have this Quality, their
-X values are combined.</description>
+      <description>In the Resolve Outcome step of this Attack action, the Initial Target suffers a -1 Modifier to its Armour rating (to a minimum of 1) during the Resolve Outcome step. Once X Successes have been  resolved, this Quality ceases to apply, and any remaining Hits are re-grouped according to the Target’s unmodified Armour rating. If multiple Contributing weapons have this Quality, their X values are combined.</description>
     </rule>
   </sharedRules>
   <categoryEntries>
@@ -2819,17 +2933,20 @@ X values are combined.</description>
     <categoryEntry name="TRG666" id="85bf-38fd-ced4-429c" hidden="true"/>
     <categoryEntry name="HGB710-" id="e238-1dff-28ef-e305" hidden="true"/>
     <categoryEntry name="SHTS12" id="73ae-eaf7-efb8-a22e" hidden="true"/>
-    <categoryEntry name="LAR-7-" id="1bd5-658c-7a06-7e4a" hidden="false"/>
-    <categoryEntry name="LAR-6-" id="162f-d795-f376-9abd" hidden="false"/>
-    <categoryEntry name="LAR-4-" id="8da1-292c-89a5-0566" hidden="false"/>
-    <categoryEntry name="CM-55" id="f112-8239-213d-52f7" hidden="false"/>
-    <categoryEntry name="CM-33" id="d803-0f73-a950-854e" hidden="false"/>
-    <categoryEntry name="HAR-9-" id="00ad-97a1-cc46-c88e" hidden="false"/>
-    <categoryEntry name="HAR-8-" id="e884-df2a-586e-816d" hidden="false"/>
+    <categoryEntry name="LAR-7-" id="1bd5-658c-7a06-7e4a" hidden="true"/>
+    <categoryEntry name="LAR-6-" id="162f-d795-f376-9abd" hidden="true"/>
+    <categoryEntry name="LAR-4-" id="8da1-292c-89a5-0566" hidden="true"/>
+    <categoryEntry name="CM-55" id="f112-8239-213d-52f7" hidden="true"/>
+    <categoryEntry name="CM-33" id="d803-0f73-a950-854e" hidden="true"/>
+    <categoryEntry name="HAR-9-" id="00ad-97a1-cc46-c88e" hidden="true"/>
+    <categoryEntry name="HAR-8-" id="e884-df2a-586e-816d" hidden="true"/>
     <categoryEntry name="HGB79-" id="09b3-b04c-f8fd-fc60" hidden="true"/>
-    <categoryEntry name="HHq72-" id="28f1-dfd2-9507-3ffe" hidden="false"/>
+    <categoryEntry name="HHq72-" id="28f1-dfd2-9507-3ffe" hidden="true"/>
+    <categoryEntry name="ACB8--" id="1981-892a-2f6e-74a9" hidden="true"/>
+    <categoryEntry name="HHq74-" id="a0ea-ab19-c014-b9b1" hidden="false"/>
   </categoryEntries>
   <readme>Revision 01: initial release Rules Glossary Beta 2
 Revision 02: initial release Rules Glossary Beta 3 (complete Alleance ORBAT)
-Revision 03: improvment  Rules Glossary Beta 3 (complete Commonwealth ORBAT)</readme>
+Revision 03: improvment  Rules Glossary Beta 3 (complete Commonwealth ORBAT)
+Revision 04: improvment Rules Glossary Beta 3 (complete Emprire ORBAT)</readme>
 </catalogue>

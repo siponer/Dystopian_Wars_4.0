@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1242-c30b-419f-8229" name="Dystopian Wars 4.0 Edition" battleScribeVersion="2.03" authorName="Riccardo Sipone" authorContact="siponeric@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false" revision="4">
+<gameSystem id="1242-c30b-419f-8229" name="Dystopian Wars 4.0 Edition" battleScribeVersion="2.03" authorName="Riccardo Sipone" authorContact="siponeric@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false" revision="5">
   <publications>
     <publication id="7f09-e243-2307-78d0" name="Dystopian Rulebook"/>
     <publication id="e265-8c7f-a4b2-a48e" name="Alliance ORBAT"/>
@@ -116,6 +116,8 @@
     <categoryEntry name="Upgrade" id="3497-f9c2-d752-71ae" hidden="true"/>
     <categoryEntry name="Properties" id="c8ea-afea-b119-ce3c" hidden="true"/>
     <categoryEntry name="Systems" id="9ff7-ad4d-c560-d893" hidden="true"/>
+    <categoryEntry name="Enlightened" id="ae6e-392e-7171-ac63" hidden="false"/>
+    <categoryEntry name="Automata" id="fd86-3cf9-1439-aefe" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="44e8-1fde-db6e-20f6" name="Battlefleet (generic don&apos;t use)" publicationId="7f09-e243-2307-78d0" hidden="true">
@@ -378,5 +380,6 @@
   <readme>Revision 01: initial release Rules Beta 2
 Revision 02: initial release Alliance Beta 3 (Complete ORBAT release)
 Revision 03: initial release Commonwealth Beta 3 (Complete ORBAT release)
-Revision 04: initial release Empire Beta 3 (Complete ORBAT release)</readme>
+Revision 04: initial release Empire Beta 3 (Complete ORBAT release)
+Revision 05: initial release Enlightened Beta 3 (Complete ORBAT release)</readme>
 </gameSystem>

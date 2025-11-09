@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="5ca6-5d76-4c4d-04e2" name="Properties" gameSystemId="1242-c30b-419f-8229" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="5ca6-5d76-4c4d-04e2" name="Properties" gameSystemId="1242-c30b-419f-8229" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule name="Ablative Armour (x)" id="b869-3539-5cf3-f3f3" hidden="false">
       <description>When this model is targeted by an Attack action, Convert X Exploding Strikes in the Action Roll to Heavy Strikes. Sometimes, this Property will be listed for a specific Arc, e.g. Ablative Armour: Fore (3). In this case, the Property only applies if at least half of the models Participating in the Attack action are within the listed Arc of the Target Model.</description>
@@ -472,11 +472,6 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
         <infoLink name="Temperamental" id="2441-3e03-f367-8a18" hidden="false" type="rule" targetId="8b38-5cb7-8113-fee8"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Superior Void Engine" hidden="false" id="914c-06ae-7e28-0f89">
-      <infoLinks>
-        <infoLink name="Superior Void Engine" id="3b89-45bd-5f64-071e" hidden="false" type="rule" targetId="f67b-d3b5-512d-6962"/>
-      </infoLinks>
-    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sky Commandos (x)" hidden="false" id="df3b-ed90-abb5-c4cc">
       <infoLinks>
         <infoLink name="Sky Commandos (x)" id="87d8-afd8-87b4-7ecd" hidden="false" type="rule" targetId="4609-4521-0cc6-b334"/>
@@ -602,5 +597,6 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
 Revision 02: initial release Rules Glossary Beta 3
 Revision 03: initial release Rules Glossary Beta 3 (Properties)
 Revision 04: correction
-Revision 05: release Empire ORBAT Beta 3</readme>
+Revision 05: release Empire ORBAT Beta 3
+Revision 06: initial release Enlightened Beta 3 (Complete ORBAT release)</readme>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="5a50-c7f6-8981-e1d8" name="Generators" gameSystemId="1242-c30b-419f-8229" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="5a50-c7f6-8981-e1d8" name="Generators" gameSystemId="1242-c30b-419f-8229" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Heavy Shield Generator" hidden="false" id="8f03-5ac9-164b-1f77">
       <categoryLinks>
@@ -34,7 +34,7 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint type="max" value="1" field="selections" scope="force" shared="true" id="afe5-9074-da9e-8ba0" includeChildSelections="false"/>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3ffc-63a1-ccc2-efbb" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Solex Generator" hidden="false" id="9633-0946-c749-e1d1">
@@ -170,6 +170,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f3d0-e4bb-4d3a-b782" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Chang’an Tower Generator" hidden="false" id="1dd7-ae04-4b04-99df">
       <infoLinks>
@@ -182,6 +185,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ed49-bdd5-00d0-15f6" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Great Wall Generator" hidden="false" id="1d70-c8bf-03d9-3bed">
       <infoLinks>
@@ -194,6 +200,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba03-425a-22bb-ca4a" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Arc Generator" hidden="false" id="915d-5a82-835c-fb38">
       <infoLinks>
@@ -211,6 +220,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ddc-7458-be09-15b1" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Interphase Generator" hidden="false" id="af9b-699d-bf7d-7d67">
       <infoLinks>
@@ -223,6 +235,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abb8-94da-b4c6-1f4a" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Langsam Generator" hidden="false" id="9b5d-476c-95df-0385">
       <infoLinks>
@@ -235,6 +250,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f7db-b80b-ba52-cab9" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Magma Cast Generator" hidden="false" id="aeb2-f4d5-cf30-96ea">
       <infoLinks>
@@ -247,6 +265,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e1c0-ceb8-6b9a-7b5f" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Null-Clone Generator" hidden="false" id="bce6-ab24-926a-7b62">
       <infoLinks>
@@ -259,6 +280,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0d22-d1ec-99ba-1ec0" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mirage Generator" hidden="false" id="821b-a7ba-5a0b-d5f1">
       <infoLinks>
@@ -271,6 +295,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="adad-e8ff-6e5b-4d56" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Power Transfer Generator" hidden="false" id="ec47-3b48-863a-8974">
       <categoryLinks>
@@ -286,6 +313,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8330-7f50-ca89-72d1" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Trident Generator" hidden="false" id="d929-6a4f-7eaa-0fa4">
       <categoryLinks>
@@ -301,6 +331,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab66-ea62-e0da-7eda" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Shockwave Generator" hidden="false" id="3cfe-aa45-fb93-f470">
       <categoryLinks>
@@ -316,6 +349,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7b9b-fcbf-d7f8-53a7" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Storm Generator" hidden="false" id="ee9e-5a7d-34af-2da2">
       <categoryLinks>
@@ -331,6 +367,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f829-e6c4-8b47-c1af" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sentinel Generator" hidden="false" id="7df0-42bc-7975-e346">
       <categoryLinks>
@@ -346,6 +385,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="747e-cb74-5a94-cdf5" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Portal Generator" hidden="false" id="9ea6-af7f-d31d-0739">
       <categoryLinks>
@@ -361,6 +403,9 @@
           </conditions>
         </modifier>
       </modifiers>
+      <constraints>
+        <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d964-f5b0-d2b4-9141" includeChildSelections="false"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
@@ -454,5 +499,6 @@ To show that a unit is Slowed, mark it with a Generator Effect token. While a 
   </catalogueLinks>
   <readme>Revision 01: initial release Rules Glossary Beta 2
 Revision 02: Initial release Rules Glossary Beta 3 (Alliance ORBAT)
-Revision 03: improvment Rules Glossary Beta 3 (Commonwealth ORBAT)</readme>
+Revision 03: improvment Rules Glossary Beta 3 (Commonwealth ORBAT)
+Revision 04: initial release Enlightened Beta 3 (Complete ORBAT release)</readme>
 </catalogue>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="dd9c-c27a-41e0-6c12" name="Weapons" gameSystemId="1242-c30b-419f-8229" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="dd9c-c27a-41e0-6c12" name="Weapons" gameSystemId="1242-c30b-419f-8229" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Torpedo Salvo" hidden="false" id="61fe-f84f-5e2d-d0a6">
       <infoLinks>
@@ -2255,6 +2255,1518 @@
         </infoLink>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Weirding Torpedo Salvo" hidden="false" id="6b2f-9bc4-24e6-d53d">
+      <infoLinks>
+        <infoLink name="Weirding Torpedo Salvo" id="40d5-43f7-a537-d188" hidden="false" type="profile" targetId="4f37-3950-3bc8-e077">
+          <modifiers>
+            <modifier type="set" value="A" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="7369-1efe-1c3d-31ee" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Submerged" id="575d-1463-21f8-49d2" hidden="false" type="rule" targetId="0223-a895-90c5-d133"/>
+        <infoLink name="Torpedo" id="0a7a-98b6-343e-ce13" hidden="false" type="rule" targetId="a357-9380-37f6-4124"/>
+        <infoLink name="Homing" id="e818-fa8f-5400-7587" hidden="false" type="rule" targetId="d261-4fdc-1254-debc" publicationId="129d-da97-caec-1ddd"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Molecular Disharmoniser" hidden="false" id="e688-f5ba-4d9f-9e1d">
+      <infoLinks>
+        <infoLink name="Molecular Disharmoniser" id="fe74-db98-2361-590d" hidden="false" type="profile" targetId="56d7-52d3-7e4c-2d14">
+          <modifiers>
+            <modifier type="set" value="4" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4d57-fdf9-5ea4-9e44" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Agitation" id="bccd-c587-b450-6392" hidden="false" type="rule" targetId="4b7a-ced9-69e6-44d2"/>
+        <infoLink name="Arc (x)" id="4ec2-07d4-ce02-4095" hidden="false" type="rule" targetId="4fc1-1e80-7770-dbdc">
+          <modifiers>
+            <modifier type="set" value="Arc (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Pulse Emitter" hidden="false" id="db10-ea29-3519-396d">
+      <infoLinks>
+        <infoLink name="Pulse Emitter" id="9f2a-7081-360b-a787" hidden="false" type="profile" targetId="0892-6c08-4377-6f94">
+          <modifiers>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="10" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4d06-cf4d-17a6-cd06" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="3" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4d06-cf4d-17a6-cd06" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="8" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="63f9-ddac-b033-ea5a" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Particle Beamer" hidden="false" id="c3a0-18d8-23af-f180">
+      <infoLinks>
+        <infoLink name="Particle Beamer" id="8862-8b3e-a6be-5dcf" hidden="false" type="profile" targetId="10e9-43c8-a597-280b">
+          <modifiers>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="7" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="383d-5a2d-7a41-be7a" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="383d-5a2d-7a41-be7a" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="6" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e891-0fa1-99d0-9042" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="5" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e891-0fa1-99d0-9042" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Precise (x)" id="6382-d500-1a94-a432" hidden="false" type="rule" targetId="1c25-9329-32cc-b4f8">
+          <modifiers>
+            <modifier type="set" value="Precise (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Caloric Oscillator" hidden="false" id="73fa-154d-d914-17af">
+      <infoLinks>
+        <infoLink name="Caloric Oscillator" id="3d1a-d267-38f4-873d" hidden="false" type="profile" targetId="9d25-6299-73c5-0e7a">
+          <modifiers>
+            <modifier type="set" value="2M" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6a5b-4b2c-f6cc-f0fa" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Hazard (x)" id="f02d-c92e-614d-3a1c" hidden="false" type="rule" targetId="e581-2eac-7604-55e6">
+          <modifiers>
+            <modifier type="set" value="Hazard (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Agitation" id="fe6e-bce9-0ded-1b19" hidden="false" type="rule" targetId="4b7a-ced9-69e6-44d2"/>
+        <infoLink name="Torrent (x)" id="63f3-9430-ff4e-dc17" hidden="false" type="rule" targetId="7ef7-fad7-5567-7bdb">
+          <modifiers>
+            <modifier type="set" value="Torrent (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Sturginium Agitator" hidden="false" id="c3ac-5cd1-72e0-3639">
+      <infoLinks>
+        <infoLink name="Sturginium Agitator" id="d919-a3c2-009c-03dd" hidden="false" type="profile" targetId="ee42-aac8-ab66-5b9e">
+          <modifiers>
+            <modifier type="set" value="2M" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2f44-73c7-78db-770b" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="2M" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2f44-73c7-78db-770b" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Agitation" id="0ecd-3e20-68ff-4eef" hidden="false" type="rule" targetId="4b7a-ced9-69e6-44d2"/>
+        <infoLink name="Hazard (x)" id="b83f-2a6c-d89a-b05c" hidden="false" type="rule" targetId="e581-2eac-7604-55e6">
+          <modifiers>
+            <modifier type="set" value="Hazard (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Precognisant Torpedo Salvo" hidden="false" id="91f6-6efe-1c12-0068">
+      <infoLinks>
+        <infoLink name="Precognisant Torpedo Salvo" id="b3cf-1e51-0ec0-ee38" hidden="false" type="profile" targetId="cd65-8ae7-04a2-3b32">
+          <modifiers>
+            <modifier type="set" value="A" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="7369-1efe-1c3d-31ee" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Submerged" id="e36e-c51d-b19a-63f0" hidden="false" type="rule" targetId="0223-a895-90c5-d133"/>
+        <infoLink name="Torpedo" id="0007-fb0d-38ff-240f" hidden="false" type="rule" targetId="a357-9380-37f6-4124"/>
+        <infoLink name="Homing" id="7bb9-ff40-83e4-6e7e" hidden="false" type="rule" targetId="d261-4fdc-1254-debc" publicationId="129d-da97-caec-1ddd"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Heavy Conodontic Flenser" hidden="false" id="76a0-a536-99cd-f577">
+      <infoLinks>
+        <infoLink name="Heavy Conodontic Flenser" id="c97c-dd01-68b2-c484" hidden="false" type="profile" targetId="0b08-28a6-0cbd-8e92">
+          <modifiers>
+            <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Precise (1)," field="faa3-d69c-5156-2acf" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="8" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="76af-2665-2f3f-6217" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="5" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="76af-2665-2f3f-6217" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="6" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4831-7502-5a79-b08d" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="8" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4831-7502-5a79-b08d" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="prepend" value="Tracer" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Tracer," field="faa3-d69c-5156-2acf" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Focused" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="7" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e238-1dff-28ef-e305" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="10" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e238-1dff-28ef-e305" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="7" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="09b3-b04c-f8fd-fc60" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="9" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="09b3-b04c-f8fd-fc60" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Devastating (x)" id="9ca1-078b-2089-70cd" hidden="false" type="rule" targetId="ec96-edd2-053f-9053">
+          <modifiers>
+            <modifier type="set" value="Devastating (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Torrent (x)" id="90b5-58ad-2bf1-cd72" hidden="false" type="rule" targetId="7ef7-fad7-5567-7bdb">
+          <modifiers>
+            <modifier type="set" value="Torrent (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Advanced Aetheric Lance" hidden="false" id="5295-f0b2-05bc-af61">
+      <infoLinks>
+        <infoLink name="Advanced Aetheric Lance" id="5e6a-a0af-6f88-d350" hidden="false" type="profile" targetId="6f70-a98e-e9e2-dd04">
+          <modifiers>
+            <modifier type="set" value="4" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b90d-7de5-19f3-9a6e" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Precise (x)" id="7611-f83a-7f78-fa86" hidden="false" type="rule" targetId="1c25-9329-32cc-b4f8">
+          <modifiers>
+            <modifier type="set" value="Precise (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Tyndall Cyclonic Rockets" hidden="false" id="267a-3494-279f-05c5">
+      <infoLinks>
+        <infoLink name="Tyndall Cyclonic Rockets" id="825d-931f-0655-e4f6" hidden="false" type="profile" targetId="c1ab-89fc-4f34-5d19">
+          <modifiers>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="7" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a1a4-f502-0637-4b6b" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="18e1-a5b9-21ae-2e91" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="4" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="792e-ec04-ae41-18e9" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Precise (1)," field="faa3-d69c-5156-2acf" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Focussed
+" field="name" join="">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Barrage" id="9e2d-b949-20a5-706a" hidden="false" type="rule" targetId="9813-d4e2-c748-6f68"/>
+        <infoLink name="High Velocity (x)" id="09f6-5d56-5082-d017" hidden="false" type="rule" targetId="de0b-036f-5c48-75ff">
+          <modifiers>
+            <modifier type="set" value="High Velocity (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Piercing (x)" id="4714-f69b-85cd-b37d" hidden="false" type="rule" targetId="76f1-471a-09c5-ddde">
+          <modifiers>
+            <modifier type="set" value="Piercing (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Void Beam" hidden="false" id="fbb5-252b-f099-1073">
+      <infoLinks>
+        <infoLink name="Void Beam" id="17f6-4d68-5506-c7fb" hidden="false" type="profile" targetId="1e2d-a610-2e4f-f29d">
+          <modifiers>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f112-8239-213d-52f7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="f112-8239-213d-52f7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d803-0f73-a950-854e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d803-0f73-a950-854e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="System Failure" id="fa00-8955-2d29-1c63" hidden="true" type="rule" targetId="e698-9f99-5f8d-38da">
+          <modifiers>
+            <modifier type="set" value="System Failure (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Intensive" id="2b66-b9cd-89a1-68e2" hidden="true" type="rule" targetId="a26d-8530-ab29-85fc"/>
+        <infoLink name="Blast (x)" id="b6cd-3552-2ca0-5485" hidden="true" type="rule" targetId="dabd-cfc0-94a2-6673">
+          <modifiers>
+            <modifier type="set" value="Blast (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Micro Torpedo Salvo" hidden="false" id="706d-05b0-45a5-15ac">
+      <infoLinks>
+        <infoLink name="Micro Torpedo Salvo" id="6228-fb97-893f-0454" hidden="false" type="profile" targetId="c439-078e-1872-9121">
+          <modifiers>
+            <modifier type="set" value="A" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="7369-1efe-1c3d-31ee" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Submerged" id="85a4-21f5-3386-0642" hidden="false" type="rule" targetId="0223-a895-90c5-d133"/>
+        <infoLink name="Torpedo" id="f812-4958-2311-5d84" hidden="false" type="rule" targetId="a357-9380-37f6-4124"/>
+        <infoLink name="Homing" id="c29e-ae9f-d930-1e6b" hidden="false" type="rule" targetId="d261-4fdc-1254-debc" publicationId="129d-da97-caec-1ddd"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Ventral Atom Smashers" hidden="false" id="cee4-405b-cbad-317f">
+      <infoLinks>
+        <infoLink name="Ventral Atom Smashers" id="8560-15f7-2c54-cb4c" hidden="false" type="profile" targetId="712c-96de-4c76-ce19">
+          <modifiers>
+            <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Precise (1)," field="faa3-d69c-5156-2acf" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="8" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="76af-2665-2f3f-6217" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="5" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="76af-2665-2f3f-6217" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="6" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4831-7502-5a79-b08d" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="8" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4831-7502-5a79-b08d" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="prepend" value="Tracer" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Tracer," field="faa3-d69c-5156-2acf" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Focused" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="7" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e238-1dff-28ef-e305" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="10" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e238-1dff-28ef-e305" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="7" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="09b3-b04c-f8fd-fc60" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="9" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="09b3-b04c-f8fd-fc60" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Piercing (x)" id="8500-16aa-6363-b8a0" hidden="false" type="rule" targetId="76f1-471a-09c5-ddde">
+          <modifiers>
+            <modifier type="set" value="Piercing (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Arc (x)" id="ee7a-5828-8386-0422" hidden="false" type="rule" targetId="4fc1-1e80-7770-dbdc">
+          <modifiers>
+            <modifier type="set" value="Arc (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Torrent (x)" id="09e8-d290-2502-0457" hidden="false" type="rule" targetId="7ef7-fad7-5567-7bdb">
+          <modifiers>
+            <modifier type="set" value="Torrent (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Ceus Shockmaw" hidden="false" id="a162-a336-ec54-228e">
+      <infoLinks>
+        <infoLink name="Ceus Shockmaw" id="6b1b-898e-0cab-2f35" hidden="false" type="profile" targetId="f94b-08a4-a129-825f"/>
+        <infoLink name="Arc (x)" id="992a-813a-4321-ebd3" hidden="false" type="rule" targetId="4fc1-1e80-7770-dbdc" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Arc (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Assault" id="d223-7029-41df-cfe6" hidden="false" type="rule" targetId="3856-2806-f502-9b89" publicationId="129d-da97-caec-1ddd"/>
+        <infoLink name="Devastating (x)" id="6e23-49e9-9467-4f61" hidden="true" type="rule" targetId="ec96-edd2-053f-9053">
+          <modifiers>
+            <modifier type="set" value="Devastating (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Harmonised Transconductive Agitator" hidden="false" id="c8a2-9cfa-9321-a7b2">
+      <infoLinks>
+        <infoLink name="Harmonised Transconductive Agitator" id="4ec6-4c17-a40a-a5d2" hidden="false" type="profile" targetId="1f83-67bb-2f1f-4a2b">
+          <modifiers>
+            <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Precise (1)," field="faa3-d69c-5156-2acf" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="8" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="76af-2665-2f3f-6217" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="5" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="76af-2665-2f3f-6217" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="6" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4831-7502-5a79-b08d" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="8" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4831-7502-5a79-b08d" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="prepend" value="Tracer" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Tracer," field="faa3-d69c-5156-2acf" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Focused" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="7" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e238-1dff-28ef-e305" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="10" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e238-1dff-28ef-e305" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="7" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="09b3-b04c-f8fd-fc60" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="9" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="09b3-b04c-f8fd-fc60" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Agitation" id="8d93-d8ab-88c4-130c" hidden="false" type="rule" targetId="4b7a-ced9-69e6-44d2"/>
+        <infoLink name="Hazard (x)" id="a183-aaec-8a68-9092" hidden="false" type="rule" targetId="e581-2eac-7604-55e6">
+          <modifiers>
+            <modifier type="set" value="Hazard (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Intensive" id="faaf-87f4-7676-d149" hidden="false" type="rule" targetId="a26d-8530-ab29-85fc"/>
+        <infoLink name="Powered" id="931d-c145-463e-8419" hidden="false" type="rule" targetId="ef72-b196-a487-05c0"/>
+        <infoLink name="Piercing (x)" id="13db-cbef-d460-4251" hidden="false" type="rule" targetId="76f1-471a-09c5-ddde">
+          <modifiers>
+            <modifier type="set" value="Piercing (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="X-Ray Laser Bank" hidden="false" id="59bb-5955-fe00-e0f3">
+      <infoLinks>
+        <infoLink name="X-Ray Laser Bank" id="2c71-4b4c-5719-d1ba" hidden="false" type="profile" targetId="a58c-adba-f716-efbe">
+          <modifiers>
+            <modifier type="set" value="14" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1558-61c3-804c-ada9" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="8" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="76af-2665-2f3f-6217" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Piercing (x)" id="be85-c224-b552-de42" hidden="false" type="rule" targetId="76f1-471a-09c5-ddde">
+          <modifiers>
+            <modifier type="set" value="Piercing (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Arc (x)" id="e805-e7aa-c0c2-d0f4" hidden="false" type="rule" targetId="4fc1-1e80-7770-dbdc">
+          <modifiers>
+            <modifier type="set" value="Arc (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Magneto Encapsulator" hidden="false" id="86d4-d4cd-072c-1f2a">
+      <infoLinks>
+        <infoLink name="Magneto Encapsulator" id="619f-0ad0-0b34-08a2" hidden="false" type="profile" targetId="6d64-4f26-a5db-5e84">
+          <modifiers>
+            <modifier type="set" value="F" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="94e3-e143-1e2e-45db" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Navigation Lock (x)" id="7a91-8b2c-bb8a-801d" hidden="false" type="rule" targetId="58ad-45fa-2800-1a54">
+          <modifiers>
+            <modifier type="set" value="Navigation Lock (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Blast (x)" id="ff17-be30-f1e8-099b" hidden="false" type="rule" targetId="dabd-cfc0-94a2-6673">
+          <modifiers>
+            <modifier type="set" value="Blast (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Sympathetic Detonation" id="e2fb-efad-78e5-3474" hidden="false" type="rule" targetId="eb71-060a-d98a-b698"/>
+        <infoLink name="Traction" id="9e26-4637-330f-fa97" hidden="false" type="rule" targetId="cb35-186d-1676-7baf"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Heavy Particle Cannon" hidden="false" id="b2d5-6528-1b8f-ba33">
+      <infoLinks>
+        <infoLink name="Heavy Particle Cannon" id="e3ed-c423-157c-48b1" hidden="false" type="profile" targetId="039c-592f-06c7-6951">
+          <modifiers>
+            <modifier type="set" value="F" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="94e3-e143-1e2e-45db" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Precise (x)" id="f631-82ab-10ce-b07e" hidden="false" type="rule" targetId="1c25-9329-32cc-b4f8">
+          <modifiers>
+            <modifier type="set" value="Precise (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Blast (x)" id="3e1f-c9bb-039f-5ee7" hidden="false" type="rule" targetId="dabd-cfc0-94a2-6673">
+          <modifiers>
+            <modifier type="set" value="Blast (3)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Sympathetic Detonation" id="0fdd-9fd3-3117-465c" hidden="false" type="rule" targetId="eb71-060a-d98a-b698"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Gravitronic Imperilator" hidden="false" id="0336-cbb9-7d85-e8cf">
+      <infoLinks>
+        <infoLink name="Gravitronic Imperilator" id="0ac4-159d-8fdb-6df0" hidden="false" type="profile" targetId="6fdb-ff92-6246-9899">
+          <modifiers>
+            <modifier type="set" value="F" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="94e3-e143-1e2e-45db" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Precise (x)" id="539c-6329-d1d4-e91c" hidden="false" type="rule" targetId="1c25-9329-32cc-b4f8">
+          <modifiers>
+            <modifier type="set" value="Precise (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Sturginium Atomiser" hidden="false" id="dd12-0796-fb42-0ce6">
+      <infoLinks>
+        <infoLink name="Sturginium Atomiser" id="1c5f-eb9e-671f-21b2" hidden="false" type="profile" targetId="485e-0a8b-6956-cce7">
+          <modifiers>
+            <modifier type="set" value="3M" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="62c9-6a39-1f98-086d" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="3M" field="d025-b048-0c22-fad5">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="62c9-6a39-1f98-086d" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="F" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="94e3-e143-1e2e-45db" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Hazard (x)" id="3966-6992-c633-5e3d" hidden="false" type="rule" targetId="e581-2eac-7604-55e6">
+          <modifiers>
+            <modifier type="set" value="Hazard (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Agitation" id="e9b2-8097-cf8b-4c9b" hidden="false" type="rule" targetId="4b7a-ced9-69e6-44d2"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Aetheric Torsion Array" hidden="false" id="3afb-ce5e-a593-84aa">
+      <infoLinks>
+        <infoLink name="Aetheric Torsion Array" id="7ab9-fa76-fa98-d96a" hidden="false" type="profile" targetId="b0ad-e077-9e1c-e071"/>
+        <infoLink name="Arc (x)" id="41d0-d79e-0987-0e35" hidden="false" type="rule" targetId="4fc1-1e80-7770-dbdc" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Arc (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Triangulate (x)" id="8860-cd91-ba20-2275" hidden="false" type="rule" targetId="8993-09a3-2987-505e" publicationId="129d-da97-caec-1ddd">
+          <modifiers>
+            <modifier type="set" value="Triangulate (6)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Piercing (x)" id="3a98-0675-ac89-a37d" hidden="true" type="rule" targetId="76f1-471a-09c5-ddde">
+          <modifiers>
+            <modifier type="set" value="Piercing (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="false" name="Conodontic Flenser" hidden="false" id="2c0d-7fc3-7ca1-5c60">
+      <infoLinks>
+        <infoLink name="Conodontic Flenser" id="3a48-f739-8c66-257a" hidden="false" type="profile" targetId="ab06-3f4d-6342-d47a">
+          <modifiers>
+            <modifier type="set" value="2M" field="4209-eb47-9807-b834">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="6a5b-4b2c-f6cc-f0fa" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Devastating (x)" id="fac5-973d-2745-7e78" hidden="false" type="rule" targetId="ec96-edd2-053f-9053">
+          <modifiers>
+            <modifier type="set" value="Devastating (1)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Torrent (x)" id="a911-b749-ac10-e255" hidden="false" type="rule" targetId="7ef7-fad7-5567-7bdb">
+          <modifiers>
+            <modifier type="set" value="Torrent (2)" field="name"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Electrostatic Vacuum Bombs" hidden="false" id="15bc-185e-91bb-eec7">
+      <infoLinks>
+        <infoLink name="Electrostatic Vacuum Bombs" id="53f8-3378-2cc9-2abf" hidden="false" type="profile" targetId="5ddc-e8ba-6715-5333">
+          <modifiers>
+            <modifier type="set" value="8" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="1981-892a-2f6e-74a9" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Blast (x)" id="72f4-1284-7ef3-3b4c" hidden="false" type="rule" targetId="dabd-cfc0-94a2-6673">
+          <modifiers>
+            <modifier type="set" value="Blast (6)" field="name"/>
+          </modifiers>
+        </infoLink>
+        <infoLink name="Limited" id="a4f4-dc5e-6304-09e5" hidden="false" type="rule" targetId="7958-8ef6-2b33-64df"/>
+        <infoLink name="Bomb" id="2280-4d55-9d81-af58" hidden="false" type="rule" targetId="7979-1ca9-958e-b3f0"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile name="Heavy Gun Battery" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="f4c2-399d-bb80-8ab7">
@@ -2725,6 +4237,222 @@
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Assault, Aquatic, Breach (1), Structural  Failure (1)</characteristic>
       </characteristics>
     </profile>
+    <profile name="Weirding Torpedo Salvo" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="4f37-3950-3bc8-e077">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">4</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">4</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">4</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Submerged&lt;/B&gt;, Homing, Torpedo</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Caloric Oscillator" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="9d25-6299-73c5-0e7a">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">M</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (2)&lt;/B&gt;, Agitation, Hazard (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Molecular Disharmoniser" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="56d7-52d3-7e4c-2d14">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">3</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">1</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Arc (1), Synergy</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Pulse Emitter" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="0892-6c08-4377-6f94">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">7</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">2</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf"/>
+      </characteristics>
+    </profile>
+    <profile name="Particle Beamer" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="10e9-43c8-a597-280b">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">5</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">4</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Precise (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sturginium Agitator" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="ee42-aac8-ab66-5b9e">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">M</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">M</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Agitation, Hazard (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Precognisant Torpedo Salvo" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="cd65-8ae7-04a2-3b32">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">6</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">6</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">6</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Submerged&lt;/B&gt;, Homing, Torpedo</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Conodontic Flenser" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="0b08-28a6-0cbd-8e92">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">6</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (3)&lt;/B&gt;, Devastating (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Advanced Aetheric Lance" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="6f70-a98e-e9e2-dd04">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">4</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">3</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Precise (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Tyndall Cyclonic Rockets" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="c1ab-89fc-4f34-5d19">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">7</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">7</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Barrage, High Velocity (1), Piercing (1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Void Beam" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="1e2d-a610-2e4f-f29d">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPSA</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">10</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Blast (3), Intensive, System Failure (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Micro Torpedo Salvo" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="c439-078e-1872-9121">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">3</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">2</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Submerged&lt;/B&gt;, Homing, Torpedo</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ventral Atom Smashers" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="712c-96de-4c76-ce19">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0"/>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">9</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (2)&lt;/B&gt;, Arc (2), Piercing (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ceus Shockmaw" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="f94b-08a4-a129-825f">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">11</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;/B&gt;Assault&lt;/B&gt;, Arc (1), Devastating (3)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Ventral Atom Smashers" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="f577-0e9f-1689-f03f">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">9</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (2)&lt;/B&gt;, Arc (1), Piercing (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Harmonised Transconductive Agitator" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="1f83-67bb-2f1f-4a2b">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPS</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">3M</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Agitation, Hazard (1), Intensive, Piercing (2), Powered</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="X-Ray Laser Bank" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="a58c-adba-f716-efbe">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPSA</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">8</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">5</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Arc (2), Piercing (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Particle Cannon" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="039c-592f-06c7-6951">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPSA</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">5</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">8</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">4</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Blast (3), Precise (1), Sympathetic Detonation</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Gravitronic Imperilator" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="6fdb-ff92-6246-9899">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPSA</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">5</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">7</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">5</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Precise (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sturginium Atomiser" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="485e-0a8b-6956-cce7">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPSA</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">2M</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">2M</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Agitation, Hazard (1</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Magneto Encapsulator" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="6d64-4f26-a5db-5e84">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">FPSA</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">7</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">7</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Blast (3), Navigation Lock (1), Traction</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Aetheric Torsion Array" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="b0ad-e077-9e1c-e071">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">7</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Arc (1), Piercing (1), Triangulate (6)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Conodontic Flenser" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="ab06-3f4d-6342-d47a">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">4</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Torrent (2)&lt;/B&gt;, Devastating (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Electrostatic Vacuum Bombs" typeId="6c9b-5228-c790-9c90" typeName="Weapon" hidden="false" id="5ddc-e8ba-6715-5333">
+      <characteristics>
+        <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">A</characteristic>
+        <characteristic name="C" typeId="4209-eb47-9807-b834">10</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">-</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">-</characteristic>
+        <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Bomb&lt;/B&gt;, Blast (6), Limited</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Submerged" id="0223-a895-90c5-d133" hidden="false" publicationId="129d-da97-caec-1ddd">
@@ -2864,10 +4592,6 @@ Additionally, after this Action has been resolved, roll an Action Die for each 
     <rule name="Tracer" id="a31f-6c9b-73af-b995" hidden="false">
       <description>After resolving an Attack action in which one or more  weapons with this Quality is Contributing, the Initial Target is Marked. Track this by placing a Negative Effect token on the Initial Target. When any unit makes an Attack action that targets a Marked model, the active Admiral re-rolls any Blanks in the Action Roll. Remove the Negative Effect token in the Clean Up step of the End Phase.</description>
     </rule>
-    <rule name="Traction" id="3395-2aa7-2050-98d7" hidden="false">
-      <description>If an Attack action involving this weapon scores a number of Successes equal to or greater than the Mass rating of the Initial Target, the active Admiral may select one Contributing weapon with this Quality. The Initial Target immediately moves 4” directly towards the model on which that weapon is mounted, without changing its facing. Any
-Collisions that result from this move are resolved as normal.</description>
-    </rule>
     <rule name="Triangulate (x)" id="8993-09a3-2987-505e" hidden="false">
       <description>If the Initial Target of this Attack action is within 15” of a friendly model with the Hydrophone Relay system, increase each of this weapon’s Firepower ratings by X. Firepower ratings that do not have a value are not increased.</description>
     </rule>
@@ -2944,9 +4668,21 @@ Collisions that result from this move are resolved as normal.</description>
     <categoryEntry name="HHq72-" id="28f1-dfd2-9507-3ffe" hidden="true"/>
     <categoryEntry name="ACB8--" id="1981-892a-2f6e-74a9" hidden="true"/>
     <categoryEntry name="HHq74-" id="a0ea-ab19-c014-b9b1" hidden="false"/>
+    <categoryEntry name="F" id="94e3-e143-1e2e-45db" hidden="true"/>
+    <categoryEntry name="COs2--" id="6a5b-4b2c-f6cc-f0fa" hidden="true"/>
+    <categoryEntry name="SAg22-" id="2f44-73c7-78db-770b" hidden="true"/>
+    <categoryEntry name="PBe76-" id="383d-5a2d-7a41-be7a" hidden="true"/>
+    <categoryEntry name="MDi41-" id="4d57-fdf9-5ea4-9e44" hidden="true"/>
+    <categoryEntry name="PEm103-" id="4d06-cf4d-17a6-cd06" hidden="true"/>
+    <categoryEntry name="SAt33-" id="62c9-6a39-1f98-086d" hidden="true"/>
+    <categoryEntry name="PBe65-" id="e891-0fa1-99d0-9042" hidden="true"/>
+    <categoryEntry name="PEm82-" id="63f9-ddac-b033-ea5a" hidden="true"/>
+    <categoryEntry name="AAL44-" id="b90d-7de5-19f3-9a6e" hidden="true"/>
+    <categoryEntry name="XRL148-" id="1558-61c3-804c-ada9" hidden="false"/>
   </categoryEntries>
   <readme>Revision 01: initial release Rules Glossary Beta 2
 Revision 02: initial release Rules Glossary Beta 3 (complete Alleance ORBAT)
 Revision 03: improvment  Rules Glossary Beta 3 (complete Commonwealth ORBAT)
-Revision 04: improvment Rules Glossary Beta 3 (complete Emprire ORBAT)</readme>
+Revision 04: improvment Rules Glossary Beta 3 (complete Emprire ORBAT)
+Revision 05: initial release Enlightened Beta 3 (Complete ORBAT release)</readme>
 </catalogue>

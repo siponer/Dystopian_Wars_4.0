@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="5ca6-5d76-4c4d-04e2" name="Properties" gameSystemId="1242-c30b-419f-8229" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="5ca6-5d76-4c4d-04e2" name="Properties" gameSystemId="1242-c30b-419f-8229" revision="7" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedRules>
     <rule name="Ablative Armour (x)" id="b869-3539-5cf3-f3f3" hidden="false">
       <description>When this model is targeted by an Attack action, Convert X Exploding Strikes in the Action Roll to Heavy Strikes. Sometimes, this Property will be listed for a specific Arc, e.g. Ablative Armour: Fore (3). In this case, the Property only applies if at least half of the models Participating in the Attack action are within the listed Arc of the Target Model.</description>
@@ -55,8 +55,8 @@
     <rule name="Sky Commandos (x)" id="4609-4521-0cc6-b334" hidden="false">
       <description>This model’s unit can make Boarding actions that target Airborne models. When this model Participates in a Boarding action, it contributes X dice to the Action Roll. If this model is targeted by a Boarding action, it adds X dice to its Resistance Roll.</description>
     </rule>
-    <rule name="Stockpile (x”)" id="9505-574b-4df1-9013" hidden="false">
-      <description>This model has a Stockpile Range which extends X” from it. When a unit begins its Activation, if it is within Stockpile Range of at least one friendly model, it can Take On Supplies. A model that Takes On Supplies removes 1 level of Disorder, even if it would otherwise not be able to Rally. In addition, if the model has a Depleted status token on account of a weapon with the Limited quality, its Admiral may roll an Action Die; if they score a Strike of any kind, the Depleted status token is removed.</description>
+    <rule name="Stockpile (x)" id="9505-574b-4df1-9013" hidden="false">
+      <description>When a model with a Depleted status token begins its Activation within 4” of this model, its Admiral can declare that this model will attempt to Transfer Munitions. The Admiral makes a Crew Check for this model. If the check passes, the Depleted status token is moved to this model. If this model has at least X Depleted status tokens, it can no longer Transfer  Munitions. During the Action Step of this model’s Activation, its unit can make a Special Action. Only models with the Stockpile (X ) property can Participate. Each Participating model  loses one Depleted status token, if it has any. This Special Action can be made multiple times during the same Activation.</description>
     </rule>
     <rule name="Stoic" id="487f-4db8-ad20-be52" hidden="false">
       <description>Whenever this model would raise its Disorder level from 0 to 1, it gains a Stoic token instead, unless it already has one. A model with a Stoic token does not suffer any of the effects of having Disorder. If it  gains another level of Disorder, the Stoic token is removed and replaced with a 1 Disorder token. Any rule that allows a model to lose a level of Disorder also allows it to remove a Stoic token.</description>
@@ -235,6 +235,9 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
     <rule name="Landstrider" id="900d-c35b-cd53-d8a3" hidden="false">
       <description>This model can move into or through Grounding Hazards and Islands without Colliding with them, although its movement is Impeded. If this model ends its move so that it is entirely on an Island, it is  Traversing that Island. Submerged Weapons can no longer Contribute to Attack actions against it. For the purposes of determining Visibility, its Mass rating is increased by the Island’s Mass. In addition, it  does not suffer any Damage as a result of the Breach Critical Damage Effffect in its Consolidation Step. While a model is Traversing a Territory, the opposing Admiral cannot allocate Landing Party tokens to  that Territory (see the Ground Assault (X) property), and any Landing Party tokens already allocated to it are immediately removed from play.</description>
     </rule>
+    <rule name="Reinforced Waterline" id="a338-bfbb-534e-f710" hidden="false">
+      <description>When this model is targeted by an Attack action made with Submerged Weapons,  any Heavy Strikes in the Action Roll are converted to Standard Strikes at the start of the Count Hits step.</description>
+    </rule>
   </sharedRules>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Ablative Armour (x)" hidden="false" id="75f1-9f45-f82b-2948">
@@ -317,9 +320,9 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
         <infoLink name="Platform" id="ffd8-8b43-cead-ca51" hidden="false" type="rule" targetId="374c-d52d-3f91-03ee"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Stockpile (x”)" hidden="false" id="041c-5a70-3835-2f6b">
+    <selectionEntry type="upgrade" import="true" name="Stockpile (x)" hidden="false" id="041c-5a70-3835-2f6b">
       <infoLinks>
-        <infoLink name="Stockpile (x”)" id="0827-9253-9f5d-d012" hidden="false" type="rule" targetId="9505-574b-4df1-9013"/>
+        <infoLink name="Mine Layer (x)" id="0827-9253-9f5d-d012" hidden="false" type="rule" targetId="fd04-efdc-62c6-9965"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Auxiliary Mine Layer (x)" hidden="false" id="e343-3b86-5d52-78b7">
@@ -339,7 +342,7 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Vanguard (x)" hidden="false" id="237a-a4b2-43d2-b10e">
       <infoLinks>
-        <infoLink name="Vanguard (x&quot;)" id="c5ed-3b3e-8926-1a3d" hidden="false" type="rule" targetId="d176-6604-7876-d65a"/>
+        <infoLink name="Reinforced Waterline" id="c5ed-3b3e-8926-1a3d" hidden="false" type="rule" targetId="a338-bfbb-534e-f710"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mine Layer (x)" hidden="false" id="8583-b43c-60fb-7bce">
@@ -592,11 +595,17 @@ For each Success scored in the Action Roll, the Target suffers 1  damage. The
         <infoLink name="Landing Party Support" id="73e2-aefc-6754-8166" hidden="false" type="rule" targetId="9e02-cc15-4cdc-4fd4"/>
       </infoLinks>
     </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Reinforced Waterline" hidden="false" id="388f-c5d1-a377-163c">
+      <infoLinks>
+        <infoLink name="Reinforced Waterline" id="0cf8-ccdf-e437-de9a" hidden="false" type="rule" targetId="a338-bfbb-534e-f710"/>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <readme>Revision 01: initial release Rules Glossary Beta 2
 Revision 02: initial release Rules Glossary Beta 3
 Revision 03: initial release Rules Glossary Beta 3 (Properties)
 Revision 04: correction
 Revision 05: release Empire ORBAT Beta 3
-Revision 06: initial release Enlightened Beta 3 (Complete ORBAT release)</readme>
+Revision 06: initial release Enlightened Beta 3 (Complete ORBAT release)
+Revision 07: release Alliance Beta 4 (Complete ORBAT release)</readme>
 </catalogue>

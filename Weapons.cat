@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="dd9c-c27a-41e0-6c12" name="Weapons" gameSystemId="1242-c30b-419f-8229" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="dd9c-c27a-41e0-6c12" name="Weapons" gameSystemId="1242-c30b-419f-8229" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Torpedo Salvo" hidden="false" id="61fe-f84f-5e2d-d0a6">
       <infoLinks>
@@ -25,41 +25,6 @@
       <infoLinks>
         <infoLink name="Heavy Gun Battery" id="69a9-d439-5ad5-336b" hidden="false" type="profile" targetId="f4c2-399d-bb80-8ab7">
           <modifiers>
-            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="prepend" value="Precise (1)," field="faa3-d69c-5156-2acf" join=" ">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="8" field="4209-eb47-9807-b834">
               <conditionGroups>
                 <conditionGroup type="and">
@@ -96,31 +61,6 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="prepend" value="Tracer" field="name" join=" ">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="prepend" value="Tracer," field="faa3-d69c-5156-2acf" join=" ">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="prepend" value="Focused" field="name" join=" ">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="7" field="4209-eb47-9807-b834">
               <conditionGroups>
                 <conditionGroup type="and">
@@ -139,16 +79,6 @@
                 </conditionGroup>
               </conditionGroups>
             </modifier>
-            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="7" field="4209-eb47-9807-b834">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="09b3-b04c-f8fd-fc60" shared="true"/>
@@ -157,6 +87,86 @@
             <modifier type="set" value="9" field="d025-b048-0c22-fad5">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="09b3-b04c-f8fd-fc60" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Precise (1)," field="faa3-d69c-5156-2acf" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Tracer" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Tracer," field="faa3-d69c-5156-2acf" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="99ca-9745-f98e-4805" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Focused" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="4" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ad8f-27e4-bd8f-359a" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ad8f-27e4-bd8f-359a" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -198,26 +208,6 @@
       <infoLinks>
         <infoLink name="Light Gun Battery" id="fad8-9056-6f8d-75da" hidden="false" type="profile" targetId="46a1-6508-f7c6-080c">
           <modifiers>
-            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="4" field="4209-eb47-9807-b834">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="3fbe-12c7-d1f5-f7a8" shared="true"/>
@@ -258,6 +248,21 @@
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Focused" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
+              </conditions>
+            </modifier>
             <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
@@ -268,14 +273,14 @@
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
@@ -283,14 +288,39 @@
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="prepend" value="Focused" field="name" join=" ">
+            <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="2" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="77c7-aac7-cdeb-a57c" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="77c7-aac7-cdeb-a57c" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2887-5708-ec3d-0790" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2887-5708-ec3d-0790" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -343,7 +373,7 @@
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0339-c25f-7002-d5de" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+            <modifier type="set" value="4" field="d025-b048-0c22-fad5">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="0339-c25f-7002-d5de" shared="true"/>
               </conditions>
@@ -416,19 +446,31 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <modifiers>
+        <modifier type="prepend" value="Focused" field="name" join=" ">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Heavy Magnetic Bombard" hidden="false" id="903c-562b-c3ab-766d">
       <infoLinks>
         <infoLink name="Heavy Magnetic Bombard" id="40cf-4f89-c0f3-bc7b" hidden="false" type="profile" targetId="9afa-1104-b06d-5ab4">
           <modifiers>
+            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="3d7a-9761-fdb3-7b53" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="8" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="3d7a-9761-fdb3-7b53" shared="true"/>
+              </conditions>
+            </modifier>
             <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
@@ -441,14 +483,14 @@
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="3d7a-9761-fdb3-7b53" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="8" field="06b8-7f5e-e2df-751a">
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="3d7a-9761-fdb3-7b53" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
@@ -461,9 +503,14 @@
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+            <modifier type="set" value="4" field="d025-b048-0c22-fad5">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5f9f-46d3-499a-c94d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="5f9f-46d3-499a-c94d" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -499,11 +546,6 @@
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="2232-2cbc-0823-6de7" shared="true"/>
@@ -514,6 +556,16 @@
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
             <modifier type="prepend" value="Sharpshooter" field="name" join="">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
@@ -522,27 +574,17 @@
             <modifier type="prepend" value="Focussed
 " field="name" join="">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="10c6-3a45-3bf8-3077" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="8" field="d025-b048-0c22-fad5">
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a04e-009d-e49e-4266" shared="true"/>
-                    <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="881d-64c8-479e-0635" shared="true"/>
-                  </conditions>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-            <modifier type="set" value="4" field="06b8-7f5e-e2df-751a">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a04e-009d-e49e-4266" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="881d-64c8-479e-0635" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="80a6-5f88-6e2d-7dc0" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -559,69 +601,37 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <modifiers>
+        <modifier type="prepend" value="Focussed
+" field="name" join="">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="10c6-3a45-3bf8-3077" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heat Lancette" hidden="false" id="2251-4d30-f737-f8a8">
       <infoLinks>
         <infoLink name="Heat Lancette" id="e791-e1e0-0970-4f2e" hidden="false" type="profile" targetId="4d5a-d7d9-264c-d2ef">
           <modifiers>
-            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="7" field="4209-eb47-9807-b834">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2b05-fa32-d8aa-82bd" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="1" field="d025-b048-0c22-fad5">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="2b05-fa32-d8aa-82bd" shared="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="6" field="4209-eb47-9807-b834">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e71c-fa51-cf02-6b09" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="1" field="d025-b048-0c22-fad5">
+            <modifier type="set" value="4" field="4209-eb47-9807-b834">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="e71c-fa51-cf02-6b09" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ee08-5d68-8637-a5ab" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="6" field="4209-eb47-9807-b834">
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a30e-10a0-b8e2-c7ae" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="-" field="d025-b048-0c22-fad5">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a30e-10a0-b8e2-c7ae" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="prepend" value="Precise (1)," field="faa3-d69c-5156-2acf" join=" ">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
@@ -632,6 +642,16 @@
             <modifier type="set" value="FSA" field="8739-aae9-7e50-c8d0">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
@@ -649,9 +669,24 @@
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="4" field="4209-eb47-9807-b834">
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="ee08-5d68-8637-a5ab" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Sharpshooter" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Precise (1)," field="faa3-d69c-5156-2acf" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="94d8-d848-43a5-d84f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="prepend" value="Focused" field="name" join=" ">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -677,31 +712,18 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <modifiers>
+        <modifier type="prepend" value="Focused" field="name" join=" ">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Light Rocket Battery" hidden="false" id="0dc5-198d-16f9-9e4e">
       <infoLinks>
         <infoLink name="Light Rocket Battery" id="7185-2957-abe6-3de3" hidden="false" type="profile" targetId="4edc-c9b8-377f-4915">
           <modifiers>
-            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
-              <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="7" field="d025-b048-0c22-fad5">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="a1a4-f502-0637-4b6b" shared="true"/>
@@ -734,7 +756,12 @@
             <modifier type="prepend" value="Focussed
 " field="name" join="">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="cca6-2932-4e61-2970" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="10c6-3a45-3bf8-3077" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FPS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="925a-b2a6-a2d1-ac36" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="FPA" field="8739-aae9-7e50-c8d0">
@@ -747,9 +774,24 @@
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="40f3-b1dc-a85f-1bbb" shared="true"/>
               </conditions>
             </modifier>
+            <modifier type="set" value="APS" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="8a4b-1b3e-856f-dbdf" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="FP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="dbb4-f494-5436-974d" shared="true"/>
+              </conditions>
+            </modifier>
             <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
               </conditions>
             </modifier>
             <modifier type="set" value="AS" field="8739-aae9-7e50-c8d0">
@@ -757,9 +799,14 @@
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="3efb-647e-5bee-802e" shared="true"/>
               </conditions>
             </modifier>
-            <modifier type="set" value="AP" field="8739-aae9-7e50-c8d0">
+            <modifier type="set" value="FPSA" field="8739-aae9-7e50-c8d0">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="self" childId="38d7-3e65-b5bc-195a" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="868d-ad37-4608-319f" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="3" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="4a55-7d44-b79d-0062" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -776,6 +823,14 @@
           </modifiers>
         </infoLink>
       </infoLinks>
+      <modifiers>
+        <modifier type="prepend" value="Focussed
+" field="name" join="">
+          <conditions>
+            <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="10c6-3a45-3bf8-3077" shared="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
     </selectionEntry>
     <selectionEntry type="upgrade" import="false" name="Rostratum Naval Ballista" hidden="false" id="4eba-5713-7c63-4ff6">
       <infoLinks>
@@ -852,6 +907,36 @@
             <modifier type="set" value="FS" field="8739-aae9-7e50-c8d0">
               <conditions>
                 <condition type="instanceOf" value="1" field="selections" scope="self" childId="4497-c078-59d8-a1e7" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d65a-c466-d379-952d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d65a-c466-d379-952d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="5" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="d65a-c466-d379-952d" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="4209-eb47-9807-b834">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="040f-17d2-8ebd-5130" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="d025-b048-0c22-fad5">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="040f-17d2-8ebd-5130" shared="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="6" field="06b8-7f5e-e2df-751a">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="040f-17d2-8ebd-5130" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3846,7 +3931,7 @@
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
         <characteristic name="C" typeId="4209-eb47-9807-b834">-</characteristic>
         <characteristic name="S" typeId="d025-b048-0c22-fad5">10</characteristic>
-        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">16</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">12</characteristic>
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">&lt;B&gt;Singular&lt;/B&gt;, Guided (2), Limited, Navigation Lock (2), Traction</characteristic>
       </characteristics>
     </profile>
@@ -3872,8 +3957,8 @@
       <characteristics>
         <characteristic name="ARC" typeId="8739-aae9-7e50-c8d0">F</characteristic>
         <characteristic name="C" typeId="4209-eb47-9807-b834">1</characteristic>
-        <characteristic name="S" typeId="d025-b048-0c22-fad5">3</characteristic>
-        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">5</characteristic>
+        <characteristic name="S" typeId="d025-b048-0c22-fad5">2</characteristic>
+        <characteristic name="E" typeId="06b8-7f5e-e2df-751a">3</characteristic>
         <characteristic name="QUALITIES" typeId="faa3-d69c-5156-2acf">Guided (2), Navigation Lock (1)</characteristic>
       </characteristics>
     </profile>
@@ -4612,19 +4697,17 @@ Additionally, after this Action has been resolved, roll an Action Die for each 
     <categoryEntry name="FSA" id="40f3-b1dc-a85f-1bbb" hidden="true"/>
     <categoryEntry name="LGB46-" id="3fbe-12c7-d1f5-f7a8" hidden="true"/>
     <categoryEntry name="LGB24-" id="3d66-9c0f-32b0-d49a" hidden="true"/>
-    <categoryEntry name="HL106-" id="0339-c25f-7002-d5de" hidden="true"/>
+    <categoryEntry name="HL104-" id="0339-c25f-7002-d5de" hidden="true"/>
     <categoryEntry name="HL85-" id="87d3-c739-b69f-218d" hidden="true"/>
     <categoryEntry name="HL84-" id="9025-2fa4-d17a-e4b3" hidden="true"/>
     <categoryEntry name="HLt71-" id="2b05-fa32-d8aa-82bd" hidden="true"/>
     <categoryEntry name="HL74-" id="e80c-54f0-04f0-19fe" hidden="true"/>
-    <categoryEntry name="HLt6--" id="a30e-10a0-b8e2-c7ae" hidden="true"/>
     <categoryEntry name="HLt61-" id="e71c-fa51-cf02-6b09" hidden="true"/>
     <categoryEntry name="LGB47-" id="58aa-74dd-acc9-f6a1" hidden="true"/>
     <categoryEntry name="LRB-7-" id="a1a4-f502-0637-4b6b" hidden="true"/>
     <categoryEntry name="LRB-6-" id="18e1-a5b9-21ae-2e91" hidden="true"/>
     <categoryEntry name="Sharpshooter" id="94d8-d848-43a5-d84f" hidden="true"/>
-    <categoryEntry name="HRB-84" id="a04e-009d-e49e-4266" hidden="true"/>
-    <categoryEntry name="Focused" id="cca6-2932-4e61-2970" hidden="true"/>
+    <categoryEntry name="FocusedG" id="cca6-2932-4e61-2970" hidden="true"/>
     <categoryEntry name="TT444" id="6035-83da-2deb-031d" hidden="true"/>
     <categoryEntry name="HMB-68" id="3d7a-9761-fdb3-7b53" hidden="true"/>
     <categoryEntry name="AS" id="3efb-647e-5bee-802e" hidden="true"/>
@@ -4679,10 +4762,20 @@ Additionally, after this Action has been resolved, roll an Action Die for each 
     <categoryEntry name="PEm82-" id="63f9-ddac-b033-ea5a" hidden="true"/>
     <categoryEntry name="AAL44-" id="b90d-7de5-19f3-9a6e" hidden="true"/>
     <categoryEntry name="XRL148-" id="1558-61c3-804c-ada9" hidden="false"/>
+    <categoryEntry name="HGB46-" id="ad8f-27e4-bd8f-359a" hidden="true"/>
+    <categoryEntry name="HRB-6-" id="80a6-5f88-6e2d-7dc0" hidden="true"/>
+    <categoryEntry name="HMB-46" id="5f9f-46d3-499a-c94d" hidden="true"/>
+    <categoryEntry name="FocusedR" id="10c6-3a45-3bf8-3077" hidden="true"/>
+    <categoryEntry name="LGB23-" id="77c7-aac7-cdeb-a57c" hidden="true"/>
+    <categoryEntry name="LRB-3-" id="4a55-7d44-b79d-0062" hidden="true"/>
+    <categoryEntry name="TT555" id="d65a-c466-d379-952d" hidden="false"/>
+    <categoryEntry name="LGB36-" id="2887-5708-ec3d-0790" hidden="true"/>
+    <categoryEntry name="TT666" id="040f-17d2-8ebd-5130" hidden="false"/>
   </categoryEntries>
   <readme>Revision 01: initial release Rules Glossary Beta 2
 Revision 02: initial release Rules Glossary Beta 3 (complete Alleance ORBAT)
 Revision 03: improvment  Rules Glossary Beta 3 (complete Commonwealth ORBAT)
 Revision 04: improvment Rules Glossary Beta 3 (complete Emprire ORBAT)
-Revision 05: initial release Enlightened Beta 3 (Complete ORBAT release)</readme>
+Revision 05: initial release Enlightened Beta 3 (Complete ORBAT release)
+Revision 06: release Alliance Beta 4 (Complete ORBAT release)</readme>
 </catalogue>

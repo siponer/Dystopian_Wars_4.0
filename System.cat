@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="85b3-1e07-6cca-b9a3" name="Systems" gameSystemId="1242-c30b-419f-8229" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="85b3-1e07-6cca-b9a3" name="Systems" gameSystemId="1242-c30b-419f-8229" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Priority Signals" hidden="false" id="d67c-9c2f-2438-8d6c" exportable="false">
       <infoLinks>
@@ -155,7 +155,8 @@
   <readme>Revision 01: initial release Rules Glossary Beta 2
 Revision 02: initial release Rules Glossary Beta 3 (System)
 Revision 03: correction Rules Glossary Beta 3 (Commonwealth ORBAT)
-Revision 04: correction</readme>
+Revision 04: correction
+Revision 05: release Alliance Beta 4 (Complete ORBAT release)</readme>
   <sharedRules>
     <rule name="Aerial Repair Facilities (x)" id="6297-b159-8ad2-6547" hidden="false">
       <description>When making a Repair Roll for an Airborne model, add X Bonus Dice if it is within 4” of at least one friendly model with this System</description>
@@ -218,11 +219,7 @@ equal to its Guardian Generator (X) value, to its Admiral’s
 Guardian Pool.</description>
     </rule>
     <rule name="Grapple" id="a7e5-2e4c-a589-11ae" hidden="false">
-      <description>If an enemy Surface or Underwater model begins their Movement Step within 2” of a friendly model with this System, that model may attempt to Grapple the enemy model. All friendly models with this System and within 2” of the enemy model Participate in the Grapple. If the combined Mass rating of all Participating models is greater than that of the enemy model, then the Grapple
-is successful. Roll a number of Action Dice equal to the number of Participating models. The opposing Admiral then chooses one die, and resolves the corresponding result on
-the table below.
-
-
+      <description>If an enemy Surface or Underwater model begins their Movement Step within 2” of a friendly model with this System, that model may attempt to Grapple the enemy model. All friendly models with this System and within 2” of the enemy model Participate in the Grapple. If the combined Mass rating of all Participating models is greater than that of the enemy model, then the Grapple is successful. Roll a number of Action Dice equal to the number of Participating models. The opposing Admiral then chooses one die, and resolves the corresponding result on the table below.
 &lt;table&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;p align=&quot;left&quot;&gt;Action Dice&lt;/p&gt;&lt;/th&gt;

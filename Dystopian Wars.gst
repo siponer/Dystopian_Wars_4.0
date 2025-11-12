@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="1242-c30b-419f-8229" name="Dystopian Wars 4.0 Edition" battleScribeVersion="2.03" authorName="Riccardo Sipone" authorContact="siponeric@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false" revision="5">
+<gameSystem id="1242-c30b-419f-8229" name="Dystopian Wars 4.0 Edition" battleScribeVersion="2.03" authorName="Riccardo Sipone" authorContact="siponeric@hotmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem" hidden="false" revision="6">
   <publications>
     <publication id="7f09-e243-2307-78d0" name="Dystopian Rulebook"/>
     <publication id="e265-8c7f-a4b2-a48e" name="Alliance ORBAT"/>
@@ -178,7 +178,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Olympia Levant Drive" hidden="false" id="383b-311f-fb40-7549" sortIndex="1">
       <costs>
-        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="15"/>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
         <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
       </costs>
       <constraints>
@@ -187,7 +187,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Troop Transport" hidden="false" id="c5b5-9bde-7e64-8089" sortIndex="1">
       <costs>
-        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="10"/>
+        <cost name="Points" typeId="7c9b-6b09-b5ac-2249" value="0"/>
         <cost name="Victory Point Rating" typeId="426e-670d-6ddd-9631" value="0"/>
       </costs>
       <constraints>
@@ -381,5 +381,6 @@
 Revision 02: initial release Alliance Beta 3 (Complete ORBAT release)
 Revision 03: initial release Commonwealth Beta 3 (Complete ORBAT release)
 Revision 04: initial release Empire Beta 3 (Complete ORBAT release)
-Revision 05: initial release Enlightened Beta 3 (Complete ORBAT release)</readme>
+Revision 05: initial release Enlightened Beta 3 (Complete ORBAT release)
+Revision 06: initial release Alliance Beta 4 (Complete ORBAT release)</readme>
 </gameSystem>
